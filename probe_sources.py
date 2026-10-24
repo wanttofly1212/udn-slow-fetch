@@ -174,7 +174,7 @@ SOURCES = [
     {
         "name": "Opinion: Gavekal",
         "list_url": "https://research.gavekal.com/",
-        "article_re": r"research\.gavekal\.com/[^\"'?#]+",
+        "article_re": r"research\.gavekal\.com/(?!search-list|gavekal-dragonomics|author/)[a-z0-9-]+/",
         "max_articles": 2,
     },
     {
@@ -198,7 +198,7 @@ SOURCES = [
     {
         "name": "Opinion: Carnegie Pettis",
         "list_url": "https://carnegieendowment.org/china-financial-markets",
-        "article_re": r"carnegieendowment\.org/(?!china-financial-markets)[^\"'?#]+",
+        "article_re": r"carnegieendowment\.org/(?:en/)?(?:research|articles|china-financial-markets)/[^\"'?#]+",
         "max_articles": 2,
     },
     {
@@ -360,13 +360,21 @@ def feed_items(raw_text, limit=MAX_ARTICLES):
         root = ET.fromstring(raw_text)
     except Exception:
         return []
+    ns = "{http://www.w3.org/2005/Atom}"
+    entries = root.findall(".//item")
+    if not entries:
+        entries = root.findall(".//" + ns + "entry")
     out = []
-    for it in root.findall(".//item")[:limit]:
-        out.append({
-            "title": (it.findtext("title") or "").strip(),
-            "link": (it.findtext("link") or "").strip(),
-            "pub": (it.findtext("pubDate") or "").strip(),
-        })
+    for it in entries[:limit]:
+        title = (it.findtext("title") or it.findtext(ns + "title") or "").strip()
+        link = (it.findtext("link") or "").strip()
+        if not link:
+            link_el = it.find(ns + "link")
+            if link_el is not None:
+                link = (link_el.get("href") or "").strip()
+        pub = (it.findtext("pubDate") or it.findtext(ns + "published")
+               or it.findtext(ns + "updated") or "").strip()
+        out.append({"title": title, "link": link, "pub": pub})
     return out
 
 
@@ -466,7 +474,9 @@ def main():
             r = fetch(cfg["list_url"], timeout=TIMEOUT)
             row["list"] = {k: r[k] for k in ("status", "bytes", "elapsed_ms", "error", "retry_after")}
             row["rate"] = rate_probe(cfg["list_url"], attempts=3, gap=2.0)
-            urls = links_of(r["text"], cfg["list_url"], cfg["article_re"], limit=cfg.get("max_articles", MAX_ARTICLES))
+            all_links = links_of(r["text"], cfg["list_url"], cfg["article_re"], limit=8)
+            row["links"] = all_links
+            urls = all_links[:cfg.get("max_articles", MAX_ARTICLES)]
             for url in urls:
                 row["articles"].append(article_probe(url, cfg["article_re"]))
                 time.sleep(1.2)

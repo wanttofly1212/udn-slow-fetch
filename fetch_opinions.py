@@ -151,6 +151,10 @@ def article_fields(raw):
         body = raw or ""
     pub = pub or meta_of(raw, "article:published_time") or meta_of(raw, "date")
     if not pub:
+        m = re.search(r"""<time[^>]+datetime\s*=\s*["']([^"']+)["']""", raw or "", re.I)
+        if m:
+            pub = m.group(1)
+    if not pub:
         for pat in (
             r"(?:Published on|Published|Date)\s*:?\s*([A-Z][a-z]{2,8}\s+\d{1,2},\s*20\d{2})",
             r"((?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),?\s+"
@@ -251,7 +255,8 @@ def make_item(cfg, url, title, raw, fallback_pub=""):
     title = clean_text(title) or title_of(raw)
     if not title:
         return None
-    pub = parse_time(pub) or parse_time(fallback_pub) or NOW
+    parsed_pub = parse_time(pub) or parse_time(fallback_pub)
+    pub = parsed_pub or NOW
     summary = summary or body[:300]
     src = cfg["name"]
     return {
@@ -273,6 +278,7 @@ def make_item(cfg, url, title, raw, fallback_pub=""):
         "headline_only": len(body) < 400,
         "url": url,
         "published_at": pub,
+        "published_at_source": "published" if parsed_pub else "fetched",
         "tags": [],
     }
 

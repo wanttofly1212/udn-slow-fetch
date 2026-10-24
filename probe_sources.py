@@ -198,7 +198,7 @@ SOURCES = [
     {
         "name": "Opinion: Carnegie Pettis",
         "list_url": "https://carnegieendowment.org/china-financial-markets",
-        "article_re": r"carnegieendowment\.org/(?:en/)?(?:research|articles|china-financial-markets)/[^\"'?#]+",
+        "article_re": r"carnegieendowment\.org/(?:en/)?china-financial-markets/20\d{2}/\d{2}/[^\"'?#]+",
         "max_articles": 2,
     },
     {

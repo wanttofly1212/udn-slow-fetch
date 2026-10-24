@@ -240,8 +240,10 @@ def feed_entries(raw):
                or e.findtext(NS + "updated") or "").strip()
         summary = (e.findtext("description") or e.findtext(NS + "summary")
                    or e.findtext(NS + "content") or "").strip()
+        category = (e.findtext("category") or e.findtext(NS + "category") or "").strip()
         if title and link:
-            out.append({"title": title, "link": link, "pub": pub, "summary": summary})
+            out.append({"title": title, "link": link, "pub": pub,
+                        "summary": summary, "category": category})
     return out
 
 
@@ -331,6 +333,96 @@ def source_items(cfg):
     return out, status, len(links)
 
 
+UDN_FEEDS = [
+    {"source": "UDN 经济日报", "url": "https://money.udn.com/rssfeed/news/1001/5588/5599?ch=money",
+     "section": "財經"},
+    {"source": "UDN 联合新闻", "url": "https://udn.com/rssfeed/news/2/6638?ch=news",
+     "section": "國際"},
+]
+UDN_ALLOW = ("財經", "經濟", "金融", "稅務", "貿易", "產業", "政治", "軍事", "國防",
+             "國際", "兩岸", "外交", "關稅", "制裁", "出口", "半導體", "供應鏈",
+             "央行", "利率", "匯率", "台海", "俄烏", "中東", "朝鮮", "能源")
+UDN_DROP = ("社會", "地方", "文教", "運動", "娛樂", "生活", "健康", "旅遊", "美食",
+            "藝術", "時尚", "寵物", "影視", "綜藝", "球賽", "養生")
+
+
+def _udn_ok(title, summary="", section=""):
+    text = " ".join([str(title or ""), str(summary or ""), str(section or "")])
+    if any(x in text for x in UDN_DROP):
+        return False
+    return any(x in text for x in UDN_ALLOW)
+
+
+def fetch_udn():
+    """在 GitHub Actions 里抓 UDN；本机直连 timeout，不在本机跑。"""
+    out, seen = [], set()
+    report = {}
+    for feed in UDN_FEEDS:
+        status, raw, _ = fetch(feed["url"], timeout=25)
+        entries = feed_entries(raw) if status == 200 else []
+        picked = 0
+        for e in entries:
+            if picked >= 3:
+                break
+            title = clean_text(e.get("title"))
+            summary = clean_text(e.get("summary"))
+            url = (e.get("link") or "").strip()
+            if not title or not url or url in seen:
+                continue
+            if not _udn_ok(title, summary, e.get("category") or feed["section"]):
+                continue
+            seen.add(url)
+            out.append({
+                "source": "UDN", "source_tier": "A",
+                "title_en": title, "title_zh": "",
+                "summary_en": summary[:600], "summary_zh": "",
+                "url": url, "section": e.get("category") or feed["section"],
+                "published_at": parse_time(e.get("pub") or "") or NOW,
+                "published_at_source": "published" if parse_time(e.get("pub") or "") else "fetched",
+                "headline_only": True, "content_type": "news", "opinion": False,
+                "discovery": feed["source"],
+            })
+            picked += 1
+        report[feed["source"]] = {"status": status, "found": len(entries), "items": picked}
+        print("%-28s status=%s found=%s items=%s" % (feed["source"], status, len(entries), picked), flush=True)
+        time.sleep(1.2)
+    return out, report
+
+
+def fetch_scmp():
+    """SCMP：GitHub Actions 侧抓文章页，正文走 JSON-LD/article；本机直连 timeout。"""
+    out, report = [], {}
+    status, raw, _ = fetch("https://www.scmp.com/", timeout=25)
+    if status != 200:
+        report["SCMP"] = {"status": status, "found": 0, "items": 0}
+        return out, report
+    links = links_of(raw, "https://www.scmp.com/", r"scmp\.com/(?:[^\"']*/)?article/\d+", 3)
+    for url in links:
+        st, page, _ = fetch(url, timeout=25)
+        if st != 200:
+            continue
+        title = title_of(page)
+        body, summary, pub = article_fields(page)
+        body = clean_text(body)
+        summary = clean_text(summary or "")
+        if not title or len(body) < 200:
+            continue
+        out.append({
+            "source": "SCMP", "source_tier": "A",
+            "title_en": title, "title_zh": "",
+            "summary_en": (summary or body[:600])[:600], "summary_zh": "",
+            "body": body[:12000], "body_excerpt": body[:350],
+            "url": url, "section": "",
+            "published_at": parse_time(pub) or NOW,
+            "published_at_source": "published" if parse_time(pub) else "fetched",
+            "headline_only": len(body) < 400, "content_type": "news", "opinion": False,
+        })
+        time.sleep(10)
+    report["SCMP"] = {"status": status, "found": len(links), "items": len(out)}
+    print("%-28s status=%s found=%s items=%s" % ("SCMP", status, len(links), len(out)), flush=True)
+    return out, report
+
+
 def main():
     items = []
     report = {}
@@ -347,16 +439,22 @@ def main():
             else:
                 seen.add(key)
     items.sort(key=lambda x: x.get("published_at") or "", reverse=True)
+    news_items, news_report = fetch_udn()
+    report.update(news_report)
+    scmp_items, scmp_report = fetch_scmp()
+    news_items.extend(scmp_items)
+    report.update(scmp_report)
     if OUT.exists():
         try:
             old = json.loads(OUT.read_text(encoding="utf-8"))
-            if old.get("items") == items:
-                print("UNCHANGED %s items=%d" % (OUT, len(items)), flush=True)
+            if old.get("items") == items and old.get("news_items") == news_items:
+                print("UNCHANGED %s items=%d news=%d" % (OUT, len(items), len(news_items)), flush=True)
                 return
         except Exception:
             pass
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    payload = {"generated_at": NOW, "sources": report, "items": items}
+    payload = {"generated_at": NOW, "sources": report, "items": items,
+               "news_items": news_items}
     tmp = OUT.with_name(OUT.name + ".tmp")
     tmp.write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
     os.replace(tmp, OUT)

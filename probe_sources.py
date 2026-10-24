@@ -218,6 +218,44 @@ def body_text(raw_text):
     return re.sub(r"\s+", " ", text).strip()
 
 
+def _jsonld_objects(node):
+    if isinstance(node, dict):
+        yield node
+        for v in node.values():
+            yield from _jsonld_objects(v)
+    elif isinstance(node, list):
+        for v in node:
+            yield from _jsonld_objects(v)
+
+
+def extract_main_html(raw_html):
+    """优先 JSON-LD articleBody，其次 <article>，最后整页。"""
+    for m in re.finditer(
+        r"""<script[^>]*type\s*=\s*["']application/ld\+json["'][^>]*>(.*?)</script>""",
+        raw_html or "",
+        re.S | re.I,
+    ):
+        try:
+            data = json.loads(html_lib.unescape(m.group(1)))
+        except Exception:
+            continue
+        for obj in _jsonld_objects(data):
+            body = obj.get("articleBody") if isinstance(obj, dict) else None
+            if isinstance(body, str) and len(body.strip()) >= 200:
+                return body, "jsonld"
+    arts = re.findall(r"<article\b[^>]*>(.*?)</article>", raw_html or "", re.S | re.I)
+    if arts:
+        return max(arts, key=len), "article_tag"
+    m = re.search(
+        r"""<div[^>]+class\s*=\s*["'][^"']*(?:article|story)[^"']*(?:body|content)[^"']*["'][^>]*>(.*?)</div>""",
+        raw_html or "",
+        re.S | re.I,
+    )
+    if m:
+        return m.group(1), "article_div"
+    return raw_html or "", "full_page"
+
+
 def links_of(raw_text, base, pattern, limit=MAX_ARTICLES):
     out, seen = [], set()
     for href in re.findall(r"""<a\b[^>]*\bhref\s*=\s*["']([^"']+)["']""", raw_text or "", re.I):
@@ -285,7 +323,8 @@ def rate_probe(url, attempts=3, gap=2.0):
 def article_probe(url, pattern):
     started = time.time()
     r = fetch(url, timeout=TIMEOUT)
-    text = body_text(r["text"])
+    main_html, extract_method = extract_main_html(r["text"])
+    text = body_text(main_html)
     low = text.lower()
     hits = [x for x in PAYWALL_MARKERS if x in low]
     return {
@@ -293,6 +332,7 @@ def article_probe(url, pattern):
         "status": r["status"],
         "bytes": r["bytes"],
         "text_chars": len(text),
+        "extract": extract_method,
         "title": title_of(r["text"], r["content_type"]) or "",
         "paywall_hits": hits,
         "ok": bool(r["ok"] and len(text) >= 400 and not hits),

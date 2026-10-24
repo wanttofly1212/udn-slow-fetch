@@ -1,0 +1,35 @@
+name: Probe sources
+
+on:
+  push:
+    paths:
+      - probe_sources.py
+      - .github/workflows/probe_sources.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Probe sources
+        run: python probe_sources.py
+
+      - name: Upload probe results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: probe-results
+          path: probe_results.json
+          retention-days: 7

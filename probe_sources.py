@@ -195,6 +195,30 @@ SOURCES = [
         "article_re": r"netinterest\.co/p/[^\"'?#]+",
         "max_articles": 2,
     },
+    {
+        "name": "Opinion: Carnegie Pettis",
+        "list_url": "https://carnegieendowment.org/china-financial-markets",
+        "article_re": r"carnegieendowment\.org/(?!china-financial-markets)[^\"'?#]+",
+        "max_articles": 2,
+    },
+    {
+        "name": "Opinion: Aswath blog",
+        "feed_url": "https://aswathdamodaran.blogspot.com/feeds/posts/default",
+        "article_re": r"aswathdamodaran\.blogspot\.com/\d{4}/\d{2}/[^\"'?#]+",
+        "max_articles": 2,
+    },
+    {
+        "name": "Opinion: CFR RSS",
+        "feed_url": "https://www.cfr.org/rss.xml",
+        "article_re": r"cfr\.org/articles/[^\"'?#]+",
+        "max_articles": 2,
+    },
+    {
+        "name": "Opinion: PIIE",
+        "feed_url": "https://www.piie.com/rss.xml",
+        "article_re": r"piie\.com/publications/[^\"'?#]+",
+        "max_articles": 2,
+    },
 ]
 
 PAYWALL_MARKERS = [

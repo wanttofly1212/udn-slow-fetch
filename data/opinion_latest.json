@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24 17:59:52",
+ "generated_at": "2026-10-24 18:14:10",
  "sources": {
   "Brad Setser / CFR": {
    "status": 200,
@@ -65,7 +65,7 @@
    "full_text_available": true,
    "headline_only": false,
    "url": "https://research.gavekal.com/teaser/china-and-st-augustine/",
-   "published_at": "2026-10-24 17:59:52",
+   "published_at": "2026-10-24 18:14:10",
    "published_at_source": "fetched",
    "tags": []
   },
@@ -304,6 +304,22 @@
   {
    "source": "UDN",
    "source_tier": "A",
+   "title_en": "金正恩結束訪中行程 分析：盼北京加速兌現承諾",
+   "title_zh": "",
+   "summary_en": "北韓領導人金正恩結束中國遼寧省丹東一天的訪問行程後，今天返國。中國官方媒體報導，這次突訪目的尚未明朗。學者分析，金正恩此...",
+   "summary_zh": "",
+   "url": "https://money.udn.com/money/story/5599/9835603",
+   "section": "財經",
+   "published_at": "2026-10-24 17:45:38",
+   "published_at_source": "published",
+   "headline_only": true,
+   "content_type": "news",
+   "opinion": false,
+   "discovery": "UDN 经济日报"
+  },
+  {
+   "source": "UDN",
+   "source_tier": "A",
    "title_en": "歐洲議會代表團將赴陸磋商",
    "title_zh": "",
    "summary_en": "時值中歐貿易關係的關鍵時刻，歐洲議會國際貿易委員會代表團將於27日至29日訪問中國大陸，並與大陸商務部進行會談。訪問期間，他們預計將與中方官員會面，並參訪中國大陸高科技企業。",
@@ -327,22 +343,6 @@
    "url": "https://money.udn.com/money/story/5599/9835534",
    "section": "財經",
    "published_at": "2026-10-24 15:24:48",
-   "published_at_source": "published",
-   "headline_only": true,
-   "content_type": "news",
-   "opinion": false,
-   "discovery": "UDN 经济日报"
-  },
-  {
-   "source": "UDN",
-   "source_tier": "A",
-   "title_en": "俄羅斯遠東地區列車撞上小型巴士 導致6死1傷",
-   "title_zh": "",
-   "summary_en": "俄羅斯遠東地區猶太自治區（Jewish Autonomous Region）鐵路當局指出，一列客運列車撞上一輛試圖穿越平...",
-   "summary_zh": "",
-   "url": "https://money.udn.com/money/story/5599/9835472",
-   "section": "財經",
-   "published_at": "2026-10-24 15:00:24",
    "published_at_source": "published",
    "headline_only": true,
    "content_type": "news",

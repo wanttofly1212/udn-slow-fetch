@@ -46,7 +46,7 @@ SOURCES = [
         "author": "Gavekal Dragonomics",
         "platform": "Research",
         "list_url": "https://research.gavekal.com/",
-        "link_re": r"research\.gavekal\.com/(?!search-list|gavekal-dragonomics|author/)[a-z0-9-]+/",
+        "link_re": r"research\.gavekal\.com/teaser/[^\"'?#]+",
         "max_items": 2,
         "gap": 10,
     },

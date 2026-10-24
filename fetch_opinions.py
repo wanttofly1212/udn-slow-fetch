@@ -39,6 +39,7 @@ SOURCES = [
         "platform": "Research",
         "feed_url": "https://rhg.com/feed/",
         "link_re": r"rhg\.com/(?:news|research)/[^\"'?#]+",
+        "require_re": r"china|chinese|beijing|renminbi|yuan|a-share|hong kong|tariff|export|trade|industrial|semiconductor|supply chain",
         "max_items": 2,
     },
     {
@@ -62,8 +63,8 @@ SOURCES = [
         "name": "Aswath Damodaran",
         "author": "Aswath Damodaran",
         "platform": "Blog",
-        "feed_url": "https://aswathdamodaran.blogspot.com/feeds/posts/default?alt=rss",
-        "link_re": r"aswathdamodaran\.blogspot\.com/\d{4}/\d{2}/[^\"'?#]+",
+        "list_url": "https://aswathdamodaran.blogspot.com/",
+        "link_re": r"aswathdamodaran\.blogspot\.com/20\d{2}/\d{2}/[^\"'?#]+",
         "max_items": 2,
     },
 ]
@@ -216,8 +217,10 @@ def feed_entries(raw):
                 link = (le.get("href") or "").strip()
         pub = (e.findtext("pubDate") or e.findtext(NS + "published")
                or e.findtext(NS + "updated") or "").strip()
+        summary = (e.findtext("description") or e.findtext(NS + "summary")
+                   or e.findtext(NS + "content") or "").strip()
         if title and link:
-            out.append({"title": title, "link": link, "pub": pub})
+            out.append({"title": title, "link": link, "pub": pub, "summary": summary})
     return out
 
 
@@ -271,15 +274,23 @@ def source_items(cfg):
         if status != 200:
             return out, status, 0
         entries = feed_entries(raw)
-        for e in entries[:cfg.get("max_items", 2)]:
+        picked = 0
+        for e in entries:
+            if picked >= cfg.get("max_items", 2):
+                break
             if not re.search(cfg["link_re"], e["link"], re.I):
                 continue
+            if cfg.get("require_re"):
+                probe = " ".join([e.get("title") or "", e.get("summary") or ""])
+                if not re.search(cfg["require_re"], probe, re.I):
+                    continue
             st, page, _ = fetch(e["link"])
             if st != 200:
                 continue
             item = make_item(cfg, e["link"], e["title"], page, e["pub"])
             if item:
                 out.append(item)
+                picked += 1
             time.sleep(1.2)
         return out, status, len(entries)
 

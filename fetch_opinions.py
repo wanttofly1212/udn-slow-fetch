@@ -90,7 +90,8 @@ def fetch(url, timeout=20, limit=1024 * 1024):
 
 
 def clean_text(raw):
-    raw = re.sub(r"<(script|style|noscript)[^>]*>.*?</\1>", " ", raw or "", flags=re.S | re.I)
+    raw = re.sub(r"<(script|style|noscript|nav|header|footer|aside|form|svg|button)[^>]*>.*?</\1>",
+                 " ", raw or "", flags=re.S | re.I)
     raw = re.sub(r"<[^>]+>", " ", raw)
     raw = html_lib.unescape(raw)
     return re.sub(r"\s+", " ", raw).strip()
@@ -144,9 +145,15 @@ def article_fields(raw):
             body = b
         pub = pub or str(obj.get("datePublished") or obj.get("dateModified") or "")
     if not body:
-        arts = re.findall(r"<article\b[^>]*>(.*?)</article>", raw or "", re.S | re.I)
-        if arts:
-            body = max(arts, key=len)
+        for tag in ("main", "article"):
+            blocks = re.findall(r"<%s\b[^>]*>(.*?)</%s>" % (tag, tag), raw or "", re.S | re.I)
+            if blocks:
+                body = max(blocks, key=len)
+                break
+    if not body:
+        m = re.search(r"""<div[^>]+role\s*=\s*["']main["'][^>]*>(.*?)</div>""", raw or "", re.S | re.I)
+        if m:
+            body = m.group(1)
     if not body:
         body = raw or ""
     pub = pub or meta_of(raw, "article:published_time") or meta_of(raw, "date")
@@ -267,9 +274,9 @@ def make_item(cfg, url, title, raw, fallback_pub=""):
         "content_type": "opinion",
         "opinion": True,
         "title_en": title,
-        "title_zh": title,
+        "title_zh": "",
         "summary_en": summary[:600],
-        "summary_zh": summary[:600],
+        "summary_zh": "",
         "body": body,
         "body_excerpt": (body[:350] + ("…" if len(body) > 350 else "")) if body else "",
         "evidence": evidence_of(body),

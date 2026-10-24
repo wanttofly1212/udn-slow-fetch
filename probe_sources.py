@@ -135,6 +135,66 @@ SOURCES = [
         "article_re": r"reuters\.com/[^\"'?#]+",
         "max_articles": 2,
     },
+    {
+        "name": "Opinion: Michael Pettis",
+        "feed_url": "https://michaelpettis858496.substack.com/feed",
+        "article_re": r"michaelpettis858496\.substack\.com/p/[^\"'?#]+",
+        "max_articles": 2,
+    },
+    {
+        "name": "Opinion: Adam Tooze",
+        "feed_url": "https://adamtooze.substack.com/feed",
+        "article_re": r"adamtooze\.substack\.com/p/[^\"'?#]+",
+        "max_articles": 2,
+    },
+    {
+        "name": "Opinion: Aswath Damodaran",
+        "feed_url": "https://aswathdamodaran.substack.com/feed",
+        "article_re": r"aswathdamodaran\.substack\.com/p/[^\"'?#]+",
+        "max_articles": 2,
+    },
+    {
+        "name": "Opinion: Brad Setser",
+        "list_url": "https://www.cfr.org/blogs/follow-the-money",
+        "article_re": r"cfr\.org/articles/[^\"'?#]+",
+        "max_articles": 2,
+    },
+    {
+        "name": "Opinion: Rhodium",
+        "feed_url": "https://rhg.com/feed/",
+        "article_re": r"rhg\.com/[^\"'?#]+",
+        "max_articles": 2,
+    },
+    {
+        "name": "Opinion: MacroPolo",
+        "feed_url": "https://macropolo.org/feed/",
+        "article_re": r"macropolo\.org/[^\"'?#]+",
+        "max_articles": 2,
+    },
+    {
+        "name": "Opinion: Gavekal",
+        "list_url": "https://research.gavekal.com/",
+        "article_re": r"research\.gavekal\.com/[^\"'?#]+",
+        "max_articles": 2,
+    },
+    {
+        "name": "Opinion: Noahpinion",
+        "feed_url": "https://noahpinion.blog/feed",
+        "article_re": r"noahpinion\.blog/p/[^\"'?#]+",
+        "max_articles": 2,
+    },
+    {
+        "name": "Opinion: Doomberg",
+        "feed_url": "https://doomberg.substack.com/feed",
+        "article_re": r"doomberg\.substack\.com/p/[^\"'?#]+",
+        "max_articles": 2,
+    },
+    {
+        "name": "Opinion: Net Interest",
+        "feed_url": "https://netinterest.co/feed",
+        "article_re": r"netinterest\.co/p/[^\"'?#]+",
+        "max_articles": 2,
+    },
 ]
 
 PAYWALL_MARKERS = [

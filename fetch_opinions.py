@@ -151,12 +151,19 @@ def article_fields(raw):
         body = raw or ""
     pub = pub or meta_of(raw, "article:published_time") or meta_of(raw, "date")
     if not pub:
-        m = re.search(
-            r"(?:Published on|Published|Date)\s*:?\s*([A-Z][a-z]{2,8}\s+\d{1,2},\s*20\d{2}|\d{1,2}\s+[A-Z][a-z]{2,8}\s+20\d{2})",
-            raw or "", re.I,
-        )
-        if m:
-            pub = m.group(1)
+        for pat in (
+            r"(?:Published on|Published|Date)\s*:?\s*([A-Z][a-z]{2,8}\s+\d{1,2},\s*20\d{2})",
+            r"((?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),?\s+"
+            r"(?:January|February|March|April|May|June|July|August|September|October|November|December)"
+            r"\s+\d{1,2},\s*20\d{2})",
+            r"(\d{1,2}\s+(?:January|February|March|April|May|June|July|August|September|October|November|December)"
+            r"\s+20\d{2})",
+            r"(20\d{2}-\d{2}-\d{2})",
+        ):
+            m = re.search(pat, raw or "", re.I)
+            if m:
+                pub = m.group(1)
+                break
     summary = meta_of(raw, "description") or meta_of(raw, "og:description")
     return clean_text(body), summary, pub
 
@@ -178,7 +185,10 @@ def parse_time(s):
     m = re.search(r"(20\d{2})-(\d{2})-(\d{2})", s)
     if m:
         return "%s-%s-%s 00:00:00" % m.groups()
-    for fmt in ("%b %d, %Y", "%B %d, %Y", "%d %b %Y", "%d %B %Y"):
+    for fmt in (
+        "%b %d, %Y", "%B %d, %Y", "%d %b %Y", "%d %B %Y",
+        "%A, %B %d, %Y", "%A %B %d, %Y", "%A, %d %B %Y",
+    ):
         try:
             return datetime.strptime(s, fmt).strftime("%Y-%m-%d 00:00:00")
         except Exception:

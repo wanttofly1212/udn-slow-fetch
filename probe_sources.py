@@ -1,57 +1,115 @@
 # -*- coding: utf-8 -*-
-"""Probe source reachability from GitHub Actions runners."""
+"""Probe source list/article access, body size, robots and observed rate limits."""
 from __future__ import annotations
 
+import html as html_lib
 import json
 import os
 import platform
 import re
 import sys
 import time
-from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from urllib.error import HTTPError, URLError
+from urllib.parse import urljoin, urlparse
 from urllib.request import Request, urlopen
+from xml.etree import ElementTree as ET
 
 UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
     "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"
 )
+MAX_ARTICLES = 3
+READ_LIMIT = 1024 * 1024
+TIMEOUT = 18
 
-TARGETS = [
-    ("UDN money", "https://money.udn.com/money/index"),
-    ("UDN news", "https://udn.com/news/index"),
-    ("Reuters", "https://www.reuters.com/"),
-    ("Bloomberg", "https://www.bloomberg.com/"),
-    ("SCMP", "https://www.scmp.com/"),
-    ("Caixin Global", "https://www.caixinglobal.com/"),
-    ("BNN Bloomberg", "https://www.bnnbloomberg.ca/"),
-    ("Google News RSS", "https://news.google.com/rss/search?q=china+offshore+trust&hl=en-US&gl=US&ceid=US:en"),
-    ("GDELT", "https://api.gdeltproject.org/api/v2/doc/doc?query=china%20offshore%20trust&mode=ArtList&maxrecords=3&format=json&sort=datedesc"),
-    ("CNBC RSS", "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10000664"),
-    ("MarketWatch RSS", "https://feeds.content.dowjones.io/public/rss/mw_topstories"),
-    ("Yahoo Finance", "https://finance.yahoo.com/"),
-    ("Investing.com", "https://www.investing.com/"),
+SOURCES = [
+    {
+        "name": "UDN money",
+        "list_url": "https://money.udn.com/money/index",
+        "article_re": r"money\.udn\.com/money/story/\d+",
+    },
+    {
+        "name": "UDN news",
+        "list_url": "https://udn.com/news/index",
+        "article_re": r"udn\.com/news/story/\d+",
+    },
+    {
+        "name": "SCMP",
+        "list_url": "https://www.scmp.com/",
+        "article_re": r"scmp\.com/(?:news|economy|business|china|opinion)/[^\"'?#]+",
+    },
+    {
+        "name": "Caixin Global",
+        "list_url": "https://www.caixinglobal.com/",
+        "article_re": r"caixinglobal\.com/\d{4}-\d{2}-\d{2}/[^\"'?#]+",
+    },
+    {
+        "name": "BNN Bloomberg",
+        "list_url": "https://www.bnnbloomberg.ca/",
+        "article_re": r"bnnbloomberg\.ca/(?:business|news|markets|investing)/\d{4}/\d{2}/\d{2}/[^\"'?#]+",
+    },
+    {
+        "name": "Yahoo Finance",
+        "list_url": "https://finance.yahoo.com/",
+        "article_re": r"finance\.yahoo\.com/news/[^\"'?#]+",
+    },
+    {
+        "name": "Reuters",
+        "list_url": "https://www.reuters.com/",
+        "article_re": r"reuters\.com/[^\"'?#]+",
+    },
+    {
+        "name": "Bloomberg",
+        "list_url": "https://www.bloomberg.com/",
+        "article_re": r"bloomberg\.com/news/[^\"'?#]+",
+    },
+    {
+        "name": "Investing.com",
+        "list_url": "https://www.investing.com/",
+        "article_re": r"investing\.com/news/[^\"'?#]+",
+    },
+    {
+        "name": "CNBC RSS",
+        "feed_url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10000664",
+        "article_re": r"cnbc\.com/\d{4}/\d{2}/\d{2}/[^\"'?#]+",
+    },
+    {
+        "name": "MarketWatch RSS",
+        "feed_url": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
+        "article_re": r"marketwatch\.com/story/[^\"'?#]+",
+    },
+    {
+        "name": "Google News RSS",
+        "feed_url": "https://news.google.com/rss/search?q=china+offshore+trust&hl=en-US&gl=US&ceid=US:en",
+    },
+    {
+        "name": "GDELT",
+        "api_url": "https://api.gdeltproject.org/api/v2/doc/doc?query=china%20offshore%20trust&mode=ArtList&maxrecords=3&format=json&sort=datedesc",
+    },
+]
+
+PAYWALL_MARKERS = [
+    "subscribe to continue",
+    "already a subscriber",
+    "sign in to continue",
+    "create a free account to continue",
+    "this article is for subscribers",
+    "premium content",
+    "订阅",
+    "付费",
+    "登录后",
 ]
 
 
-def _title(text: str, content_type: str) -> str:
-    if "html" not in (content_type or "").lower() and "xml" not in (content_type or "").lower():
-        return ""
-    m = re.search(r"<title[^>]*>(.*?)</title>", text or "", re.S | re.I)
-    if not m:
-        return ""
-    return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", m.group(1))).strip()[:160]
-
-
-def probe(item):
-    name, url = item
+def fetch(url, timeout=TIMEOUT, limit=READ_LIMIT):
     started = time.time()
     status = 0
     final_url = url
     content_type = ""
     raw = b""
     error = ""
+    retry_after = ""
     try:
         req = Request(
             url,
@@ -61,17 +119,19 @@ def probe(item):
                 "Accept-Language": "en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7",
             },
         )
-        with urlopen(req, timeout=25) as resp:
+        with urlopen(req, timeout=timeout) as resp:
             status = int(resp.status)
             final_url = resp.geturl()
             content_type = resp.headers.get("content-type", "")
-            raw = resp.read(1024 * 1024)
+            retry_after = resp.headers.get("retry-after", "")
+            raw = resp.read(limit)
     except HTTPError as e:
         status = int(e.code)
         final_url = e.geturl()
         content_type = e.headers.get("content-type", "") if e.headers else ""
+        retry_after = e.headers.get("retry-after", "") if e.headers else ""
         try:
-            raw = e.read(200 * 1024)
+            raw = e.read(min(limit, 200 * 1024))
         except Exception:
             raw = b""
         error = "HTTP %s" % e.code
@@ -82,26 +142,187 @@ def probe(item):
 
     text = raw.decode("utf-8", "ignore")
     return {
-        "source": name,
-        "url": url,
         "status": status,
         "ok": 200 <= status < 300,
-        "bytes": len(raw),
-        "content_type": content_type[:120],
         "final_url": final_url,
-        "title": _title(text, content_type),
+        "content_type": content_type[:120],
+        "bytes": len(raw),
         "elapsed_ms": int((time.time() - started) * 1000),
         "error": error,
+        "retry_after": retry_after,
+        "text": text,
+    }
+
+
+def title_of(text, content_type=""):
+    if "html" not in (content_type or "").lower() and "xml" not in (content_type or "").lower():
+        return ""
+    m = re.search(r"<title[^>]*>(.*?)</title>", text or "", re.S | re.I)
+    if not m:
+        return ""
+    return re.sub(r"\s+", " ", html_lib.unescape(re.sub(r"<[^>]+>", "", m.group(1)))).strip()[:160]
+
+
+def body_text(raw_text):
+    text = re.sub(r"<(script|style|noscript)[^>]*>.*?</\1>", " ", raw_text or "", flags=re.S | re.I)
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = html_lib.unescape(text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def links_of(raw_text, base, pattern, limit=MAX_ARTICLES):
+    out, seen = [], set()
+    for href in re.findall(r"""<a\b[^>]*\bhref\s*=\s*["']([^"']+)["']""", raw_text or "", re.I):
+        url = urljoin(base, html_lib.unescape(href))
+        if not re.search(pattern, url, re.I):
+            continue
+        if url in seen:
+            continue
+        seen.add(url)
+        out.append(url)
+        if len(out) >= limit:
+            break
+    return out
+
+
+def feed_items(raw_text, limit=MAX_ARTICLES):
+    try:
+        root = ET.fromstring(raw_text)
+    except Exception:
+        return []
+    out = []
+    for it in root.findall(".//item")[:limit]:
+        out.append({
+            "title": (it.findtext("title") or "").strip(),
+            "link": (it.findtext("link") or "").strip(),
+            "pub": (it.findtext("pubDate") or "").strip(),
+        })
+    return out
+
+
+def robots_of(url):
+    u = urlparse(url)
+    robots_url = "%s://%s/robots.txt" % (u.scheme, u.netloc)
+    r = fetch(robots_url, timeout=10, limit=200 * 1024)
+    crawl = ""
+    disallow = 0
+    if r["ok"]:
+        m = re.search(r"(?im)^\s*crawl-delay\s*:\s*([0-9.]+)", r["text"])
+        if m:
+            crawl = m.group(1)
+        disallow = len(re.findall(r"(?im)^\s*disallow\s*:", r["text"]))
+    return {
+        "url": robots_url,
+        "status": r["status"],
+        "crawl_delay": crawl,
+        "disallow_rules": disallow,
+    }
+
+
+def rate_probe(url, attempts=3, gap=2.0):
+    out = []
+    for i in range(attempts):
+        r = fetch(url, timeout=12)
+        out.append({
+            "status": r["status"],
+            "elapsed_ms": r["elapsed_ms"],
+            "retry_after": r["retry_after"],
+            "error": r["error"],
+        })
+        if i + 1 < attempts:
+            time.sleep(gap)
+    return out
+
+
+def article_probe(url, pattern):
+    started = time.time()
+    r = fetch(url, timeout=TIMEOUT)
+    text = body_text(r["text"])
+    low = text.lower()
+    hits = [x for x in PAYWALL_MARKERS if x in low]
+    return {
+        "url": url,
+        "status": r["status"],
+        "bytes": r["bytes"],
+        "text_chars": len(text),
+        "title": title_of(r["text"], r["content_type"]) or "",
+        "paywall_hits": hits,
+        "ok": bool(r["ok"] and len(text) >= 400 and not hits),
+        "elapsed_ms": r["elapsed_ms"],
+        "error": r["error"],
     }
 
 
 def main():
     results = []
-    with ThreadPoolExecutor(max_workers=5) as ex:
-        futures = [ex.submit(probe, t) for t in TARGETS]
-        for f in as_completed(futures):
-            results.append(f.result())
-    results.sort(key=lambda x: [t[0] for t in TARGETS].index(x["source"]))
+    for cfg in SOURCES:
+        name = cfg["name"]
+        print("\n== %s ==" % name, flush=True)
+        row = {
+            "source": name,
+            "list": None,
+            "robots": None,
+            "feed_items": 0,
+            "articles": [],
+            "rate": [],
+            "suggested_interval": "",
+            "note": "",
+        }
+
+        if cfg.get("api_url"):
+            r = fetch(cfg["api_url"], timeout=25)
+            row["list"] = {k: r[k] for k in ("status", "bytes", "elapsed_ms", "error", "retry_after")}
+            try:
+                row["feed_items"] = len((json.loads(r["text"]) or {}).get("articles") or [])
+            except Exception:
+                row["feed_items"] = 0
+            row["suggested_interval"] = ">= 15 分钟（实测单次约 15 秒）"
+        elif cfg.get("feed_url"):
+            r = fetch(cfg["feed_url"], timeout=20)
+            row["list"] = {k: r[k] for k in ("status", "bytes", "elapsed_ms", "error", "retry_after")}
+            items = feed_items(r["text"], limit=MAX_ARTICLES)
+            row["feed_items"] = len(items)
+            row["robots"] = robots_of(cfg["feed_url"])
+            row["rate"] = rate_probe(cfg["feed_url"], attempts=2, gap=2.0)
+            for it in items:
+                if it["link"] and re.search(cfg.get("article_re", ""), it["link"], re.I):
+                    row["articles"].append(article_probe(it["link"], cfg.get("article_re", "")))
+                time.sleep(1.2)
+            row["suggested_interval"] = ">= 15 分钟（RSS 本身更新不频繁）"
+        else:
+            row["robots"] = robots_of(cfg["list_url"])
+            r = fetch(cfg["list_url"], timeout=TIMEOUT)
+            row["list"] = {k: r[k] for k in ("status", "bytes", "elapsed_ms", "error", "retry_after")}
+            row["rate"] = rate_probe(cfg["list_url"], attempts=3, gap=2.0)
+            urls = links_of(r["text"], cfg["list_url"], cfg["article_re"], limit=MAX_ARTICLES)
+            for url in urls:
+                row["articles"].append(article_probe(url, cfg["article_re"]))
+                time.sleep(1.2)
+            if any(x.get("status") == 429 for x in row["rate"]):
+                row["suggested_interval"] = ">= 60 分钟（已见 429）"
+            elif row["robots"].get("crawl_delay"):
+                row["suggested_interval"] = ">= %s 秒（robots Crawl-delay）" % row["robots"]["crawl_delay"]
+            else:
+                row["suggested_interval"] = ">= 15 分钟（Actions 批处理，避免压力）"
+
+        ok_articles = sum(1 for x in row["articles"] if x.get("ok"))
+        print(
+            "list=%s articles=%d/%d interval=%s"
+            % (
+                (row["list"] or {}).get("status", "-"),
+                ok_articles,
+                len(row["articles"]),
+                row["suggested_interval"],
+            ),
+            flush=True,
+        )
+        for a in row["articles"]:
+            print(
+                "  article %s chars=%s paywall=%s"
+                % (a["status"] or "-", a["text_chars"], ",".join(a["paywall_hits"]) or "-"),
+                flush=True,
+            )
+        results.append(row)
 
     out = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
@@ -115,27 +336,26 @@ def main():
     with open("probe_results.json", "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
 
-    print("%-18s %6s %9s %7s  %s" % ("source", "status", "bytes", "ms", "title"))
-    print("-" * 92)
-    for r in results:
-        print(
-            "%-18s %6s %9s %7s  %s"
-            % (r["source"], r["status"] or "-", r["bytes"], r["elapsed_ms"], r["title"][:48])
-        )
-        if r["error"]:
-            print("  error: %s" % r["error"])
-
     summary = os.environ.get("GITHUB_STEP_SUMMARY")
     if summary:
         with open(summary, "a", encoding="utf-8") as f:
-            f.write("## Source probe\n\n")
-            f.write("| source | status | bytes | ms | title |\n")
-            f.write("|---|---:|---:|---:|---|\n")
+            f.write("## Source capability probe\n\n")
+            f.write("| source | list | articles | text chars | paywall | interval |\n")
+            f.write("|---|---:|---:|---|---|---|\n")
             for r in results:
-                title = (r["title"] or "").replace("|", "\\|")
+                chars = [a["text_chars"] for a in r["articles"]]
+                pay = sum(1 for a in r["articles"] if a["paywall_hits"])
                 f.write(
-                    "| %s | %s | %s | %s | %s |\n"
-                    % (r["source"], r["status"] or "-", r["bytes"], r["elapsed_ms"], title[:100])
+                    "| %s | %s | %d/%d | %s | %s | %s |\n"
+                    % (
+                        r["source"],
+                        (r["list"] or {}).get("status", "-"),
+                        sum(1 for a in r["articles"] if a["ok"]),
+                        len(r["articles"]),
+                        ("%d-%d" % (min(chars), max(chars))) if chars else "-",
+                        pay,
+                        r["suggested_interval"],
+                    )
                 )
 
 

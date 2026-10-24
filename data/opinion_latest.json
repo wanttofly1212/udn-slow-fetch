@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24 15:13:03",
+ "generated_at": "2026-10-24 15:20:25",
  "sources": {
   "Brad Setser / CFR": {
    "status": 200,
@@ -48,7 +48,7 @@
    "full_text_available": true,
    "headline_only": false,
    "url": "https://research.gavekal.com/teaser/webinar-shudders-in-the-tech-complex/",
-   "published_at": "2026-10-24 15:13:03",
+   "published_at": "2026-10-24 15:20:25",
    "tags": []
   },
   {
@@ -73,49 +73,7 @@
    "full_text_available": true,
    "headline_only": false,
    "url": "https://research.gavekal.com/teaser/china-and-st-augustine/",
-   "published_at": "2026-10-24 15:13:03",
-   "tags": []
-  },
-  {
-   "id": "op_c6ecb6df7a4a6c46",
-   "source": "Carnegie / Michael Pettis",
-   "author": "Michael Pettis",
-   "platform": "Carnegie",
-   "content_type": "opinion",
-   "opinion": true,
-   "title_en": "The Plaza Accord and Its Relevance for China | Carnegie Endowment for International Peace",
-   "title_zh": "The Plaza Accord and Its Relevance for China | Carnegie Endowment for International Peace",
-   "summary_en": "The Plaza Accord was not an externally imposed punishment of Japan but part of a broader restructuring that Japanese economists and policymakers themselves recognized was necessary. Its effects were undermined, however, when Tokyo responded to the resulting slowdown with policies that exacerbated investment, credit expansion, and the very imbalances the adjustment was intended to resolve.",
-   "summary_zh": "The Plaza Accord was not an externally imposed punishment of Japan but part of a broader restructuring that Japanese economists and policymakers themselves recognized was necessary. Its effects were undermined, however, when Tokyo responded to the resulting slowdown with policies that exacerbated investment, credit expansion, and the very imbalances the adjustment was intended to resolve.",
-   "body": "Commentary China Financial Markets Beijing’s Three Options: Unemployment, Debt, or Wealth Transfers China’s debt problems have emerged so much more rapidly and severely this year than in the past that a growing number of analysts believe that this may be the year that China’s economy breaks. There is no question that China will have a difficult adjustment, but it is likely to take the form of a long process rather than a sudden crisis. Michael Pettis",
-   "body_excerpt": "Commentary China Financial Markets Beijing’s Three Options: Unemployment, Debt, or Wealth Transfers China’s debt problems have emerged so much more rapidly and severely this year than in the past that a growing number of analysts believe that this may be the year that China’s economy breaks. There is no question that China will have a difficult adj…",
-   "evidence": [],
-   "content_chars": 454,
-   "full_text_available": true,
-   "headline_only": false,
-   "url": "https://carnegieendowment.org/china-financial-markets/2026/09/the-plaza-accord-and-its-relevance-for-china",
-   "published_at": "2026-10-24 15:13:03",
-   "tags": []
-  },
-  {
-   "id": "op_2c3d702743095541",
-   "source": "Carnegie / Michael Pettis",
-   "author": "Michael Pettis",
-   "platform": "Carnegie",
-   "content_type": "opinion",
-   "opinion": true,
-   "title_en": "Who Paid for China’s Last Debt Cleanup, and Who Will Pay for the Next? | Carnegie Endowment for International Peace",
-   "title_zh": "Who Paid for China’s Last Debt Cleanup, and Who Will Pay for the Next? | Carnegie Endowment for International Peace",
-   "summary_en": "China’s banking crisis in the 2000s was resolved by transferring the costs to households through financial repression—a decision that recapitalized the banks while exacerbating the structural imbalances that continue to shape the Chinese economy today.",
-   "summary_zh": "China’s banking crisis in the 2000s was resolved by transferring the costs to households through financial repression—a decision that recapitalized the banks while exacerbating the structural imbalances that continue to shape the Chinese economy today.",
-   "body": "Commentary China Financial Markets The Plaza Accord and Its Relevance for China The Plaza Accord was not an externally imposed punishment of Japan but part of a broader restructuring that Japanese economists and policymakers themselves recognized was necessary. Its effects were undermined, however, when Tokyo responded to the resulting slowdown with policies that exacerbated investment, credit expansion, and the very imbalances the adjustment was intended to resolve. Michael Pettis",
-   "body_excerpt": "Commentary China Financial Markets The Plaza Accord and Its Relevance for China The Plaza Accord was not an externally imposed punishment of Japan but part of a broader restructuring that Japanese economists and policymakers themselves recognized was necessary. Its effects were undermined, however, when Tokyo responded to the resulting slowdown wit…",
-   "evidence": [],
-   "content_chars": 486,
-   "full_text_available": true,
-   "headline_only": false,
-   "url": "https://carnegieendowment.org/china-financial-markets/2026/08/who-paid-for-chinas-last-debt-cleanup-and-who-will-pay-for-the-next",
-   "published_at": "2026-10-24 15:13:03",
+   "published_at": "2026-10-24 15:20:25",
    "tags": []
   },
   {
@@ -144,6 +102,27 @@
    "tags": []
   },
   {
+   "id": "op_c6ecb6df7a4a6c46",
+   "source": "Carnegie / Michael Pettis",
+   "author": "Michael Pettis",
+   "platform": "Carnegie",
+   "content_type": "opinion",
+   "opinion": true,
+   "title_en": "The Plaza Accord and Its Relevance for China | Carnegie Endowment for International Peace",
+   "title_zh": "The Plaza Accord and Its Relevance for China | Carnegie Endowment for International Peace",
+   "summary_en": "The Plaza Accord was not an externally imposed punishment of Japan but part of a broader restructuring that Japanese economists and policymakers themselves recognized was necessary. Its effects were undermined, however, when Tokyo responded to the resulting slowdown with policies that exacerbated investment, credit expansion, and the very imbalances the adjustment was intended to resolve.",
+   "summary_zh": "The Plaza Accord was not an externally imposed punishment of Japan but part of a broader restructuring that Japanese economists and policymakers themselves recognized was necessary. Its effects were undermined, however, when Tokyo responded to the resulting slowdown with policies that exacerbated investment, credit expansion, and the very imbalances the adjustment was intended to resolve.",
+   "body": "Commentary China Financial Markets Beijing’s Three Options: Unemployment, Debt, or Wealth Transfers China’s debt problems have emerged so much more rapidly and severely this year than in the past that a growing number of analysts believe that this may be the year that China’s economy breaks. There is no question that China will have a difficult adjustment, but it is likely to take the form of a long process rather than a sudden crisis. Michael Pettis",
+   "body_excerpt": "Commentary China Financial Markets Beijing’s Three Options: Unemployment, Debt, or Wealth Transfers China’s debt problems have emerged so much more rapidly and severely this year than in the past that a growing number of analysts believe that this may be the year that China’s economy breaks. There is no question that China will have a difficult adj…",
+   "evidence": [],
+   "content_chars": 454,
+   "full_text_available": true,
+   "headline_only": false,
+   "url": "https://carnegieendowment.org/china-financial-markets/2026/09/the-plaza-accord-and-its-relevance-for-china",
+   "published_at": "2026-09-25 00:00:00",
+   "tags": []
+  },
+  {
    "id": "op_780bdb1863edef79",
    "source": "Brad Setser / CFR",
    "author": "Brad Setser",
@@ -164,6 +143,27 @@
    "headline_only": false,
    "url": "https://www.cfr.org/articles/de-reservification-not-de-dollarization",
    "published_at": "2026-09-15 08:37:00",
+   "tags": []
+  },
+  {
+   "id": "op_2c3d702743095541",
+   "source": "Carnegie / Michael Pettis",
+   "author": "Michael Pettis",
+   "platform": "Carnegie",
+   "content_type": "opinion",
+   "opinion": true,
+   "title_en": "Who Paid for China’s Last Debt Cleanup, and Who Will Pay for the Next? | Carnegie Endowment for International Peace",
+   "title_zh": "Who Paid for China’s Last Debt Cleanup, and Who Will Pay for the Next? | Carnegie Endowment for International Peace",
+   "summary_en": "China’s banking crisis in the 2000s was resolved by transferring the costs to households through financial repression—a decision that recapitalized the banks while exacerbating the structural imbalances that continue to shape the Chinese economy today.",
+   "summary_zh": "China’s banking crisis in the 2000s was resolved by transferring the costs to households through financial repression—a decision that recapitalized the banks while exacerbating the structural imbalances that continue to shape the Chinese economy today.",
+   "body": "Commentary China Financial Markets The Plaza Accord and Its Relevance for China The Plaza Accord was not an externally imposed punishment of Japan but part of a broader restructuring that Japanese economists and policymakers themselves recognized was necessary. Its effects were undermined, however, when Tokyo responded to the resulting slowdown with policies that exacerbated investment, credit expansion, and the very imbalances the adjustment was intended to resolve. Michael Pettis",
+   "body_excerpt": "Commentary China Financial Markets The Plaza Accord and Its Relevance for China The Plaza Accord was not an externally imposed punishment of Japan but part of a broader restructuring that Japanese economists and policymakers themselves recognized was necessary. Its effects were undermined, however, when Tokyo responded to the resulting slowdown wit…",
+   "evidence": [],
+   "content_chars": 486,
+   "full_text_available": true,
+   "headline_only": false,
+   "url": "https://carnegieendowment.org/china-financial-markets/2026/08/who-paid-for-chinas-last-debt-cleanup-and-who-will-pay-for-the-next",
+   "published_at": "2026-08-25 00:00:00",
    "tags": []
   },
   {

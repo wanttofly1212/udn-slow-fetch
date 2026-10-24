@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24 15:28:20",
+ "generated_at": "2026-10-24 15:51:33",
  "sources": {
   "Brad Setser / CFR": {
    "status": 200,
@@ -48,7 +48,8 @@
    "full_text_available": true,
    "headline_only": false,
    "url": "https://research.gavekal.com/teaser/webinar-shudders-in-the-tech-complex/",
-   "published_at": "2026-10-24 15:28:20",
+   "published_at": "2026-10-24 15:51:33",
+   "published_at_source": "fetched",
    "tags": []
   },
   {
@@ -73,7 +74,8 @@
    "full_text_available": true,
    "headline_only": false,
    "url": "https://research.gavekal.com/teaser/china-and-st-augustine/",
-   "published_at": "2026-10-24 15:28:20",
+   "published_at": "2026-10-24 15:51:33",
+   "published_at_source": "fetched",
    "tags": []
   },
   {
@@ -99,6 +101,7 @@
    "headline_only": false,
    "url": "https://aswathdamodaran.blogspot.com/2026/10/from-eyeballs-to-annual-run-rates-arr.html",
    "published_at": "2026-10-22 00:00:00",
+   "published_at_source": "published",
    "tags": []
   },
   {
@@ -124,6 +127,7 @@
    "headline_only": true,
    "url": "https://www.cfr.org/articles/whats-the-renminbi-got-to-do-with-it",
    "published_at": "2026-10-13 01:20:00",
+   "published_at_source": "published",
    "tags": []
   },
   {
@@ -145,6 +149,7 @@
    "headline_only": false,
    "url": "https://carnegieendowment.org/china-financial-markets/2026/09/the-plaza-accord-and-its-relevance-for-china",
    "published_at": "2026-09-25 00:00:00",
+   "published_at_source": "published",
    "tags": []
   },
   {
@@ -168,6 +173,7 @@
    "headline_only": false,
    "url": "https://www.cfr.org/articles/de-reservification-not-de-dollarization",
    "published_at": "2026-09-15 08:37:00",
+   "published_at_source": "published",
    "tags": []
   },
   {
@@ -189,6 +195,7 @@
    "headline_only": false,
    "url": "https://carnegieendowment.org/china-financial-markets/2026/08/who-paid-for-chinas-last-debt-cleanup-and-who-will-pay-for-the-next",
    "published_at": "2026-08-25 00:00:00",
+   "published_at_source": "published",
    "tags": []
   },
   {
@@ -214,6 +221,7 @@
    "headline_only": false,
    "url": "https://rhg.com/news/as-europe-dithers-the-cost-of-derisking-from-china-rises/",
    "published_at": "2025-12-01 00:00:00",
+   "published_at_source": "published",
    "tags": []
   },
   {
@@ -235,6 +243,7 @@
    "headline_only": false,
    "url": "https://rhg.com/news/rhodium-group-joins-launch-of-new-energy-industrial-strategy-center/",
    "published_at": "2025-10-16 00:00:00",
+   "published_at_source": "published",
    "tags": []
   },
   {
@@ -260,6 +269,7 @@
    "headline_only": false,
    "url": "https://aswathdamodaran.blogspot.com/2015/12/aging-in-dog-years-short-glorious-life.html",
    "published_at": "2015-12-09 00:00:00",
+   "published_at_source": "published",
    "tags": []
   }
  ]

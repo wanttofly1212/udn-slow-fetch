@@ -149,6 +149,13 @@ def article_fields(raw):
     if not body:
         body = raw or ""
     pub = pub or meta_of(raw, "article:published_time") or meta_of(raw, "date")
+    if not pub:
+        m = re.search(
+            r"(?:Published on|Published|Date)\s*:?\s*([A-Z][a-z]{2,8}\s+\d{1,2},\s*20\d{2}|\d{1,2}\s+[A-Z][a-z]{2,8}\s+20\d{2})",
+            raw or "", re.I,
+        )
+        if m:
+            pub = m.group(1)
     summary = meta_of(raw, "description") or meta_of(raw, "og:description")
     return clean_text(body), summary, pub
 
@@ -170,6 +177,11 @@ def parse_time(s):
     m = re.search(r"(20\d{2})-(\d{2})-(\d{2})", s)
     if m:
         return "%s-%s-%s 00:00:00" % m.groups()
+    for fmt in ("%b %d, %Y", "%B %d, %Y", "%d %b %Y", "%d %B %Y"):
+        try:
+            return datetime.strptime(s, fmt).strftime("%Y-%m-%d 00:00:00")
+        except Exception:
+            continue
     return ""
 
 

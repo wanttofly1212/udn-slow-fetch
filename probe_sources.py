@@ -37,7 +37,7 @@ SOURCES = [
     {
         "name": "SCMP",
         "list_url": "https://www.scmp.com/",
-        "article_re": r"scmp\.com/(?:news|economy|business|china|opinion)/[^\"'?#]+",
+        "article_re": r"scmp\.com/(?:[^\"']*/)?article/\d+",
     },
     {
         "name": "Caixin Global",
@@ -86,6 +86,54 @@ SOURCES = [
     {
         "name": "GDELT",
         "api_url": "https://api.gdeltproject.org/api/v2/doc/doc?query=china%20offshore%20trust&mode=ArtList&maxrecords=3&format=json&sort=datedesc",
+    },
+    {
+        "name": "FT",
+        "list_url": "https://www.ft.com/",
+        "article_re": r"ft\.com/content/[0-9a-f-]+",
+        "max_articles": 2,
+    },
+    {
+        "name": "WSJ",
+        "list_url": "https://www.wsj.com/",
+        "article_re": r"wsj\.com/articles/[^\"'?#]+",
+        "max_articles": 2,
+    },
+    {
+        "name": "Barron's",
+        "list_url": "https://www.barrons.com/",
+        "article_re": r"barrons\.com/articles/[^\"'?#]+",
+        "max_articles": 2,
+    },
+    {
+        "name": "The Economist",
+        "list_url": "https://www.economist.com/",
+        "article_re": r"economist\.com/[^\"'?#]+/\d{4}/\d{2}/\d{2}/[^\"'?#]+",
+        "max_articles": 2,
+    },
+    {
+        "name": "Nikkei Asia",
+        "list_url": "https://asia.nikkei.com/",
+        "article_re": r"asia\.nikkei\.com/[^\"'?#]+",
+        "max_articles": 2,
+    },
+    {
+        "name": "AP News",
+        "list_url": "https://apnews.com/",
+        "article_re": r"apnews\.com/article/[^\"'?#]+",
+        "max_articles": 2,
+    },
+    {
+        "name": "Bloomberg RSS",
+        "feed_url": "https://feeds.bloomberg.com/markets/news.rss",
+        "article_re": r"bloomberg\.com/news/articles/[^\"'?#]+",
+        "max_articles": 2,
+    },
+    {
+        "name": "Reuters RSS",
+        "feed_url": "https://feeds.reuters.com/reuters/businessNews",
+        "article_re": r"reuters\.com/[^\"'?#]+",
+        "max_articles": 2,
     },
 ]
 
@@ -280,7 +328,7 @@ def main():
         elif cfg.get("feed_url"):
             r = fetch(cfg["feed_url"], timeout=20)
             row["list"] = {k: r[k] for k in ("status", "bytes", "elapsed_ms", "error", "retry_after")}
-            items = feed_items(r["text"], limit=MAX_ARTICLES)
+            items = feed_items(r["text"], limit=cfg.get("max_articles", MAX_ARTICLES))
             row["feed_items"] = len(items)
             row["robots"] = robots_of(cfg["feed_url"])
             row["rate"] = rate_probe(cfg["feed_url"], attempts=2, gap=2.0)
@@ -294,7 +342,7 @@ def main():
             r = fetch(cfg["list_url"], timeout=TIMEOUT)
             row["list"] = {k: r[k] for k in ("status", "bytes", "elapsed_ms", "error", "retry_after")}
             row["rate"] = rate_probe(cfg["list_url"], attempts=3, gap=2.0)
-            urls = links_of(r["text"], cfg["list_url"], cfg["article_re"], limit=MAX_ARTICLES)
+            urls = links_of(r["text"], cfg["list_url"], cfg["article_re"], limit=cfg.get("max_articles", MAX_ARTICLES))
             for url in urls:
                 row["articles"].append(article_probe(url, cfg["article_re"]))
                 time.sleep(1.2)

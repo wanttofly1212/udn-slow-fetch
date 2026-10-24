@@ -302,6 +302,14 @@ def main():
             else:
                 seen.add(key)
     items.sort(key=lambda x: x.get("published_at") or "", reverse=True)
+    if OUT.exists():
+        try:
+            old = json.loads(OUT.read_text(encoding="utf-8"))
+            if old.get("items") == items:
+                print("UNCHANGED %s items=%d" % (OUT, len(items)), flush=True)
+                return
+        except Exception:
+            pass
     OUT.parent.mkdir(parents=True, exist_ok=True)
     payload = {"generated_at": NOW, "sources": report, "items": items}
     tmp = OUT.with_name(OUT.name + ".tmp")

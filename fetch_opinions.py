@@ -249,7 +249,6 @@ def make_item(cfg, url, title, raw, fallback_pub=""):
         "url": url,
         "published_at": pub,
         "tags": [],
-        "fetched_at": NOW,
     }
 
 

@@ -423,8 +423,6 @@ def fetch_udn():
             summary = clean_text(e.get("summary"))
             url = (e.get("link") or "").strip()
             pub = parse_time(e.get("pub") or "")
-            if pub and pub[:10] < CUTOFF:
-                continue
             if not title or not url or url in seen:
                 continue
             if not _udn_ok(title, summary, e.get("category") or feed["section"]):
@@ -467,7 +465,7 @@ def fetch_scmp():
         for e in entries:
             url = (e.get("link") or "").strip()
             pub = parse_time(e.get("pub") or "")
-            if not url or url in seen or (pub and pub[:10] < CUTOFF):
+            if not url or url in seen:
                 continue
             seen.add(url)
             links.append(url)
@@ -602,7 +600,8 @@ def merge_news(old, new):
         if not url or url in seen:
             continue
         pub = str(x.get("published_at") or "")
-        if pub[:10] and pub[:10] < CUTOFF:
+        if (x.get("source") not in ("SCMP", "UDN")
+                and pub[:10] and pub[:10] < CUTOFF):
             continue
         seen.add(url)
         out.append(x)

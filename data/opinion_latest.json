@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25 03:25:29",
+ "generated_at": "2026-10-25 03:35:35",
  "sources": {
   "Brad Setser / CFR": {
    "status": 200,
@@ -80,7 +80,7 @@
    "full_text_available": true,
    "headline_only": false,
    "url": "https://research.gavekal.com/teaser/china-and-st-augustine/",
-   "published_at": "2026-10-25 03:25:29",
+   "published_at": "2026-10-25 03:35:35",
    "published_at_source": "fetched",
    "tags": []
   },
@@ -319,6 +319,22 @@
   {
    "source": "UDN",
    "source_tier": "A",
+   "title_en": "金正恩訪問丹東當天返國 強調雙邊友誼",
+   "title_zh": "",
+   "summary_en": "北韓官媒報導，領導人金正恩昨天前往中國邊境城市丹東，參訪抗美援朝紀念館後，以陸路返回北韓",
+   "summary_zh": "",
+   "url": "https://money.udn.com/money/story/5599/9835975",
+   "section": "財經",
+   "published_at": "2026-10-25 03:30:32",
+   "published_at_source": "published",
+   "headline_only": true,
+   "content_type": "news",
+   "opinion": false,
+   "discovery": "UDN 经济日报"
+  },
+  {
+   "source": "UDN",
+   "source_tier": "A",
    "title_en": "美國期中選舉倒數 聯準會下週利率料將按兵不動",
    "title_zh": "",
    "summary_en": "分析人士表示，儘管通膨居高不下，且市場已反映今年底前至少會升息一次的預期，美國聯邦準備理事會（Fed）下週開會時似乎仍將...",
@@ -342,22 +358,6 @@
    "url": "https://money.udn.com/money/story/5599/9835934",
    "section": "財經",
    "published_at": "2026-10-25 03:14:34",
-   "published_at_source": "published",
-   "headline_only": true,
-   "content_type": "news",
-   "opinion": false,
-   "discovery": "UDN 经济日报"
-  },
-  {
-   "source": "UDN",
-   "source_tier": "A",
-   "title_en": "保加利亞總統大選登場 黑海安全與對俄立場成焦點",
-   "title_zh": "",
-   "summary_en": "保加利亞今天舉行總統大選，俄烏戰爭影響擴及保加利亞黑海沿岸海域，使海上安全及對俄立場成為選戰焦點",
-   "summary_zh": "",
-   "url": "https://money.udn.com/money/story/5599/9835901",
-   "section": "財經",
-   "published_at": "2026-10-25 02:46:11",
    "published_at_source": "published",
    "headline_only": true,
    "content_type": "news",

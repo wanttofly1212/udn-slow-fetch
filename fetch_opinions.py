@@ -12,7 +12,7 @@ from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 from urllib.error import HTTPError, URLError
-from urllib.parse import urljoin
+from urllib.parse import quote_plus, urljoin
 from urllib.request import Request, urlopen
 from xml.etree import ElementTree as ET
 
@@ -543,6 +543,50 @@ def fetch_remote_rss():
     return out, report
 
 
+GOOGLE_QUERIES = [
+    ("cnbc", "site:cnbc.com (China OR markets OR economy) when:20d"),
+    ("scmp", "site:scmp.com (China OR markets OR economy) when:20d"),
+    ("reuters", "site:reuters.com (China OR markets OR economy) when:20d"),
+    ("bloomberg", "site:bloomberg.com (China OR markets OR economy) when:20d"),
+    ("ft", "site:ft.com (China OR markets OR economy) when:20d"),
+    ("nikkei", "site:asia.nikkei.com (China OR markets OR economy) when:20d"),
+]
+
+
+def fetch_google_news():
+    """Google News RSS：只做标题/导语发现层，补站点列表翻不到的历史。"""
+    out, report = [], {}
+    for name, q in GOOGLE_QUERIES:
+        url = ("https://news.google.com/rss/search?q=%s&hl=en-US&gl=US&ceid=US:en"
+               % quote_plus(q))
+        status, raw, _ = fetch(url, timeout=20, cache=True)
+        entries = feed_entries(raw) if status == 200 else []
+        picked = 0
+        for e in entries:
+            title = clean_text(e.get("title"))
+            link = (e.get("link") or "").strip()
+            pub = parse_time(e.get("pub") or "")
+            if pub and pub[:10] < CUTOFF:
+                continue
+            if len(title) < 16 or not link:
+                continue
+            out.append({
+                "source": "Google News", "source_tier": "B",
+                "title_en": title, "title_zh": "",
+                "summary_en": clean_text(e.get("summary"))[:600], "summary_zh": "",
+                "url": link, "section": name,
+                "published_at": pub or NOW,
+                "published_at_source": "published" if pub else "fetched",
+                "headline_only": True, "content_type": "news", "opinion": False,
+            })
+            picked += 1
+            if picked >= 20:
+                break
+        report["Google " + name] = {"status": status, "found": len(entries), "items": picked}
+        print("%-28s status=%s found=%s items=%s" % ("Google " + name, status, len(entries), picked), flush=True)
+    return out, report
+
+
 def merge_news(old, new):
     out, seen = [], set()
     for x in list(new) + list(old):
@@ -594,6 +638,9 @@ def main():
     rss_items, rss_report = fetch_remote_rss()
     news_items.extend(rss_items)
     report.update(rss_report)
+    google_items, google_report = fetch_google_news()
+    news_items.extend(google_items)
+    report.update(google_report)
     news_items = merge_news(OLD_NEWS, news_items)
     if OUT.exists():
         try:

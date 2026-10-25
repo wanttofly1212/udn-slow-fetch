@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25 12:05:56",
+ "generated_at": "2026-10-25 12:15:57",
  "sources": {
   "Brad Setser / CFR": {
    "status": 200,
@@ -22,9 +22,9 @@
    "items": 2
   },
   "Aswath Damodaran": {
-   "status": 429,
-   "found": 0,
-   "items": 0
+   "status": 200,
+   "found": 2,
+   "items": 2
   },
   "Project Syndicate": {
    "status": 200,
@@ -34,7 +34,7 @@
   "UDN 经济日报": {
    "status": 200,
    "found": 20,
-   "items": 17
+   "items": 18
   },
   "UDN 联合新闻": {
    "status": 200,
@@ -66,65 +66,10 @@
    "found": 0,
    "items": 0
   },
-  "Google cnbc": {
-   "status": 200,
-   "found": 100,
-   "items": 20
-  },
-  "Google scmp": {
-   "status": 200,
-   "found": 100,
-   "items": 20
-  },
-  "Google reuters": {
-   "status": 200,
-   "found": 100,
-   "items": 20
-  },
-  "Google bloomberg": {
-   "status": 200,
-   "found": 100,
-   "items": 20
-  },
-  "Google ft": {
-   "status": 200,
-   "found": 100,
-   "items": 20
-  },
-  "Google nikkei": {
-   "status": 200,
-   "found": 100,
-   "items": 20
-  },
-  "Google older-cnbc.com": {
-   "status": 200,
-   "found": 100,
-   "items": 20
-  },
-  "Google older-scmp.com": {
-   "status": 200,
-   "found": 100,
-   "items": 20
-  },
-  "Google older-reuters.com": {
-   "status": 200,
-   "found": 100,
-   "items": 20
-  },
-  "Google older-bloomberg.com": {
-   "status": 200,
-   "found": 100,
-   "items": 20
-  },
-  "Google older-ft.com": {
-   "status": 200,
-   "found": 100,
-   "items": 20
-  },
-  "Google older-asia.nikkei.com": {
-   "status": 200,
-   "found": 100,
-   "items": 20
+  "Google News": {
+   "status": "paused",
+   "found": 0,
+   "items": 0
   }
  },
  "items": [
@@ -150,7 +95,7 @@
    "full_text_available": true,
    "headline_only": false,
    "url": "https://research.gavekal.com/teaser/china-and-st-augustine/",
-   "published_at": "2026-10-25 12:05:56",
+   "published_at": "2026-10-25 12:15:57",
    "published_at_source": "fetched",
    "tags": []
   },
@@ -376,6 +321,32 @@
    "tags": []
   },
   {
+   "id": "op_475a94b2883725e4",
+   "source": "Aswath Damodaran",
+   "author": "Aswath Damodaran",
+   "platform": "Blog",
+   "content_type": "opinion",
+   "opinion": true,
+   "title_en": "Musings on Markets: From Eyeballs to Annual Run Rates (ARR): Buzzy Pricing Metrics and the Anthropic Trade!",
+   "title_zh": "",
+   "summary_en": "A blog about markets, finance and all things money related.",
+   "summary_zh": "",
+   "body": "Musings on Markets: From Eyeballs to Annual Run Rates (ARR): Buzzy Pricing Metrics and the Anthropic Trade! Thursday, October 22, 2026 From Eyeballs to Annual Run Rates (ARR): Buzzy Pricing Metrics and the Anthropic Trade! I was in San Francisco last week to talk to NYU Stern Alumni on October 15, and it was the day that Anthropic had a pre-IPO meeting with prospective investors. While I was not at the meeting, the focus of teh gathering was laying a foundation for its upcoming IPO, with the company reporting third-quarter revenue of $16.8 billion, which news reports described as surging 45% over the previous quarter's revenues, and positive profits, albeit on an adjusted basis. During the m",
+   "body_excerpt": "Musings on Markets: From Eyeballs to Annual Run Rates (ARR): Buzzy Pricing Metrics and the Anthropic Trade! Thursday, October 22, 2026 From Eyeballs to Annual Run Rates (ARR): Buzzy Pricing Metrics and the Anthropic Trade! I was in San Francisco last week to talk to NYU Stern Alumni on October 15, and it was the day that Anthropic had a pre-IPO mee…",
+   "evidence": [
+    "How do Anthropic and OpenAI measure up in the life cycle?",
+    "If you don't believe in efficient markets, you can take one of two paths.",
+    "I will not be taking sides here, but not because I am copping out."
+   ],
+   "content_chars": 31643,
+   "full_text_available": true,
+   "headline_only": false,
+   "url": "https://aswathdamodaran.blogspot.com/2026/10/from-eyeballs-to-annual-run-rates-arr.html",
+   "published_at": "2026-10-22 00:00:00",
+   "published_at_source": "published",
+   "tags": []
+  },
+  {
    "id": "op_15f2649968c390c0",
    "source": "Brad Setser / CFR",
    "author": "Brad Setser",
@@ -528,9 +499,52 @@
    "published_at": "2025-10-16 00:00:00",
    "published_at_source": "published",
    "tags": []
+  },
+  {
+   "id": "op_7a8e26d75ad7a2e1",
+   "source": "Aswath Damodaran",
+   "author": "Aswath Damodaran",
+   "platform": "Blog",
+   "content_type": "opinion",
+   "opinion": true,
+   "title_en": "Musings on Markets: Aging in Dog Years? The Short, Glorious Life of a Successful Tech Company!",
+   "title_zh": "",
+   "summary_en": "A blog about markets, finance and all things money related.",
+   "summary_zh": "",
+   "body": "Musings on Markets: Aging in Dog Years? The Short, Glorious Life of a Successful Tech Company! Wednesday, December 9, 2015 Aging in Dog Years? The Short, Glorious Life of a Successful Tech Company! The corporate aging theme is one that I have returned to repeatedly in my posts, and I have looked at how the aging process creates dysfunctional responses on the parts of managers, who want to find ways to reverse it, and investors, who make bets on such reversals. It was the under pinning for my last post on Yahoo , and in that post, I argued that technology companies have compressed life cycles, i.e., age in dog years, relative to non-tech companies. In this post, I would like to provide a rati",
+   "body_excerpt": "Musings on Markets: Aging in Dog Years? The Short, Glorious Life of a Successful Tech Company! Wednesday, December 9, 2015 Aging in Dog Years? The Short, Glorious Life of a Successful Tech Company! The corporate aging theme is one that I have returned to repeatedly in my posts, and I have looked at how the aging process creates dysfunctional respon…",
+   "evidence": [
+    "Musings on Markets: Aging in Dog Years?",
+    "The Short, Glorious Life of a Successful Tech Company!",
+    "Wednesday, December 9, 2015 Aging in Dog Years?"
+   ],
+   "content_chars": 15397,
+   "full_text_available": true,
+   "headline_only": false,
+   "url": "https://aswathdamodaran.blogspot.com/2015/12/aging-in-dog-years-short-glorious-life.html",
+   "published_at": "2015-12-09 00:00:00",
+   "published_at_source": "published",
+   "tags": []
   }
  ],
  "news_items": [
+  {
+   "source": "SCMP",
+   "source_tier": "A",
+   "title_en": "China’s Liaoning aircraft carrier and USS Theodore Roosevelt converge in Philippine Sea | South China Morning Post",
+   "title_zh": "",
+   "summary_en": "Northeastward course could see Liaoning group enter Philippine Sea, where US, Japan and other allies are carrying out Keen Sword exercise.",
+   "summary_zh": "",
+   "body": "China’s Liaoning aircraft carrier strike group sailed beyond the first island chain last week to reach the southernmost waters of the Philippines, suggesting an intent to position itself closer to ongoing US-Japan joint exercises. Philippine news channel BNC reported that the carrier group reached about 25 nautical miles (46km) east-southeast of Balut Island, the southernmost point of the Philippines, before sailing northeast on Friday. That positioned the warships past the first island chain, a US-led strategic arc of maritime chokepoints running from Japan through Taiwan to the Philippines. The four-strong Liaoning strike group includes the Type 055 large guided-missile destroyers Wuxi and",
+   "body_excerpt": "China’s Liaoning aircraft carrier strike group sailed beyond the first island chain last week to reach the southernmost waters of the Philippines, suggesting an intent to position itself closer to ongoing US-Japan joint exercises. Philippine news channel BNC reported that the carrier group reached about 25 nautical miles (46km) east-southeast of Ba",
+   "url": "https://www.scmp.com/news/china/military/article/3372078/chinas-liaoning-aircraft-carrier-and-uss-theodore-roosevelt-converge-philippine-sea",
+   "section": "",
+   "published_at": "2026-10-25 20:13:00",
+   "published_at_source": "published",
+   "headline_only": false,
+   "content_type": "news",
+   "opinion": false
+  },
   {
    "source": "SCMP",
    "source_tier": "A",
@@ -921,6 +935,22 @@
    "headline_only": false,
    "content_type": "news",
    "opinion": false
+  },
+  {
+   "source": "UDN",
+   "source_tier": "A",
+   "title_en": "美期中選舉民主黨若勝出 川普外交政策可能出現4大轉變",
+   "title_zh": "",
+   "summary_en": "非黨派分析人士表示，在美國11月3日期中選舉，民主黨很有機會贏得聯邦眾議院多數席次，並可能拿下聯邦參議院，讓民主黨在共和...",
+   "summary_zh": "",
+   "url": "https://money.udn.com/money/story/5599/9836567",
+   "section": "財經",
+   "published_at": "2026-10-25 12:12:29",
+   "published_at_source": "published",
+   "headline_only": true,
+   "content_type": "news",
+   "opinion": false,
+   "discovery": "UDN 经济日报"
   },
   {
    "source": "SCMP",
@@ -1410,7 +1440,7 @@
   {
    "source": "Bloomberg Markets",
    "source_tier": "B",
-   "title_en": "Brookfield to Open Doha Office to Deepen Its Middle East Reach",
+   "title_en": "Brookfield to Open Doha Office to Deepen Middle East Reach",
    "title_zh": "",
    "summary_en": "Brookfield Asset Management Ltd. is opening an office in Qatar, deepening its presence in the Middle East where many countries are grappling with the economic fallout from the war.",
    "summary_zh": "",
@@ -6701,7 +6731,7 @@
  "http_cache": {
   "https://www.cfr.org/blogs/follow-the-money": {
    "etag": "",
-   "last_modified": "Sun, 25 Oct 2026 12:05:57 GMT"
+   "last_modified": "Sun, 25 Oct 2026 12:00:54 GMT"
   },
   "https://rhg.com/feed/": {
    "etag": "\"be6e14ee92fa19781abef3dc33bcbd2e\"",
@@ -6712,7 +6742,7 @@
    "last_modified": ""
   },
   "https://carnegieendowment.org/china-financial-markets": {
-   "etag": "\"8pzakp7bzh3jux\"",
+   "etag": "\"17v9aw3iqlo3jux\"",
    "last_modified": ""
   },
   "https://aswathdamodaran.blogspot.com/": {
@@ -6729,7 +6759,7 @@
   },
   "https://www.scmp.com/rss/91/feed": {
    "etag": "",
-   "last_modified": "Sun, 25 Oct 2026 12:06:35 GMT"
+   "last_modified": "Sun, 25 Oct 2026 12:14:16 GMT"
   },
   "https://www.scmp.com/rss/92/feed": {
    "etag": "",
@@ -6744,7 +6774,7 @@
    "last_modified": "Sun, 25 Oct 2026 09:40:29 GMT"
   },
   "https://feeds.bloomberg.com/markets/news.rss": {
-   "etag": "W/\"3f3f-IXOecwlwQcnuMnxRQAQQZAO4P8Q\"",
+   "etag": "W/\"3f3b-sFiZHj50ZNVKyk6S4tA8Pkidcx0\"",
    "last_modified": ""
   },
   "https://www.scmp.com/": {
@@ -6808,7 +6838,7 @@
    "last_modified": ""
   },
   "https://asia.nikkei.com/": {
-   "etag": "\"qxp7qsp0c9ds14\"",
+   "etag": "\"14trx9manr2ds14\"",
    "last_modified": ""
   }
  },

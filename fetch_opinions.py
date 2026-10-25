@@ -334,7 +334,7 @@ def make_item(cfg, url, title, raw, fallback_pub=""):
         "title_zh": "",
         "summary_en": summary[:600],
         "summary_zh": "",
-        "body": body[:800],
+        "body": body[:700],
         "body_excerpt": (body[:350] + ("…" if len(body) > 350 else "")) if body else "",
         "evidence": evidence_of(body),
         "content_chars": len(body),
@@ -490,7 +490,7 @@ def fetch_scmp():
             "source": "SCMP", "source_tier": "A",
             "title_en": title, "title_zh": "",
             "summary_en": (summary or body[:600])[:600], "summary_zh": "",
-            "body": body[:800], "body_excerpt": body[:350],
+            "body": body[:700], "body_excerpt": body[:350],
             "url": url, "section": "",
             "published_at": parse_time(pub) or NOW,
             "published_at_source": "published" if parse_time(pub) else "fetched",
@@ -499,6 +499,43 @@ def fetch_scmp():
         time.sleep(10)
     report["SCMP"] = {"status": status, "found": found, "items": len(out)}
     print("%-28s status=%s found=%s items=%s" % ("SCMP", status, found, len(out)), flush=True)
+    return out, report
+
+
+def fetch_nikkei():
+    """Nikkei Asia 当前列表；可达但部分文章付费，只保留公开正文。"""
+    out, report = [], {}
+    status, raw, _ = fetch("https://asia.nikkei.com/", timeout=25, cache=True)
+    links = []
+    if status == 200:
+        for u in links_of(raw, "https://asia.nikkei.com/",
+                          r"asia\.nikkei\.com/[^\"'?#]+", 12):
+            if re.search(r"/(?:business|politics|economy|markets|tech|opinion)/", u):
+                links.append(u)
+    for url in links[:6]:
+        st, page, _ = fetch(url, timeout=25)
+        if st != 200:
+            continue
+        title = title_of(page)
+        body, summary, pub = article_fields(page)
+        body = clean_text(body)
+        summary = clean_text(summary or "")
+        if not title or len(body) < 200:
+            continue
+        out.append({
+            "source": "Nikkei Asia", "source_tier": "A",
+            "title_en": title, "title_zh": "",
+            "summary_en": (summary or body[:500])[:500], "summary_zh": "",
+            "body": body[:700], "body_excerpt": body[:350],
+            "url": url, "section": "",
+            "published_at": parse_time(pub) or NOW,
+            "published_at_source": "published" if parse_time(pub) else "fetched",
+            "headline_only": len(body) < 400,
+            "content_type": "news", "opinion": False,
+        })
+        time.sleep(1.5)
+    report["Nikkei Asia"] = {"status": status, "found": len(links), "items": len(out)}
+    print("%-28s status=%s found=%s items=%s" % ("Nikkei Asia", status, len(links), len(out)), flush=True)
     return out, report
 
 
@@ -640,6 +677,9 @@ def main():
     scmp_items, scmp_report = fetch_scmp()
     news_items.extend(scmp_items)
     report.update(scmp_report)
+    nikkei_items, nikkei_report = fetch_nikkei()
+    news_items.extend(nikkei_items)
+    report.update(nikkei_report)
     rss_items, rss_report = fetch_remote_rss()
     news_items.extend(rss_items)
     report.update(rss_report)

@@ -612,9 +612,10 @@ def fetch_google_news():
             if len(title) < 16 or not link:
                 continue
             out.append({
-                "source": "Google News", "source_tier": "B",
+                "source": "Nikkei Asia" if "nikkei" in name else "Google News",
+                "source_tier": "B",
                 "title_en": title, "title_zh": "",
-                "summary_en": clean_text(e.get("summary"))[:600], "summary_zh": "",
+                "summary_en": clean_text(e.get("summary"))[:500], "summary_zh": "",
                 "url": link, "section": name,
                 "published_at": pub or NOW,
                 "published_at_source": "published" if pub else "fetched",

@@ -24,6 +24,7 @@ OUT = Path("data/opinion_latest.json")
 NOW = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
 CUTOFF = (datetime.now(timezone.utc).date() - timedelta(days=19)).strftime("%Y-%m-%d")
 HTTP_CACHE = {}
+OLD_NEWS = []
 NS = "{http://www.w3.org/2005/Atom}"
 
 SOURCES = [
@@ -505,8 +506,25 @@ def fetch_remote_rss():
     return out, report
 
 
+def merge_news(old, new):
+    out, seen = [], set()
+    for x in list(new) + list(old):
+        if not isinstance(x, dict):
+            continue
+        url = (x.get("url") or "").split("?")[0]
+        if not url or url in seen:
+            continue
+        pub = str(x.get("published_at") or "")
+        if pub[:10] and pub[:10] < CUTOFF:
+            continue
+        seen.add(url)
+        out.append(x)
+    out.sort(key=lambda x: str(x.get("published_at") or ""), reverse=True)
+    return out
+
+
 def main():
-    global HTTP_CACHE
+    global HTTP_CACHE, OLD_NEWS
     items = []
     report = {}
     seen = set()
@@ -516,6 +534,7 @@ def main():
             k: {"etag": v.get("etag") or "", "last_modified": v.get("last_modified") or ""}
             for k, v in (old0.get("http_cache") or {}).items() if isinstance(v, dict)
         }
+        OLD_NEWS = old0.get("news_items") or []
     except Exception:
         HTTP_CACHE = {}
     for cfg in SOURCES:
@@ -538,6 +557,7 @@ def main():
     rss_items, rss_report = fetch_remote_rss()
     news_items.extend(rss_items)
     report.update(rss_report)
+    news_items = merge_news(OLD_NEWS, news_items)
     if OUT.exists():
         try:
             old = json.loads(OUT.read_text(encoding="utf-8"))

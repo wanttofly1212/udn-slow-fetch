@@ -77,7 +77,7 @@ SOURCES = [
         "list_url": "https://www.project-syndicate.org/commentaries",
         "link_re": r"project-syndicate\.org/commentary/[^\"'?#]+",
         "require_re": r"china|chinese|renminbi|yuan|trade|tariff|export|econom|market|fed|rate|inflation",
-        "max_items": 3,
+        "max_items": 8,
     },
 ]
 
@@ -551,6 +551,12 @@ GOOGLE_QUERIES = [
     ("ft", "site:ft.com (China OR markets OR economy) when:20d"),
     ("nikkei", "site:asia.nikkei.com (China OR markets OR economy) when:20d"),
 ]
+_MID = (datetime.now(timezone.utc).date() - timedelta(days=10)).isoformat()
+for _site in ("cnbc.com", "scmp.com", "reuters.com", "bloomberg.com", "ft.com", "asia.nikkei.com"):
+    GOOGLE_QUERIES.append((
+        "older-" + _site,
+        "site:%s (China OR markets OR economy) after:%s before:%s" % (_site, CUTOFF, _MID),
+    ))
 
 
 def fetch_google_news():

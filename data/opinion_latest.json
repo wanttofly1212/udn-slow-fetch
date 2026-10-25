@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25 02:55:16",
+ "generated_at": "2026-10-25 03:05:22",
  "sources": {
   "Brad Setser / CFR": {
    "status": 200,
@@ -80,7 +80,7 @@
    "full_text_available": true,
    "headline_only": false,
    "url": "https://research.gavekal.com/teaser/china-and-st-augustine/",
-   "published_at": "2026-10-25 02:55:16",
+   "published_at": "2026-10-25 03:05:22",
    "published_at_source": "fetched",
    "tags": []
   },
@@ -367,6 +367,23 @@
   {
    "source": "SCMP",
    "source_tier": "A",
+   "title_en": "In China’s tough job market, anxious students spend thousands on internships | South China Morning Post",
+   "title_zh": "",
+   "summary_en": "Facing high youth unemployment and fierce competition for entry-level roles, some students are going all out to secure internships.",
+   "summary_zh": "",
+   "body": "Accounting undergraduate student Wang Guilin faces a choice in her search for a winter internship: compete with thousands of applicants through standard recruitment channels or fork out thousands of yuan for a guaranteed placement. Wang considers her academic record average and, to improve her employment prospects after graduation, the second-year student hopes to add experience at a well-known company to her résumé. Yet even internships have become difficult to secure in China’s crowded graduate labour market, forcing many students to turn to brokers to land a spot at the country’s leading firms. “These positions usually go to third- or fourth-year students from top-tier universities or those with strong internship records,” Wang said. “Someone in my position would consider paying for referrals to secure a place.” The services available on the market vary widely. Some agencies offer career coaching, including résumé revisions and interview preparation, while others literally sell guaranteed back-door placements. They do share one thing in common, though: hefty fees. Wang has been quoted between 6,000 yuan (about US$900) and 12,000 yuan for a winter internship at a major accounting",
+   "body_excerpt": "Accounting undergraduate student Wang Guilin faces a choice in her search for a winter internship: compete with thousands of applicants through standard recruitment channels or fork out thousands of yuan for a guaranteed placement. Wang considers her academic record average and, to improve her employment prospects after graduation, the second-year ",
+   "url": "https://www.scmp.com/economy/china-economy/article/3371957/chinas-tough-job-market-anxious-students-spend-thousands-internships?module=top_story&pgtype=homepage",
+   "section": "",
+   "published_at": "2026-10-25 11:00:00",
+   "published_at_source": "published",
+   "headline_only": false,
+   "content_type": "news",
+   "opinion": false
+  },
+  {
+   "source": "SCMP",
+   "source_tier": "A",
    "title_en": "Sri Lanka’s property boom gives Chinese developers hope. But familiar risks linger | South China Morning Post",
    "title_zh": "",
    "summary_en": "Colombo’s luxury property rally is drawing fresh interest from Chinese-backed developments, but analysts warn against speculative excess.",
@@ -393,23 +410,6 @@
    "url": "https://www.scmp.com/news/china/diplomacy/article/3372036/fandom-vs-flag-why-young-chinese-embrace-japanese-pop-culture-reject-war-era-symbols?module=top_story&pgtype=homepage",
    "section": "",
    "published_at": "2026-10-25 10:00:00",
-   "published_at_source": "published",
-   "headline_only": false,
-   "content_type": "news",
-   "opinion": false
-  },
-  {
-   "source": "SCMP",
-   "source_tier": "A",
-   "title_en": "China’s J-20 stealth jet designers plan to put powerful radar into aircraft wing | South China Morning Post",
-   "title_zh": "",
-   "summary_en": "Military aircraft designers propose a wing-mounted early-warning radar to expand coverage during air combat.",
-   "summary_zh": "",
-   "body": "Fighter jets typically house their main radars behind a radome in the nose, while conventional airborne early-warning aircraft often carry large radar arrays in prominent structures above the fuselage. Although aircraft wings offer a large surface area, their relatively thin cross-sections leave limited internal space for radar equipment. Top Chinese military aircraft designers have now proposed a revolutionary method to integrate large antenna arrays into aircraft wings, using flight manoeuvres and coordinated formations of unmanned aircraft to expand radar coverage. The design was outlined in a study published online on October 10 in the peer-reviewed Chinese journal Measurement & Control Technology, which presented wing-mounted radar as a new approach to building multifunctional, high-performance airborne early-warning systems. “Wing-mounted early-warning radar is a new type of mission payload designed to meet the early-warning needs of distributed air combat,” researcher Ren Yunsong and his team wrote, describing the concept as “a new pathway” to developing systems with strong detection capabilities. Ren and his team are affiliated with AVIC Chengdu Aircraft Design and Research",
-   "body_excerpt": "Fighter jets typically house their main radars behind a radome in the nose, while conventional airborne early-warning aircraft often carry large radar arrays in prominent structures above the fuselage. Although aircraft wings offer a large surface area, their relatively thin cross-sections leave limited internal space for radar equipment. Top Chine",
-   "url": "https://www.scmp.com/news/china/science/article/3371706/chinas-j-20-stealth-jet-designers-plan-put-powerful-radar-aircraft-wing?module=top_story&pgtype=homepage",
-   "section": "",
-   "published_at": "2026-10-24 22:00:00",
    "published_at_source": "published",
    "headline_only": false,
    "content_type": "news",

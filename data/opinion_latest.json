@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25 10:22:20",
+ "generated_at": "2026-10-25 10:33:56",
  "sources": {
   "Brad Setser / CFR": {
    "status": 200,
@@ -22,9 +22,9 @@
    "items": 2
   },
   "Aswath Damodaran": {
-   "status": 304,
-   "found": 0,
-   "items": 0
+   "status": 200,
+   "found": 2,
+   "items": 2
   },
   "Project Syndicate": {
    "status": 200,
@@ -43,7 +43,7 @@
   },
   "SCMP": {
    "status": 200,
-   "found": 200,
+   "found": 50,
    "items": 20
   },
   "Bloomberg Markets": {
@@ -145,7 +145,7 @@
    "full_text_available": true,
    "headline_only": false,
    "url": "https://research.gavekal.com/teaser/china-and-st-augustine/",
-   "published_at": "2026-10-25 10:22:20",
+   "published_at": "2026-10-25 10:33:56",
    "published_at_source": "fetched",
    "tags": []
   },
@@ -371,6 +371,32 @@
    "tags": []
   },
   {
+   "id": "op_475a94b2883725e4",
+   "source": "Aswath Damodaran",
+   "author": "Aswath Damodaran",
+   "platform": "Blog",
+   "content_type": "opinion",
+   "opinion": true,
+   "title_en": "Musings on Markets: From Eyeballs to Annual Run Rates (ARR): Buzzy Pricing Metrics and the Anthropic Trade!",
+   "title_zh": "",
+   "summary_en": "A blog about markets, finance and all things money related.",
+   "summary_zh": "",
+   "body": "Musings on Markets: From Eyeballs to Annual Run Rates (ARR): Buzzy Pricing Metrics and the Anthropic Trade! Thursday, October 22, 2026 From Eyeballs to Annual Run Rates (ARR): Buzzy Pricing Metrics and the Anthropic Trade! I was in San Francisco last week to talk to NYU Stern Alumni on October 15, and it was the day that Anthropic had a pre-IPO meeting with prospective investors. While I was not at the meeting, the focus of teh gathering was laying a foundation for its upcoming IPO, with the company reporting third-quarter revenue of $16.8 billion, which news reports described as surging 45% over the previous quarter's revenues, and positive profits, albeit on an adjusted basis. During the meeting, Anthropic also reported an annual revenue run rate (ARR) of $67 billion, a metric that those in the AI space have adopted with gusto, with an estimate that the ARR would exceed $100 billion by the end of the year. The nature of ARR, where choices on how revenue is calculated (gross versus net) and on annualization periods (daily, weekly or monthly) can make a significant difference, has led investors to be skeptical about comparing these numbers across time and companies. While I share some of that skepticism, it is worth remembering that young businesses are often priced on inventive metrics, some with more basis than others. In the late nineties, dot.com companies were priced not just on the number of visitors to their websites, but on eyeballs , where Mary Meeker argued that ad spending at these companies was correlated with time that these visitors spent on websites (eyeballs), rather than with total visitors. In the last decade, you saw social media companies priced based upon the number of users and subscription-based companies on subscriber numbers. In this post, I will try to lay out the rationale for why pricing supplants valuation in young companies and why that pricing almost always has to be built around messy metrics like eyeballs, users and ARR, rather than more conventional metrics like earnings, book value or cash flows. Young Companies in a Corporate Life Cycle All businesses, no matter how large and established they might be today, started as young businesses and matured. With that perspective in mind, I will start this discussion by placing young businesses in a corporate life cycle in the figure below: One of the first steps in analyzing a company is placing it in the right stage of the life cycle, and there are three choices that you can use in making this placement: Chronological age : The first and simplest choice is to look at the age of a business, putting companies that have been in operation for short periods into the young company grouping and classifying those that have been in operation for longer as mature. While this approach is easy to use, and for the most part, effective, it can be misleading in businesses like infrastructure, where it can take decades to get established, and in technology, where the lack of capital intensity can allow a company can go from start-up to mature in a few years. Industry grouping : Another choice is categorizing industry groups into life cycle stages and assuming that any company that belongs to a specific industry group shares its life cycle characteristics. For decades, investors have viewed technology as a shorthand for growth and put technology companies into the earlier stages of the life cycle and utilities as mature or even declining and put all utility companies into the mature to declining company grouping. The limitation of this approach is that there will be divergence within each group, where some companies separate themselves from their industry group; there are mature and even declining companies that are in the technology grouping, and there are power companies that have taken advantage of the data center boom to become growth companies. With technology in particular, where companies age in dog years, I talked about how companies can get mis-categorized and sometimes mismanaged as growth companies , even though their best days are behind them. Operating metrics : Ultimately, life cycle effects show up in the operating metrics of companies, and there are common characteristics that young companies share, and they include the following: High revenue growth : Young companies usually have high revenue growth, and while this is usually off a small revenue base, there are exceptions, where companies with scaled up revenues are still able to show high growth. Operating losses : As young companies scale up, they usually struggle with unformed business models, and at low scale, their fixed costs overwhelm their revenues, resulting in negative or very low operating profit margins. Negative free cash flows : Free cash flows are after reinvestment, and as young companies invest to deliver on their potential growth, that reinvestment will generate negative free cash flows. Failure risk : The confluence of small revenues, losses and negative free cashflows, which must be funded with external capital (equity or debt) exposes young firms to significant risk of failure. The figure below captures the shifts in operating metrics, as companies move through the life cycle: Put simply, if a company has revenue growth in single digits, stable margins and positive free cash flows to the firm, it is a mature company, no matter how it views itself. Conversely, a firm with high revenue growth, negative or very low profit margins and large negative free cashflows to the firms is a young growth firm, no matter what its scale. Recognizing those characteristics is critical in understanding why so many give up on valuing young companies, and why pricing will often be based on unfamiliar metrics. How do Anthropic and OpenAI measure up in the life cycle? Using a patchwork of public data and leaked information, here are the numbers on key operating metrics that I have as of October 2026 for both companies: The sky-high revenue growth and operating l",
+   "body_excerpt": "Musings on Markets: From Eyeballs to Annual Run Rates (ARR): Buzzy Pricing Metrics and the Anthropic Trade! Thursday, October 22, 2026 From Eyeballs to Annual Run Rates (ARR): Buzzy Pricing Metrics and the Anthropic Trade! I was in San Francisco last week to talk to NYU Stern Alumni on October 15, and it was the day that Anthropic had a pre-IPO mee…",
+   "evidence": [
+    "How do Anthropic and OpenAI measure up in the life cycle?",
+    "If you don't believe in efficient markets, you can take one of two paths.",
+    "I will not be taking sides here, but not because I am copping out."
+   ],
+   "content_chars": 31643,
+   "full_text_available": true,
+   "headline_only": false,
+   "url": "https://aswathdamodaran.blogspot.com/2026/10/from-eyeballs-to-annual-run-rates-arr.html",
+   "published_at": "2026-10-22 00:00:00",
+   "published_at_source": "published",
+   "tags": []
+  },
+  {
    "id": "op_15f2649968c390c0",
    "source": "Brad Setser / CFR",
    "author": "Brad Setser",
@@ -523,9 +549,52 @@
    "published_at": "2025-10-16 00:00:00",
    "published_at_source": "published",
    "tags": []
+  },
+  {
+   "id": "op_7a8e26d75ad7a2e1",
+   "source": "Aswath Damodaran",
+   "author": "Aswath Damodaran",
+   "platform": "Blog",
+   "content_type": "opinion",
+   "opinion": true,
+   "title_en": "Musings on Markets: Aging in Dog Years? The Short, Glorious Life of a Successful Tech Company!",
+   "title_zh": "",
+   "summary_en": "A blog about markets, finance and all things money related.",
+   "summary_zh": "",
+   "body": "Musings on Markets: Aging in Dog Years? The Short, Glorious Life of a Successful Tech Company! Wednesday, December 9, 2015 Aging in Dog Years? The Short, Glorious Life of a Successful Tech Company! The corporate aging theme is one that I have returned to repeatedly in my posts, and I have looked at how the aging process creates dysfunctional responses on the parts of managers, who want to find ways to reverse it, and investors, who make bets on such reversals. It was the under pinning for my last post on Yahoo , and in that post, I argued that technology companies have compressed life cycles, i.e., age in dog years, relative to non-tech companies. In this post, I would like to provide a rationale for why this may be the case and set the stage for my next post on what the implications are for managers and investors. The Corporate Life Cycle The corporate life cycle follows a familiar pattern. It begins with an idea, that develops into a product, which evolves into an operating business, that matures, and eventually dies. I have also highlighted the transitions that determine whether a company moves to the next stage and the mortality rate especially early in the life cycle is high. There are wide differences across companies in how long they take to climb the life cycle, how much time they spend as mature companies and how quickly they decline. As legal entities, corporations do have a little more give in the process, i.e., the capacity to slow or even reverse the process for periods, than individuals do, but not as much as they (and their strategic advisors) think that they do. The one reality that I think is incontestable is that even the most exceptional companies will age and that whether they deal with that aging gracefully is what determines how their stockholders will do during the process. Determinants of the Life Cycle To get a sense of what drives differences across companies and how the life cycle evolves, I tried to take a look at the determinants of each phase of the cycle in the graph below: When you start up, your focus is survival, and that will depend on (a) how much access you have to capital, (b) how much you need to invest to enter the market and (c) the time lag before you have a product or a service. Your chances of survival improve, if you have access to more capital and don't have to wait very long before you have a functioning product. The speed of your growth will depend on (a) how quickly the overall market is growing, (b) the ease of scaling up your operating and (c) how much inertia there is on the customers side. You will be able to grow faster, if the overall market is growing exponentially, scaling up is easy and you are dealing with customers who are willing to switch from incumbent products/services. The length of the mature phase will depend upon the nature of your competitive advantages, how big they are and how long they last. If your competitive advantages are strong and sustainable, your mature phase can last for a long time. Consumer product companies with strong brand names, one of the strongest and most sustainable competitive advantages, have longer mature phases than companies that have a cost advantage, a more transient and short term competitive advantage. In decline , the speed with which your business will deplete will depend upon (a) how quickly new companies can enter the market (b) how quickly they can scale up and how willing customers are to try new products. In other words, you see that a mirror image of the qualities that allow for speedy growth also contribute to a quick decline. In the end game , your choices depend on what your remaining assets look like and whether they can be liquidated, without substantial losses. If they can, your end will be speedy and perhaps even painless. If not, your death throes can be long and painful. 96 Normal 0 false false false EN-US X-NONE X-NONE Tech versus Non-tech Before we start on a discussion of how tech companies are different from non-tech companies, we have to think about what separates the two groups, and that separation becomes hazier by the day. In the 1980s, at the start of the tech revolution, the distinction was a simple one. If a company’s products or services were computer-related (either personal or business computers), it was classified as a technology firm. That distinction allowed us to identify Microsoft, Apple and Atari as technology firms, and bring in HP, IBM and Digital Equipment as the old guard. That definition no longer works, as almost every product we buy (from appliances to automobiles) has a computerized component to it, and it has meant that deciding whether a company is a tech company is a judgment call. Given that reality, I would propose that rather than draw hard lines of distinction between tech and non-tech, we consider technology on a continuum, where at one end you have companies whose products and services are entirely technology driven (Google, Facebook) and at the other, you have companies that almost no technology component to them (consumer products and cosmetics companies, for instance). With this continuum, you can argue that Tesla and Ford are both auto companies, but that Tesla has a larger technology component than Ford. Why do we care about these distinctions? First, they have practical implications for analysts and portfolio managers. Sell-side equity research analysts are usually put into sector silos and asked to keep their focus on the companies that they are assigned. With companies like Amazon, Netflix and Tesla, high profile names to follow, I have noticed that there are big differences across banks. Some assign these companies to the technology analysts, some to the businesses that these companies operate in (Tesla in autos, Netflix in entertainment and Amazon in retail) and some create new sector groupings just for these gray area companies. Second, for better or worse, the categorization of a company can affect its pricing. Tesla, classi",
+   "body_excerpt": "Musings on Markets: Aging in Dog Years? The Short, Glorious Life of a Successful Tech Company! Wednesday, December 9, 2015 Aging in Dog Years? The Short, Glorious Life of a Successful Tech Company! The corporate aging theme is one that I have returned to repeatedly in my posts, and I have looked at how the aging process creates dysfunctional respon…",
+   "evidence": [
+    "Musings on Markets: Aging in Dog Years?",
+    "The Short, Glorious Life of a Successful Tech Company!",
+    "Wednesday, December 9, 2015 Aging in Dog Years?"
+   ],
+   "content_chars": 15397,
+   "full_text_available": true,
+   "headline_only": false,
+   "url": "https://aswathdamodaran.blogspot.com/2015/12/aging-in-dog-years-short-glorious-life.html",
+   "published_at": "2015-12-09 00:00:00",
+   "published_at_source": "published",
+   "tags": []
   }
  ],
  "news_items": [
+  {
+   "source": "SCMP",
+   "source_tier": "A",
+   "title_en": "Congo begins Ebola vaccine trial despite embedded outbreak | South China Morning Post",
+   "title_zh": "",
+   "summary_en": "Congo recorded 9,704 confirmed cases and 4,687 deaths as of October 20, according to the World Health Organization.",
+   "summary_zh": "",
+   "body": "A pivotal trial of vaccines against the strain of Ebola that is driving a deadly outbreak across parts of Africa has begun in the Democratic Republic of Congo, where the epidemic originated and the vast majority of cases and deaths have occurred. The first participant was vaccinated on Friday in Bunia, eastern Congo, with Merck & Co.’s Ervebo shot, which has been approved to guard against a different Ebola species. An experimental alternative developed specifically against Bundibugyo by Moderna Inc. and another by the University of Oxford and Serum Institute of India could also be tested in the study within weeks. “I’m pretty confident that we have the window because the outbreak is not being brought under control,” Coalition for Epidemic Preparedness Innovations Chief Executive Officer Richard Hatchett said in an interview. Congo recorded 9,704 confirmed cases and 4,687 deaths as of October 20, according to the World Health Organization, and is the largest Ebola outbreak ever recorded in the country, irrespective of virus species. Infections linked to the outbreak have also been detected beyond its borders. Hatchett said the outbreak has become deeply embedded across a wide area, making it unlikely that traditional control measures will suppress it before researchers can determine whether the vaccines work. Conducting the trial will still be difficult, with armed groups and decades of instability complicating efforts to enrol and follow participants. The WHO said only about 80 per cent of more than 30,000 contacts under follow-up in Congo were reached in the latest 24-hour period, below its 95 per cent target. Ervebo was developed to protect against Zaire Ebola, but animal studies suggest it may reduce Bundibugyo infections and significantly lower mortality, Hatchett said. Researchers will need at least several months to determine its efficacy, depending largely on how quickly the trial can enrol enough people exposed to confirmed cases. If successful, the purpose-built vaccines could be produced at scale. Serum manufactured more than 600,000 dose equivalents of the Oxford vaccine’s drug substance within nine days of receiving the material needed to begin production, Hatchett said. “We could quickly move to having millions of doses of that vaccine,” he said. That could allow health authorities to shift from vaccinating contacts around known cases to broader campaigns in heavily affected areas. Bundibugyo virus was first identified almost two decades ago, but limited resources were concentrated on more frequently occurring Ebola species, according to Hatchett. In a better-prepared world, vaccines against known threats would be developed in advance and held ready for outbreaks, he said. “We’re not there yet.”",
+   "body_excerpt": "A pivotal trial of vaccines against the strain of Ebola that is driving a deadly outbreak across parts of Africa has begun in the Democratic Republic of Congo, where the epidemic originated and the vast majority of cases and deaths have occurred. The first participant was vaccinated on Friday in Bunia, eastern Congo, with Merck & Co.’s Ervebo shot,",
+   "url": "https://www.scmp.com/news/world/africa/article/3372072/congo-begins-ebola-vaccine-trial-despite-embedded-outbreak",
+   "section": "",
+   "published_at": "2026-10-25 18:28:00",
+   "published_at_source": "published",
+   "headline_only": false,
+   "content_type": "news",
+   "opinion": false
+  },
   {
    "source": "SCMP",
    "source_tier": "A",
@@ -533,8 +602,8 @@
    "title_zh": "",
    "summary_en": "Flames spread along Por Lo Shan near Shan King Estate, with Government Flying Service helicopter deployed.",
    "summary_zh": "",
-   "body": "Hong Kong firefighters continued to battle a hill fire near a residential area in Tuen Mun on Sunday afternoon, several hours after it broke out. No injuries were reported, but the flames were spreading along the hillside near Shan King Estate, sending thick clouds of smoke billowing into the air. The blaze, reported at about 1.30pm, broke out in a patch of grass measuring about 10 metres by 20 metres (108 square feet to 215 square feet) on Por Lo Shan near a freshwater service reservoir off Wong Yin Street. As of 5pm, emergency crews were still battling the blaze. Authorities also deployed a Government Flying Service helicopter to drop water on the fire. They confirmed that no evacuations were required, and no injuries were reported. The cause of the fire remains under investigation. Sunday’s weather remained dry and windy under the influence of a dry northeast monsoon. Relative humidity hovered at about 60 per cent in the afternoon, with the yellow fire danger warning in effect. The warning means the risk of a fire in the countryside is high, according to the Observatory.",
-   "body_excerpt": "Hong Kong firefighters continued to battle a hill fire near a residential area in Tuen Mun on Sunday afternoon, several hours after it broke out. No injuries were reported, but the flames were spreading along the hillside near Shan King Estate, sending thick clouds of smoke billowing into the air. The blaze, reported at about 1.30pm, broke out in a",
+   "body": "Hong Kong firefighters continued to battle a hill fire near a residential area in Tuen Mun on Sunday afternoon, several hours after it broke out. No injuries were reported, but the flames were spreading along the hillside near Shan King Estate, not far from two secondary schools, sending thick clouds of smoke billowing into the air. The blaze, reported at about 1.30pm, broke out in a patch of grass measuring about 10 metres by 20 metres (108 square feet to 215 square feet) on Por Lo Shan near a freshwater service reservoir off Wong Yin Street. As of 5pm, emergency crews were still battling the blaze. Authorities also deployed a Government Flying Service helicopter to drop water on the fire. They confirmed that no evacuations were required, and no injuries were reported. The cause of the fire remains under investigation. Sunday’s weather remained dry and windy under the influence of a dry northeast monsoon. Relative humidity hovered at about 60 per cent in the afternoon, with the yellow fire danger warning in effect. The warning means the risk of a fire in the countryside is high, according to the Observatory.",
+   "body_excerpt": "Hong Kong firefighters continued to battle a hill fire near a residential area in Tuen Mun on Sunday afternoon, several hours after it broke out. No injuries were reported, but the flames were spreading along the hillside near Shan King Estate, not far from two secondary schools, sending thick clouds of smoke billowing into the air. The blaze, repo",
    "url": "https://www.scmp.com/news/hong-kong/society/article/3372071/firefighters-battle-hill-fire-near-residential-area-tuen-mun",
    "section": "",
    "published_at": "2026-10-25 18:18:00",
@@ -918,6 +987,38 @@
    "opinion": false
   },
   {
+   "source": "UDN",
+   "source_tier": "A",
+   "title_en": "日本櫻島火山噴發高達1000公尺 九州、四國多地拉警報",
+   "title_zh": "",
+   "summary_en": "日本MBC南日本放送報導，當地時間25日下午3時54分，鹿兒島縣櫻島火山南岳山頂火口發生噴發，噴煙高達1000公尺，並向東北方飄散。這是櫻島今年第31次噴發。",
+   "summary_zh": "",
+   "url": "https://money.udn.com/money/story/5599/9836469",
+   "section": "財經",
+   "published_at": "2026-10-25 10:28:42",
+   "published_at_source": "published",
+   "headline_only": true,
+   "content_type": "news",
+   "opinion": false,
+   "discovery": "UDN 经济日报"
+  },
+  {
+   "source": "UDN",
+   "source_tier": "A",
+   "title_en": "還看不到景氣春燕…歐洲六大精品集團今年市值蒸發2,500億歐元",
+   "title_zh": "",
+   "summary_en": "受中國大陸消費者支出萎縮、及全球股市下跌的拖累，路易威登酩軒（LVMH）、愛馬仕（Hermes）、Gucci母公司開雲集團（Kering）、卡地亞（Cartier）母公司歷峰集團（Richemont）、普拉達（Prada）及Moncler等歐洲六大上市精品業者，市值今年來已共蒸發2,510億歐元（2,812億美元）。",
+   "summary_zh": "",
+   "url": "https://money.udn.com/money/story/5599/9836462",
+   "section": "財經",
+   "published_at": "2026-10-25 10:22:37",
+   "published_at_source": "published",
+   "headline_only": true,
+   "content_type": "news",
+   "opinion": false,
+   "discovery": "UDN 经济日报"
+  },
+  {
    "source": "SCMP",
    "source_tier": "A",
    "title_en": "‘Mum, good’: Chinese woman wakes vegetative daughter-in-law after 17 years of care | South China Morning Post",
@@ -1257,21 +1358,6 @@
    "content_type": "news",
    "opinion": false,
    "discovery": "UDN 经济日报"
-  },
-  {
-   "source": "Google News",
-   "source_tier": "B",
-   "title_en": "Why young Chinese embrace Japanese pop culture but reject war-era symbols - South China Morning Post",
-   "title_zh": "",
-   "summary_en": "Why young Chinese embrace Japanese pop culture but reject war-era symbols South China Morning Post",
-   "summary_zh": "",
-   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPRC1SWGxKV2V0M2NXZk8xYlZSQldHdWxjUXdyc3ZkV1JiVXlVZG5pd0xIRzFJejY5a3dKT18yV2VuSEF5OVZsUXRiUzlnZXFMSDMzZWRONngyd0dFa2pWTFJXN0FEV0huRF9XdVNiY3RiczB1MjJlb2NjY09RZkJSNC13eUpZTDhaTHg3N1JDRWlWbFpoQTdVMExoNTVQVjBzRDRULVhKRDNxQTlXOUtWbXg4SXNVc2QyRlotZ0FWZFIwUEJFdF9FSEE3eVl2em1VWV9lTFo3Qi02QdIB2gFBVV95cUxQdnUwZEUxSnJFUlVmT3Ftb1hwTEhpME1TN0xKbnJUc0lpX2NJNHlaWmp3NE4xQkNGLUZQYklnRGdHdjFFbHRvUUNuSzFiMVo1TVNXbFpvLW94c3FXclBncTN4OUlSZFFNR2c4eWhrTFhVQWY4YzN2WjhhbXl4MmNrNXlDWVlaNlJWMXpQclhZZ3JPNFAwRGxXNXhGR2dSSzFVX1BRMWJyUWg5RXdGV3NONHVtd3ZNRkM3eHpXdmFsSHFuVEYwUEVlazZlS1Brekt3dTlnUjhoTDFGdw?oc=5",
-   "section": "scmp",
-   "published_at": "2026-10-25 07:24:55",
-   "published_at_source": "published",
-   "headline_only": true,
-   "content_type": "news",
-   "opinion": false
   },
   {
    "source": "SCMP",
@@ -1626,6 +1712,21 @@
    "opinion": false
   },
   {
+   "source": "Google News",
+   "source_tier": "B",
+   "title_en": "Singapore tells suppliers to ‘honour commitments’ amid Indonesia’s gas cut - South China Morning Post",
+   "title_zh": "",
+   "summary_en": "Singapore tells suppliers to ‘honour commitments’ amid Indonesia’s gas cut South China Morning Post",
+   "summary_zh": "",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQOFlKano3dE5lczFJcWg1TEVZV1RYRTk0aGdKNkJObjNrLXBfdno3bE04N0NOeDlkWGtaZk1NTUZ1N0E1U1VoZFFaU0JNMEh3U2lsNlQyWWNYMmRqbDVObEhsNHdaSHcwcHdBLVFJNlJ4bFQxOWp4OGJfWFVWbU9vaWxUaGEtdURYRU1XN0txaXlTdHZRUEo0em5VbGRBWHdCMGZTem5GTGM4NjdNMy12SFpaZmtnRFZ0aVllV3pGYUV6MjB2b3kxcnVn0gHKAUFVX3lxTE9nVFFKUG1sc0k0ZFowcDBmNnl6X3pfX1IxT0V3b1ljVXU5MWpsV0ZDc1c2dTRXRUJLWlZJcjR6RVNiNEpma0J0T0hfeXVRdW5Ya0FDOGpHSEZGQmhSdW1nNm1wY1h2Y1BaN3VucHNld0d4el9XX3dGbFZFSjdLWXhpaU9iTmdRamw2cDVlVTRzY1IxNDh5SkRSN2x4MVVuYkswZEdNUW9fSjd6Qk9CZ1lrclJfOUVOTVVVaUhEczUxZTJBTGpxeTR2Umc?oc=5",
+   "section": "scmp",
+   "published_at": "2026-10-25 03:38:07",
+   "published_at_source": "published",
+   "headline_only": true,
+   "content_type": "news",
+   "opinion": false
+  },
+  {
    "source": "UDN",
    "source_tier": "A",
    "title_en": "德國地科機構：萬那杜群島發生規模6.16地震",
@@ -1730,6 +1831,21 @@
    "url": "https://www.bloomberg.com/news/articles/2026-10-25/brazil-election-lula-rallies-supporters-for-one-last-comeback",
    "section": "",
    "published_at": "2026-10-25 02:02:19",
+   "published_at_source": "published",
+   "headline_only": true,
+   "content_type": "news",
+   "opinion": false
+  },
+  {
+   "source": "Google News",
+   "source_tier": "B",
+   "title_en": "Why young Chinese embrace Japanese pop culture but reject war-era symbols - South China Morning Post",
+   "title_zh": "",
+   "summary_en": "Why young Chinese embrace Japanese pop culture but reject war-era symbols South China Morning Post",
+   "summary_zh": "",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPRC1SWGxKV2V0M2NXZk8xYlZSQldHdWxjUXdyc3ZkV1JiVXlVZG5pd0xIRzFJejY5a3dKT18yV2VuSEF5OVZsUXRiUzlnZXFMSDMzZWRONngyd0dFa2pWTFJXN0FEV0huRF9XdVNiY3RiczB1MjJlb2NjY09RZkJSNC13eUpZTDhaTHg3N1JDRWlWbFpoQTdVMExoNTVQVjBzRDRULVhKRDNxQTlXOUtWbXg4SXNVc2QyRlotZ0FWZFIwUEJFdF9FSEE3eVl2em1VWV9lTFo3Qi02QdIB2gFBVV95cUxQdnUwZEUxSnJFUlVmT3Ftb1hwTEhpME1TN0xKbnJUc0lpX2NJNHlaWmp3NE4xQkNGLUZQYklnRGdHdjFFbHRvUUNuSzFiMVo1TVNXbFpvLW94c3FXclBncTN4OUlSZFFNR2c4eWhrTFhVQWY4YzN2WjhhbXl4MmNrNXlDWVlaNlJWMXpQclhZZ3JPNFAwRGxXNXhGR2dSSzFVX1BRMWJyUWg5RXdGV3NONHVtd3ZNRkM3eHpXdmFsSHFuVEYwUEVlazZlS1Brekt3dTlnUjhoTDFGdw?oc=5",
+   "section": "scmp",
+   "published_at": "2026-10-25 02:00:16",
    "published_at_source": "published",
    "headline_only": true,
    "content_type": "news",
@@ -4491,21 +4607,6 @@
   {
    "source": "Google News",
    "source_tier": "B",
-   "title_en": "China Is Too Defensive Over the Yuan - Bloomberg.com",
-   "title_zh": "",
-   "summary_en": "China Is Too Defensive Over the Yuan Bloomberg.com",
-   "summary_zh": "",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSWRsTE1YejMxZ0RuUWdqbUxvc2JhR1FQTld4cWtrOTA4QjRrRkhRM19FOWVMSVRzVHVDaWhuSnhfWXhhdFdIRmFVTFNIV3BXVVNmQUV2amhzakl5WTl4T1MzYzYyNHVGSWlFUi0wczFVQ2J0NkZOSzdpdV9LR1J5R25VNDg1a0ltMFcydlljckxOanpa?oc=5",
-   "section": "older-bloomberg.com",
-   "published_at": "2026-10-15 07:00:00",
-   "published_at_source": "published",
-   "headline_only": true,
-   "content_type": "news",
-   "opinion": false
-  },
-  {
-   "source": "Google News",
-   "source_tier": "B",
    "title_en": "Hold philanthropists accountable when their projects fail - Financial Times",
    "title_zh": "",
    "summary_en": "Hold philanthropists accountable when their projects fail Financial Times",
@@ -4632,6 +4733,21 @@
    "summary_zh": "",
    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSmk5ejd0SFBvajRsVWlCUWR2OFpiT0dfLUtrQ0NlOFo3MlJZR2IxM2JCZ3I1V2tMNUk5OGpGOWJ0VllLR1Bycm5GZmJhOHlCTVVTcTJRSGx6STlObHJmN3RrcmZ2cUFKaW4zR2kySHZERFBLQzRuQmdjN19MbF80bWw2WFM?oc=5",
    "section": "older-ft.com",
+   "published_at": "2026-10-15 07:00:00",
+   "published_at_source": "published",
+   "headline_only": true,
+   "content_type": "news",
+   "opinion": false
+  },
+  {
+   "source": "Google News",
+   "source_tier": "B",
+   "title_en": "China Is Too Defensive Over the Yuan - Bloomberg.com",
+   "title_zh": "",
+   "summary_en": "China Is Too Defensive Over the Yuan Bloomberg.com",
+   "summary_zh": "",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSWRsTE1YejMxZ0RuUWdqbUxvc2JhR1FQTld4cWtrOTA4QjRrRkhRM19FOWVMSVRzVHVDaWhuSnhfWXhhdFdIRmFVTFNIV3BXVVNmQUV2amhzakl5WTl4T1MzYzYyNHVGSWlFUi0wczFVQ2J0NkZOSzdpdV9LR1J5R25VNDg1a0ltMFcydlljckxOanpa?oc=5",
+   "section": "older-bloomberg.com",
    "published_at": "2026-10-15 07:00:00",
    "published_at_source": "published",
    "headline_only": true,
@@ -4986,21 +5102,6 @@
   {
    "source": "Google News",
    "source_tier": "B",
-   "title_en": "CoreWeave’s Bonds Turn Distressed, Drawing ‘Yikes’ From Musk - Bloomberg.com",
-   "title_zh": "",
-   "summary_en": "CoreWeave’s Bonds Turn Distressed, Drawing ‘Yikes’ From Musk Bloomberg.com",
-   "summary_zh": "",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNS2pmWlg3blVOV2lKMzZ5LWFyUXhrTjRXWDdOdXBYSUJhSFBZakhEWEtTNlZWSnVLMVVUQkpnNG1Nc1dZMVBFQmJjTUlsYlQtV0dGQURLOWR0aGg2VlliRFVpWjhvNnhfQXh1RVNIY0xPTUZZeTFfemF6UlV3cUtlenByY09mNXV4TXl1d296VkZDNGxBa2lrdmN1VVIwdDNGQlRGNkxJcjJfLWM1YVhYMQ?oc=5",
-   "section": "older-bloomberg.com",
-   "published_at": "2026-10-14 07:00:00",
-   "published_at_source": "published",
-   "headline_only": true,
-   "content_type": "news",
-   "opinion": false
-  },
-  {
-   "source": "Google News",
-   "source_tier": "B",
    "title_en": "London’s gold market enjoys the Trump effect - Financial Times",
    "title_zh": "",
    "summary_en": "London’s gold market enjoys the Trump effect Financial Times",
@@ -5112,6 +5213,21 @@
    "summary_zh": "",
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNU1J0UkFWSlZMckhqYktfZTR5bGJYNWdMNmhZWnNiVFM2aHdWTVBNdHlyai0tWlp0UzJleXloNnBHLV9hOFc4MXM5S05IcklCY1BsNTE2Q2JFWmtoLS1sT1RFYmJ0Z3dTcVE3QUxVQ1o3ckhkME9vM1pIeWFDOGxPb2kwb3ZsVWxqZzZBOThlYjUtR0pQQkpaTl9DYm1mOHJRRnQ1aWpCU1BBaXM?oc=5",
    "section": "older-asia.nikkei.com",
+   "published_at": "2026-10-14 07:00:00",
+   "published_at_source": "published",
+   "headline_only": true,
+   "content_type": "news",
+   "opinion": false
+  },
+  {
+   "source": "Google News",
+   "source_tier": "B",
+   "title_en": "CoreWeave’s Bonds Turn Distressed, Drawing ‘Yikes’ From Musk - Bloomberg.com",
+   "title_zh": "",
+   "summary_en": "CoreWeave’s Bonds Turn Distressed, Drawing ‘Yikes’ From Musk Bloomberg.com",
+   "summary_zh": "",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNS2pmWlg3blVOV2lKMzZ5LWFyUXhrTjRXWDdOdXBYSUJhSFBZakhEWEtTNlZWSnVLMVVUQkpnNG1Nc1dZMVBFQmJjTUlsYlQtV0dGQURLOWR0aGg2VlliRFVpWjhvNnhfQXh1RVNIY0xPTUZZeTFfemF6UlV3cUtlenByY09mNXV4TXl1d296VkZDNGxBa2lrdmN1VVIwdDNGQlRGNkxJcjJfLWM1YVhYMQ?oc=5",
+   "section": "older-bloomberg.com",
    "published_at": "2026-10-14 07:00:00",
    "published_at_source": "published",
    "headline_only": true,
@@ -5856,6 +5972,36 @@
   {
    "source": "Google News",
    "source_tier": "B",
+   "title_en": "China’s Young People Are Turning to an 84-Year-Old Cambridge Professor - Bloomberg.com",
+   "title_zh": "",
+   "summary_en": "China’s Young People Are Turning to an 84-Year-Old Cambridge Professor Bloomberg.com",
+   "summary_zh": "",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNc1dERlUwUFJ6bmNUclI0R1BpMFF6NEQ3aGpzTVVvb19STXdTU1l2ZW1jSWNpOVp4TFl6djA3RTFtQi1IRUI1VGZ4WVpWTEFRNnBWQ084WjYxbEQ1M1JMZERxYTZsUDQ0MWtScmY4WkU0bmg1VkZLanpLdXoydnI0Qnk1UlJVMVFUQ19kUC1Cd1MtdXdKeThDbUU5X3RSTGwyMVk5WE1meF90RGt4Mkd2TGRjdVdPaTJ3dXpNTnhqMnN5a0JvZnNXdw?oc=5",
+   "section": "older-bloomberg.com",
+   "published_at": "2026-10-08 07:00:00",
+   "published_at_source": "published",
+   "headline_only": true,
+   "content_type": "news",
+   "opinion": false
+  },
+  {
+   "source": "Google News",
+   "source_tier": "B",
+   "title_en": "China's Delivery Robots Are Learning to Tackle the Night Shift - Bloomberg.com",
+   "title_zh": "",
+   "summary_en": "China's Delivery Robots Are Learning to Tackle the Night Shift Bloomberg.com",
+   "summary_zh": "",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYmRkeVJ5NHdMQ1d4VmNydWRKMDhtMzNlYzlqVGpZWnItOTdCcXBidWhIcVVRLUlSWlRFQVF0Vm1fZlA3VXlYODc0eVNVVm9weXFrZ2VtNzFSTkhLSFBOZjkzQ0h3a0hnXzdBLVB6d1g4bjJGbjQtT2MzczVVOUZsQnBXWVdOYUlvXy1vVUJuUldyYjFCTzlVbFhBLXA2blItOXhVYkRvbktTUWdsVnlLMUxiVQ?oc=5",
+   "section": "older-bloomberg.com",
+   "published_at": "2026-10-08 07:00:00",
+   "published_at_source": "published",
+   "headline_only": true,
+   "content_type": "news",
+   "opinion": false
+  },
+  {
+   "source": "Google News",
+   "source_tier": "B",
    "title_en": "Daughter of Trump’s chief of staff works at firm that lobbies for Republika Srpska - Financial Times",
    "title_zh": "",
    "summary_en": "Daughter of Trump’s chief of staff works at firm that lobbies for Republika Srpska Financial Times",
@@ -5907,36 +6053,6 @@
    "summary_zh": "",
    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxObmpnbFNUVHFBNTMwc1UzSS1qT2QydVVFMVo1TWt6cTFTLUFaTTNGUnRwc3RwZElQUWlOcDVWZENMdDc5WnpWSEtidFNVTV9HbWpia2RuVXduRGhURDNLTW5sNlUteVRyVnFtd3hTdzhuaU5aLW9oLW92bktCVk1TM3VxRllGd25kZ2hXcW1LTGtjOWpzWlJUZkJSN18wdndKRFg4dXFTbGxWNlZYWU0xVEZaRFB6anJpdlIwZ2VxOA?oc=5",
    "section": "older-asia.nikkei.com",
-   "published_at": "2026-10-08 07:00:00",
-   "published_at_source": "published",
-   "headline_only": true,
-   "content_type": "news",
-   "opinion": false
-  },
-  {
-   "source": "Google News",
-   "source_tier": "B",
-   "title_en": "China’s Young People Are Turning to an 84-Year-Old Cambridge Professor - Bloomberg.com",
-   "title_zh": "",
-   "summary_en": "China’s Young People Are Turning to an 84-Year-Old Cambridge Professor Bloomberg.com",
-   "summary_zh": "",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNc1dERlUwUFJ6bmNUclI0R1BpMFF6NEQ3aGpzTVVvb19STXdTU1l2ZW1jSWNpOVp4TFl6djA3RTFtQi1IRUI1VGZ4WVpWTEFRNnBWQ084WjYxbEQ1M1JMZERxYTZsUDQ0MWtScmY4WkU0bmg1VkZLanpLdXoydnI0Qnk1UlJVMVFUQ19kUC1Cd1MtdXdKeThDbUU5X3RSTGwyMVk5WE1meF90RGt4Mkd2TGRjdVdPaTJ3dXpNTnhqMnN5a0JvZnNXdw?oc=5",
-   "section": "older-bloomberg.com",
-   "published_at": "2026-10-08 07:00:00",
-   "published_at_source": "published",
-   "headline_only": true,
-   "content_type": "news",
-   "opinion": false
-  },
-  {
-   "source": "Google News",
-   "source_tier": "B",
-   "title_en": "China's Delivery Robots Are Learning to Tackle the Night Shift - Bloomberg.com",
-   "title_zh": "",
-   "summary_en": "China's Delivery Robots Are Learning to Tackle the Night Shift Bloomberg.com",
-   "summary_zh": "",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYmRkeVJ5NHdMQ1d4VmNydWRKMDhtMzNlYzlqVGpZWnItOTdCcXBidWhIcVVRLUlSWlRFQVF0Vm1fZlA3VXlYODc0eVNVVm9weXFrZ2VtNzFSTkhLSFBOZjkzQ0h3a0hnXzdBLVB6d1g4bjJGbjQtT2MzczVVOUZsQnBXWVdOYUlvXy1vVUJuUldyYjFCTzlVbFhBLXA2blItOXhVYkRvbktTUWdsVnlLMUxiVQ?oc=5",
-   "section": "older-bloomberg.com",
    "published_at": "2026-10-08 07:00:00",
    "published_at_source": "published",
    "headline_only": true,
@@ -6112,7 +6228,7 @@
  "http_cache": {
   "https://www.cfr.org/blogs/follow-the-money": {
    "etag": "",
-   "last_modified": "Sun, 25 Oct 2026 10:00:48 GMT"
+   "last_modified": "Sun, 25 Oct 2026 10:33:49 GMT"
   },
   "https://rhg.com/feed/": {
    "etag": "\"be6e14ee92fa19781abef3dc33bcbd2e\"",
@@ -6123,7 +6239,7 @@
    "last_modified": ""
   },
   "https://carnegieendowment.org/china-financial-markets": {
-   "etag": "\"jsj6d5j6s43jux\"",
+   "etag": "\"5sm79ouevt3idg\"",
    "last_modified": ""
   },
   "https://aswathdamodaran.blogspot.com/": {
@@ -6140,7 +6256,7 @@
   },
   "https://www.scmp.com/rss/91/feed": {
    "etag": "",
-   "last_modified": "Sun, 25 Oct 2026 10:18:46 GMT"
+   "last_modified": "Sun, 25 Oct 2026 10:31:16 GMT"
   },
   "https://www.scmp.com/rss/92/feed": {
    "etag": "",
@@ -6155,7 +6271,7 @@
    "last_modified": "Sun, 25 Oct 2026 09:40:29 GMT"
   },
   "https://feeds.bloomberg.com/markets/news.rss": {
-   "etag": "W/\"3edb-wND2x+k0Aw0i0WOOLj/7friOWsI\"",
+   "etag": "W/\"3edb-Pl3Nehd7H7qmx31FU1tEuVJIulw\"",
    "last_modified": ""
   },
   "https://www.scmp.com/": {

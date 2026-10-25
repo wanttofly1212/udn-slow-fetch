@@ -8,7 +8,7 @@ import json
 import os
 import re
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 from urllib.error import HTTPError, URLError
@@ -22,6 +22,8 @@ UA = (
 )
 OUT = Path("data/opinion_latest.json")
 NOW = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
+CUTOFF = (datetime.now(timezone.utc).date() - timedelta(days=19)).strftime("%Y-%m-%d")
+HTTP_CACHE = {}
 NS = "{http://www.w3.org/2005/Atom}"
 
 SOURCES = [
@@ -70,16 +72,32 @@ SOURCES = [
 ]
 
 
-def fetch(url, timeout=20, limit=1024 * 1024):
+def fetch(url, timeout=20, limit=1024 * 1024, cache=False):
+    headers = {
+        "User-Agent": UA,
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7",
+    }
+    c = HTTP_CACHE.get(url) if cache else None
+    if isinstance(c, dict):
+        if c.get("etag"):
+            headers["If-None-Match"] = c["etag"]
+        if c.get("last_modified"):
+            headers["If-Modified-Since"] = c["last_modified"]
     try:
-        req = Request(url, headers={
-            "User-Agent": UA,
-            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-            "Accept-Language": "en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7",
-        })
+        req = Request(url, headers=headers)
         with urlopen(req, timeout=timeout) as r:
-            return int(r.status), r.read(limit).decode("utf-8", "ignore"), r.geturl()
+            body = r.read(limit).decode("utf-8", "ignore")
+            if cache:
+                HTTP_CACHE[url] = {
+                    "etag": r.headers.get("ETag") or "",
+                    "last_modified": r.headers.get("Last-Modified") or "",
+                    "body": body,
+                }
+            return int(r.status), body, r.geturl()
     except HTTPError as e:
+        if e.code == 304 and isinstance(c, dict) and c.get("body"):
+            return 200, c.get("body") or "", url
         try:
             e.read(100 * 1024)
         except Exception:
@@ -295,7 +313,7 @@ def make_item(cfg, url, title, raw, fallback_pub=""):
 def source_items(cfg):
     out = []
     if cfg.get("feed_url"):
-        status, raw, _ = fetch(cfg["feed_url"])
+        status, raw, _ = fetch(cfg["feed_url"], cache=True)
         if status != 200:
             return out, status, 0
         entries = feed_entries(raw)
@@ -319,7 +337,7 @@ def source_items(cfg):
             time.sleep(1.2)
         return out, status, len(entries)
 
-    status, raw, _ = fetch(cfg["list_url"])
+    status, raw, _ = fetch(cfg["list_url"], cache=True)
     if status != 200:
         return out, status, 0
     links = links_of(raw, cfg["list_url"], cfg["link_re"], cfg.get("max_items", 2))
@@ -358,15 +376,18 @@ def fetch_udn():
     out, seen = [], set()
     report = {}
     for feed in UDN_FEEDS:
-        status, raw, _ = fetch(feed["url"], timeout=25)
+        status, raw, _ = fetch(feed["url"], timeout=25, cache=True)
         entries = feed_entries(raw) if status == 200 else []
         picked = 0
         for e in entries:
-            if picked >= 3:
+            if picked >= 20:
                 break
             title = clean_text(e.get("title"))
             summary = clean_text(e.get("summary"))
             url = (e.get("link") or "").strip()
+            pub = parse_time(e.get("pub") or "")
+            if pub and pub[:10] < CUTOFF:
+                continue
             if not title or not url or url in seen:
                 continue
             if not _udn_ok(title, summary, e.get("category") or feed["section"]):
@@ -389,15 +410,38 @@ def fetch_udn():
     return out, report
 
 
+SCMP_FEEDS = [
+    "https://www.scmp.com/rss/91/feed",
+    "https://www.scmp.com/rss/92/feed",
+    "https://www.scmp.com/rss/93/feed",
+    "https://www.scmp.com/rss/96/feed",
+]
+
+
 def fetch_scmp():
-    """SCMP：GitHub Actions 侧抓文章页，正文走 JSON-LD/article；本机直连 timeout。"""
-    out, report = [], {}
-    status, raw, _ = fetch("https://www.scmp.com/", timeout=25)
-    if status != 200:
-        report["SCMP"] = {"status": status, "found": 0, "items": 0}
-        return out, report
-    links = links_of(raw, "https://www.scmp.com/", r"scmp\.com/(?:[^\"']*/)?article/\d+", 3)
-    for url in links:
+    """SCMP：RSS/首页取 20 日候选，再逐篇提取 JSON-LD/article 正文。"""
+    out, report, seen = [], {}, set()
+    links, found, status = [], 0, 0
+    for feed in SCMP_FEEDS:
+        st, raw, _ = fetch(feed, timeout=25, cache=True)
+        status = status or st
+        entries = feed_entries(raw) if st == 200 else []
+        found += len(entries)
+        for e in entries:
+            url = (e.get("link") or "").strip()
+            pub = parse_time(e.get("pub") or "")
+            if not url or url in seen or (pub and pub[:10] < CUTOFF):
+                continue
+            seen.add(url)
+            links.append(url)
+        time.sleep(1.5)
+    if not links:
+        st, raw, _ = fetch("https://www.scmp.com/", timeout=25, cache=True)
+        status = st
+        links = links_of(raw, "https://www.scmp.com/",
+                         r"scmp\.com/(?:[^\"']*/)?article/\d+", 20) if st == 200 else []
+        found = len(links)
+    for url in links[:20]:
         st, page, _ = fetch(url, timeout=25)
         if st != 200:
             continue
@@ -418,8 +462,8 @@ def fetch_scmp():
             "headline_only": len(body) < 400, "content_type": "news", "opinion": False,
         })
         time.sleep(10)
-    report["SCMP"] = {"status": status, "found": len(links), "items": len(out)}
-    print("%-28s status=%s found=%s items=%s" % ("SCMP", status, len(links), len(out)), flush=True)
+    report["SCMP"] = {"status": status, "found": found, "items": len(out)}
+    print("%-28s status=%s found=%s items=%s" % ("SCMP", status, found, len(out)), flush=True)
     return out, report
 
 
@@ -434,7 +478,7 @@ def fetch_remote_rss():
     """公开 RSS 标题层；正文受限的源只入标题，不伪造全文。"""
     out, report = [], {}
     for source, url in REMOTE_RSS:
-        status, raw, _ = fetch(url, timeout=20)
+        status, raw, _ = fetch(url, timeout=20, cache=True)
         entries = feed_entries(raw) if status == 200 else []
         picked = 0
         for e in entries:
@@ -442,6 +486,9 @@ def fetch_remote_rss():
                 break
             title = clean_text(e.get("title"))
             link = (e.get("link") or "").strip()
+            pub = parse_time(e.get("pub") or "")
+            if pub and pub[:10] < CUTOFF:
+                continue
             if len(title) < 16 or not link:
                 continue
             out.append({
@@ -460,9 +507,15 @@ def fetch_remote_rss():
 
 
 def main():
+    global HTTP_CACHE
     items = []
     report = {}
     seen = set()
+    try:
+        old0 = json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else {}
+        HTTP_CACHE = old0.get("http_cache") or {}
+    except Exception:
+        HTTP_CACHE = {}
     for cfg in SOURCES:
         got, status, found = source_items(cfg)
         items.extend(got)
@@ -486,14 +539,15 @@ def main():
     if OUT.exists():
         try:
             old = json.loads(OUT.read_text(encoding="utf-8"))
-            if old.get("items") == items and old.get("news_items") == news_items:
+            if (old.get("items") == items and old.get("news_items") == news_items
+                    and old.get("http_cache") == HTTP_CACHE):
                 print("UNCHANGED %s items=%d news=%d" % (OUT, len(items), len(news_items)), flush=True)
                 return
         except Exception:
             pass
     OUT.parent.mkdir(parents=True, exist_ok=True)
     payload = {"generated_at": NOW, "sources": report, "items": items,
-               "news_items": news_items}
+               "news_items": news_items, "http_cache": HTTP_CACHE}
     tmp = OUT.with_name(OUT.name + ".tmp")
     tmp.write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
     os.replace(tmp, OUT)

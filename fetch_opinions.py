@@ -79,15 +79,6 @@ SOURCES = [
         "require_re": r"china|chinese|renminbi|yuan|trade|tariff|export|econom|market|fed|rate|inflation",
         "max_items": 3,
     },
-    {
-        "name": "PIIE",
-        "author": "Peterson Institute for International Economics",
-        "platform": "Research",
-        "list_url": "https://www.piie.com/research/publications",
-        "link_re": r"piie\.com/(?:publications|research)/[^\"'?#]+",
-        "require_re": r"china|chinese|renminbi|yuan|trade|tariff|export|econom|market|fed|rate|inflation",
-        "max_items": 3,
-    },
 ]
 
 
@@ -96,11 +87,14 @@ def decode_body(data, header_charset=""):
     if not data:
         return ""
     probe = data[:4096]
-    m = re.search(br'charset=["\']?([A-Za-z0-9_.:-]+)', probe, re.I)
-    charset = (header_charset or (m.group(1).decode("ascii", "ignore") if m else "")).strip().lower()
+    m = re.search(br'(?:charset|encoding)=["\']?([A-Za-z0-9_.:-]+)', probe, re.I)
+    meta_charset = (m.group(1).decode("ascii", "ignore") if m else "").strip().lower()
+    header_charset = (header_charset or "").strip().lower()
     candidates = []
-    if charset:
-        candidates.append(charset)
+    if meta_charset:
+        candidates.append(meta_charset)
+    if header_charset:
+        candidates.append(header_charset)
     candidates += ["utf-8", "big5", "cp950", "gb18030"]
     seen = set()
     for enc in candidates:

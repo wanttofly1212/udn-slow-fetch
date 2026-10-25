@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25 04:37:49",
+ "generated_at": "2026-10-25 04:47:00",
  "sources": {
   "Brad Setser / CFR": {
    "status": 200,
@@ -38,7 +38,7 @@
   },
   "SCMP": {
    "status": 200,
-   "found": 20,
+   "found": 50,
    "items": 20
   },
   "Bloomberg Markets": {
@@ -80,7 +80,7 @@
    "full_text_available": true,
    "headline_only": false,
    "url": "https://research.gavekal.com/teaser/china-and-st-augustine/",
-   "published_at": "2026-10-25 04:37:49",
+   "published_at": "2026-10-25 04:47:00",
    "published_at_source": "fetched",
    "tags": []
   },
@@ -319,6 +319,23 @@
   {
    "source": "SCMP",
    "source_tier": "A",
+   "title_en": "Trump hails tariffs for new US$4.2 billion Audi plant in Georgia | South China Morning Post",
+   "title_zh": "",
+   "summary_en": "‘Without tariffs, they wouldn’t be coming in,’ the president told a midterm election rally in the state.",
+   "summary_zh": "",
+   "body": "President Donald Trump defended his decision to wield tariffs during a campaign rally in Georgia, saying they have made the US richer, as he announced that Volkswagen agreed to build a new US$4.2 billion Audi plant in the state. “Think of that. 200,000 cars a year. That’s incredible,” Trump told a crowd in the city of Perry. “This will be the single largest investment in US auto industry history, modern history.” Later, he added, “Without tariffs, they wouldn’t be coming in.” Trump was speaking as Republicans are trying to flip a Senate seat held by Democrat Jon Ossoff in the midterm election, despite trailing in the polls. The campaign stop marked Trump’s second in the state in as many weeks, an indication of the importance of the Senate contest in Georgia. With less than two weeks until election day on November 3, though, Representative Mike Collins, the Republican candidate, faces an uphill battle in a state that was once a Republican stronghold. The RealClearPolitics average of polls has Ossoff leading by more than eight percentage points, while the non-partisan Cook Political Report has forecast the race as “likely Democrat”. That dynamic is indicative of a broader political c",
+   "body_excerpt": "President Donald Trump defended his decision to wield tariffs during a campaign rally in Georgia, saying they have made the US richer, as he announced that Volkswagen agreed to build a new US$4.2 billion Audi plant in the state. “Think of that. 200,000 cars a year. That’s incredible,” Trump told a crowd in the city of Perry. “This will be the singl",
+   "url": "https://www.scmp.com/news/world/united-states-canada/article/3372051/trump-hails-tariffs-new-us42-billion-audi-plant-georgia",
+   "section": "",
+   "published_at": "2026-10-25 12:44:00",
+   "published_at_source": "published",
+   "headline_only": false,
+   "content_type": "news",
+   "opinion": false
+  },
+  {
+   "source": "SCMP",
+   "source_tier": "A",
    "title_en": "Stand-up comedian Jordan Leung on moving to the US and Hong Kong show backlash | South China Morning Post",
    "title_zh": "",
    "summary_en": "‘I don’t know how much longer I can do this,’ says the stand-up comedian, fresh off three sold-out Hong Kong shows. Is he joking?",
@@ -342,7 +359,7 @@
    "summary_zh": "",
    "body": "Beijing has a formula for tackling African conflicts and hot-button issues, and during a meeting this month with Togolese leader Faure Gnassingbe, Chinese President Xi Jinping outlined it in four principles linking peace to development. The principles entail focusing on African-led security free from outside intervention; upholding sovereignty and UN Charter principles; rejecting force and sanctions and favouring ceasefires through dialogue; and focusing on both immediate security concerns and long-term development. Asked on Monday whether the principles could be applied to northern Ethiopia and heightened tensions with neighbouring Eritrea, Chinese foreign ministry spokeswoman Mao Ning said they offered “practical guidance” for the Horn of Africa. Days later, a joint statement following a meeting between Chinese Foreign Minister Wang Yi and his Djiboutian counterpart, Abdoulkader Houssein Omar, said China would continue to play a constructive role in mediating regional disputes through its existing Horn of Africa peace-and-development initiative, subject to the wishes of the countries concerned. Beijing has financed major infrastructure projects in the region under the Belt and Ro",
    "body_excerpt": "Beijing has a formula for tackling African conflicts and hot-button issues, and during a meeting this month with Togolese leader Faure Gnassingbe, Chinese President Xi Jinping outlined it in four principles linking peace to development. The principles entail focusing on African-led security free from outside intervention; upholding sovereignty and ",
-   "url": "https://www.scmp.com/news/china/diplomacy/article/3372047/will-chinas-4-peace-principles-tackling-african-conflicts-work?module=top_story&pgtype=homepage",
+   "url": "https://www.scmp.com/news/china/diplomacy/article/3372047/will-chinas-4-peace-principles-tackling-african-conflicts-work",
    "section": "",
    "published_at": "2026-10-25 12:00:00",
    "published_at_source": "published",
@@ -359,7 +376,7 @@
    "summary_zh": "",
    "body": "Sherry Shum has embraced a new shopping routine after finding a smart vending machine near her home in Chai Wan. The 37-year-old retail worker uses her phone to scan a QR code, opens the smart machine’s door, picks up a bottle of Coca-Cola, an oolong tea and a pack of potato chips, closes it and walks away with HK$60 (US$7.70) worth of goods. The whole process is so seamless that the only time she spends is deciding what to buy. The moment Shum takes an item from the shelf, the machine detects the product based on its appearance and debits her account. Once she shuts the door, the bill is settled via the payment method she selected before opening it. “I buy things basically every day … I can grab multiple items at once after just opening the door,” she said. “The open-door machines are more convenient because you do not have to wait for items to drop one by one from traditional machines that sometimes get stuck.” For decades, vending machines have evolved from simple dispensers of bottled or canned drinks into smart retail points that combine digital payments and data-driven consumer insights. They now offer a low-cost retail channel for third parties such as local charities, selli",
    "body_excerpt": "Sherry Shum has embraced a new shopping routine after finding a smart vending machine near her home in Chai Wan. The 37-year-old retail worker uses her phone to scan a QR code, opens the smart machine’s door, picks up a bottle of Coca-Cola, an oolong tea and a pack of potato chips, closes it and walks away with HK$60 (US$7.70) worth of goods. The w",
-   "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3372024/will-ai-powered-open-door-vending-machines-reshape-hong-kongs-retail-landscape?module=top_story&pgtype=homepage",
+   "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3372024/will-ai-powered-open-door-vending-machines-reshape-hong-kongs-retail-landscape",
    "section": "",
    "published_at": "2026-10-25 12:00:00",
    "published_at_source": "published",
@@ -376,7 +393,7 @@
    "summary_zh": "",
    "body": "Before the outbreak of the war triggered by the US-Israeli attack on Iran in February, the Gulf monarchies were living the prosperity dream that was the envy of the world. Their hydrocarbon-fuelled economies were glitzy oases of growth, inoculated from the conflict in Gaza that had rocked other parts of the Middle East for several years. Underpinned by decades-old US security guarantees and conflict mediation by billionaire sheikhs, Saudi Arabia, the United Arab Emirates and Qatar cultivated images as peaceful lands of opportunity as they invested staggering amounts of money in economic diversification programmes. Backed by sovereign wealth funds with trillions of dollars invested mostly in the West, these leading states of the Gulf Cooperation Council (GCC) embarked on transformative programmes to reposition their economies amid the global transition away from oil and gas. Similar diversification initiatives were also happening in Kuwait, Oman and Bahrain, the other three GCC members. Such a shift towards long-term economic stability is important in maintaining the political legitimacy of the Gulf monarchies in the eyes of their burgeoning young populations, especially amid mounti",
    "body_excerpt": "Before the outbreak of the war triggered by the US-Israeli attack on Iran in February, the Gulf monarchies were living the prosperity dream that was the envy of the world. Their hydrocarbon-fuelled economies were glitzy oases of growth, inoculated from the conflict in Gaza that had rocked other parts of the Middle East for several years. Underpinne",
-   "url": "https://www.scmp.com/week-asia/economics/article/3371922/gulf-economies-accelerate-diversification-recession-looms-over-iran-war?module=top_story&pgtype=homepage",
+   "url": "https://www.scmp.com/week-asia/economics/article/3371922/gulf-economies-accelerate-diversification-recession-looms-over-iran-war",
    "section": "",
    "published_at": "2026-10-25 12:00:00",
    "published_at_source": "published",
@@ -393,7 +410,7 @@
    "summary_zh": "",
    "body": "Singapore expects all parties who have signed commercial contracts for gas supplies to “honour their commitments”, said Prime Minister Lawrence Wong on Sunday after Indonesia cut its exports. Speaking at the People’s Action Party (PAP) convention, Wong added that Singapore’s gas importer will take the necessary steps to protect its rights and interests. Indonesia began reducing natural gas exports to Singapore on Saturday. Indonesia’s upstream oil and gas regulator SKK Migas said the move was to divert more supplies to domestic electricity needs. Singapore’s Energy Market Authority said the reduction of 31 million standard cubic feet of gas a day amounts to less than 2 per cent of Singapore’s total daily gas demand. About 95 per cent of Singapore’s electricity is generated using natural gas and it imports a significant amount of this gas through pipelines from Indonesia. “The gas supplies are covered by commercial contracts. We expect all parties to honour their commitments and Singapore’s gas importer will take the necessary steps to protect its rights and interests under these contracts,” Wong said. Singapore has been readying itself for such risks, the prime minister added. It h",
    "body_excerpt": "Singapore expects all parties who have signed commercial contracts for gas supplies to “honour their commitments”, said Prime Minister Lawrence Wong on Sunday after Indonesia cut its exports. Speaking at the People’s Action Party (PAP) convention, Wong added that Singapore’s gas importer will take the necessary steps to protect its rights and inter",
-   "url": "https://www.scmp.com/news/asia/southeast-asia/article/3372048/singapore-tells-suppliers-honour-commitments-amid-indonesias-gas-cut?module=top_story&pgtype=homepage",
+   "url": "https://www.scmp.com/news/asia/southeast-asia/article/3372048/singapore-tells-suppliers-honour-commitments-amid-indonesias-gas-cut",
    "section": "",
    "published_at": "2026-10-25 11:38:00",
    "published_at_source": "published",
@@ -410,7 +427,7 @@
    "summary_zh": "",
    "body": "A woman in eastern China has been devotedly caring for her daughter-in-law for 17 years, ever since she fell into a vegetative state, moving social media users. The younger woman, surnamed Xu, fell into a vegetative state in 2009 after being struck by a truck in her village in Qingyun county, Shandong province. The accident happened just one month after she got married, Shandian News reported. Since then, her mother-in-law, Xuan Fengying, has cared for her around the clock. “She married my son, so she’s my child. How could I abandon her?” the 68-year-old Xuan was quoted as saying. Xuan fed Xu liquid food one spoonful at a time, and each meal took an hour. She also helped Xu turn over more than 10 times a day to prevent bedsores. Other caregiving tasks included washing Xu after she became incontinent and regularly massaging her muscles. Xuan also talked to Xu about news from the family and their village, played her favourite songs, and repeatedly called her name. Several years ago, Xu miraculously emerged from the vegetative state. Her mother-in-law continued to care for her, as severe brain damage from the accident had left Xu with the cognitive abilities of a four-year-old. Xuan h",
    "body_excerpt": "A woman in eastern China has been devotedly caring for her daughter-in-law for 17 years, ever since she fell into a vegetative state, moving social media users. The younger woman, surnamed Xu, fell into a vegetative state in 2009 after being struck by a truck in her village in Qingyun county, Shandong province. The accident happened just one month ",
-   "url": "https://www.scmp.com/news/people-culture/trending-china/article/3372043/mum-good-chinese-woman-wakes-vegetative-daughter-law-after-17-years-care?module=top_story&pgtype=homepage",
+   "url": "https://www.scmp.com/news/people-culture/trending-china/article/3372043/mum-good-chinese-woman-wakes-vegetative-daughter-law-after-17-years-care",
    "section": "",
    "published_at": "2026-10-25 10:15:00",
    "published_at_source": "published",
@@ -427,7 +444,7 @@
    "summary_zh": "",
    "body": "Young Chinese people enjoy Japanese pop culture such as anime and music, but many draw a firm line at symbols of Japanese militarism. That line was tested recently at Moscow State University, where Chinese students confronted a classmate wearing Japan’s rising sun flag in class and called for his repatriation, state-run newspaper Global Times reported on Sunday. Many countries, including China, view the flag as a symbol of Japanese militarism and aggression. Japan’s Self-Defence Forces still use the flag today. The October 14 incident sparked an online backlash against the Chinese student and praise for those who reported him, following commentaries by People’s Daily, the Communist Party’s official newspaper, and the People’s Liberation Army. “A disgrace to the Chinese people,” read one of the top comments under a post by Jun Zhengping, a social media account run by the PLA. Among those condemning the student were people who enjoyed Japanese pop culture, including Lucy Huang, 24. The Japanese anime fan began watching the medium in primary school, watching more than 200 anime series and reading manga – Japanese comic books and graphic novels. “Japan in anime cannot really be called ",
    "body_excerpt": "Young Chinese people enjoy Japanese pop culture such as anime and music, but many draw a firm line at symbols of Japanese militarism. That line was tested recently at Moscow State University, where Chinese students confronted a classmate wearing Japan’s rising sun flag in class and called for his repatriation, state-run newspaper Global Times repor",
-   "url": "https://www.scmp.com/news/china/diplomacy/article/3372036/fandom-vs-flag-why-young-chinese-embrace-japanese-pop-culture-reject-war-era-symbols?module=top_story&pgtype=homepage",
+   "url": "https://www.scmp.com/news/china/diplomacy/article/3372036/fandom-vs-flag-why-young-chinese-embrace-japanese-pop-culture-reject-war-era-symbols",
    "section": "",
    "published_at": "2026-10-25 10:00:00",
    "published_at_source": "published",
@@ -444,7 +461,7 @@
    "summary_zh": "",
    "body": "Ayumi lives alone in a spacious suburban house originally bought to raise a family, her two cats now her only full-time companions. Her two daughters have grown up and left home, and her husband of more than two decades moved out nearly a year ago as they finalise a divorce. For the 62-year-old Kawasaki resident, who spoke on condition that her surname be withheld, this was not how she envisioned her later years. “He worked very long hours, including on weekends, and I was always busy taking care of the house and raising the children,” Ayumi said. “I think we worked well as a team at the beginning, but somewhere along the way, we just stopped talking like we had before.” The marriage had its fair share of ups and downs – financial stress during their daughters’ university years and the deaths of their respective parents. But the final break came when the girls left home. “It felt like we were almost strangers with nothing in common,” she said. “Before, we had always put our children first. But suddenly they had their own lives, and we both realised there was not much holding us together any more.” Ayumi’s experience reflects a growing trend across Japan. While total divorces nation",
    "body_excerpt": "Ayumi lives alone in a spacious suburban house originally bought to raise a family, her two cats now her only full-time companions. Her two daughters have grown up and left home, and her husband of more than two decades moved out nearly a year ago as they finalise a divorce. For the 62-year-old Kawasaki resident, who spoke on condition that her sur",
-   "url": "https://www.scmp.com/week-asia/people/article/3371898/why-more-japanese-women-are-choosing-silver-divorce-after-decades-marriage?module=top_story&pgtype=homepage",
+   "url": "https://www.scmp.com/week-asia/people/article/3371898/why-more-japanese-women-are-choosing-silver-divorce-after-decades-marriage",
    "section": "",
    "published_at": "2026-10-25 10:00:00",
    "published_at_source": "published",
@@ -472,6 +489,23 @@
   {
    "source": "SCMP",
    "source_tier": "A",
+   "title_en": "School bullying cases in Hong Kong rise 32% to nearly 500 a year | South China Morning Post",
+   "title_zh": "",
+   "summary_en": "Youth group attributes increase to heightened mental health awareness, but also students struggling to distinguish jokes from bullying.",
+   "summary_zh": "",
+   "body": "Hong Kong schools handled an average of 496 bullying cases each academic year from 2022 to 2025 – a 32 per cent jump compared with the previous three years, according to the Education Bureau. A youth group attributed the increase to greater reporting driven by heightened mental health awareness, but also students struggling to distinguish playful jokes from bullying. According to the bureau, public primary and secondary schools recorded an average of 496 bullying cases each year between 2022 and 2025, up 32 per cent from the 377 recorded annually from 2019 to 2022. The bureau told the Legislative Council in 2023 that the number of cases involving school bullying, including cyberbullying, from the 2019-20 to 2021-22 school years was 411, 306 and 413 respectively. The average number for these three school years was 377. The figures were based on information contained in the bureau’s annual questionnaire surveys on guidance and discipline cases in schools. The bureau did not provide any annual breakdown for the years between 2022 and 2025. It said the data for the current school year was still being compiled. “The number of student cases involving school bullying, including cyberbully",
+   "body_excerpt": "Hong Kong schools handled an average of 496 bullying cases each academic year from 2022 to 2025 – a 32 per cent jump compared with the previous three years, according to the Education Bureau. A youth group attributed the increase to greater reporting driven by heightened mental health awareness, but also students struggling to distinguish playful j",
+   "url": "https://www.scmp.com/news/hong-kong/education/article/3372020/school-bullying-cases-hong-kong-rise-32-nearly-500-year",
+   "section": "",
+   "published_at": "2026-10-25 09:00:00",
+   "published_at_source": "published",
+   "headline_only": false,
+   "content_type": "news",
+   "opinion": false
+  },
+  {
+   "source": "SCMP",
+   "source_tier": "A",
    "title_en": "Sri Lanka’s property boom gives Chinese developers hope. But familiar risks linger | South China Morning Post",
    "title_zh": "",
    "summary_en": "Colombo’s luxury property rally is drawing fresh interest from Chinese-backed developments, but analysts warn against speculative excess.",
@@ -489,30 +523,13 @@
   {
    "source": "SCMP",
    "source_tier": "A",
-   "title_en": "School bullying cases in Hong Kong rise 32% to nearly 500 a year | South China Morning Post",
-   "title_zh": "",
-   "summary_en": "Youth group attributes increase to heightened mental health awareness, but also students struggling to distinguish jokes from bullying.",
-   "summary_zh": "",
-   "body": "Hong Kong schools handled an average of 496 bullying cases each academic year from 2022 to 2025 – a 32 per cent jump compared with the previous three years, according to the Education Bureau. A youth group attributed the increase to greater reporting driven by heightened mental health awareness, but also students struggling to distinguish playful jokes from bullying. According to the bureau, public primary and secondary schools recorded an average of 496 bullying cases each year between 2022 and 2025, up 32 per cent from the 377 recorded annually from 2019 to 2022. The bureau told the Legislative Council in 2023 that the number of cases involving school bullying, including cyberbullying, from the 2019-20 to 2021-22 school years was 411, 306 and 413 respectively. The average number for these three school years was 377. The figures were based on information contained in the bureau’s annual questionnaire surveys on guidance and discipline cases in schools. The bureau did not provide any annual breakdown for the years between 2022 and 2025. It said the data for the current school year was still being compiled. “The number of student cases involving school bullying, including cyberbully",
-   "body_excerpt": "Hong Kong schools handled an average of 496 bullying cases each academic year from 2022 to 2025 – a 32 per cent jump compared with the previous three years, according to the Education Bureau. A youth group attributed the increase to greater reporting driven by heightened mental health awareness, but also students struggling to distinguish playful j",
-   "url": "https://www.scmp.com/news/hong-kong/education/article/3372020/school-bullying-cases-hong-kong-rise-32-nearly-500-year?module=top_story&pgtype=homepage",
-   "section": "",
-   "published_at": "2026-10-25 09:00:00",
-   "published_at_source": "published",
-   "headline_only": false,
-   "content_type": "news",
-   "opinion": false
-  },
-  {
-   "source": "SCMP",
-   "source_tier": "A",
    "title_en": "Singapore embraces AI for cyber defence, with one caveat: breach transparency | South China Morning Post",
    "title_zh": "",
    "summary_en": "The city state will take a ‘pragmatic’ approach to AI adoption as it seeks to bolster protection for its critical infrastructure.",
    "summary_zh": "",
    "body": "Singapore is turning to major technology firms to strengthen its cyber defences, even as it presses them for greater transparency over security breaches – a balancing act facing regional governments as they seek to harness artificial intelligence while guarding against the risks it introduces. Those risks were highlighted by an AI agent linked to OpenAI that gained unauthorised access to files on an Australian government website earlier this year, raising questions over how quickly companies disclose security incidents as AI systems become more capable and autonomous. At a summit earlier this month, Singapore launched a refreshed cybersecurity strategy that would see it progressively deploy AI across its cyber defence operations and work with industry partners to accelerate adoption, as it seeks to bolster protection for its critical infrastructure. The city state would take a “pragmatic” approach to AI adoption, allowing it to choose between the “best available” models, K. Shanmugam, coordinating minister for national security, said during a speech at Singapore International Cyber Week on October 13. “We will not need to develop our own AI models for every use case. What we really",
    "body_excerpt": "Singapore is turning to major technology firms to strengthen its cyber defences, even as it presses them for greater transparency over security breaches – a balancing act facing regional governments as they seek to harness artificial intelligence while guarding against the risks it introduces. Those risks were highlighted by an AI agent linked to O",
-   "url": "https://www.scmp.com/week-asia/politics/article/3371950/singapore-embraces-ai-cyber-defence-one-caveat-breach-transparency?module=top_story&pgtype=homepage",
+   "url": "https://www.scmp.com/week-asia/politics/article/3371950/singapore-embraces-ai-cyber-defence-one-caveat-breach-transparency",
    "section": "",
    "published_at": "2026-10-25 08:00:00",
    "published_at_source": "published",
@@ -546,7 +563,7 @@
    "summary_zh": "",
    "body": "Former US president Barack Obama delivered a scathing critique of his successor, Donald Trump, at a rally in Ohio on Saturday to support Democratic candidates ahead of the November 3 midterm elections. “After two years of chaos and cruelty and corruption and incompetence, the likes of which we have not seen in the modern era, you get a chance to say, ‘Enough is enough,’” Obama declared in Cleveland. “We are voting for change right here in Ohio.” The 65-year-old Democrat blamed the Trump administration for the rising cost of living, a top voter concern amid soaring fuel prices. “The current president chose to make a series of bad decisions,” Obama said. “Most importantly, he decided to start an unnecessary war that nobody asked for.” He noted that instead of lowering costs, the president has instead focused on building a new White House ballroom and helipad on the South Lawn. “I don’t know if you’ve noticed, but he seems very focused on home renovation,” Obama said. “He should be on HGTV.” He went on: “There’s gold everywhere. He’s got the White House looking like Saddam Hussein opened a Cheesecake Factory.” Obama also urged voters to cast their ballots as soon as possible since ear",
    "body_excerpt": "Former US president Barack Obama delivered a scathing critique of his successor, Donald Trump, at a rally in Ohio on Saturday to support Democratic candidates ahead of the November 3 midterm elections. “After two years of chaos and cruelty and corruption and incompetence, the likes of which we have not seen in the modern era, you get a chance to sa",
-   "url": "https://www.scmp.com/news/world/united-states-canada/article/3372042/obama-blasts-trumps-chaos-and-cruelty-while-campaigning-democrats?module=top_story&pgtype=homepage",
+   "url": "https://www.scmp.com/news/world/united-states-canada/article/3372042/obama-blasts-trumps-chaos-and-cruelty-while-campaigning-democrats",
    "section": "",
    "published_at": "2026-10-25 06:50:00",
    "published_at_source": "published",
@@ -563,7 +580,7 @@
    "summary_zh": "",
    "body": "Plenary sessions of the Central Committee, the upper echelon of China’s ruling Communist Party, are major events on the country’s political calendar. In the fourth part of this series, William Zheng looks at how the next generation of the party is being formed. When China’s political elites gather behind closed doors in Beijing for the Communist Party’s fifth plenum on Monday, much of the attention will be on the quiet preparations for allocating hundreds of pivotal roles in next year’s 21st party congress. At the heart of this transition is the rise of the party’s seventh generation – often referred to as the 7G – who were born in the late 1960s and the 1970s and whose ascent will be critical in shaping China’s political trajectory. Xie Maosong, a senior researcher at Tsinghua University’s National Institute of Strategic Studies, said the party was looking for cadres who had “absolute political loyalty, integrity, fighting spirit, technological or ‘hard science’ expertise, grass-roots experience and hardship resilience”. “Just like their predecessors, they must demonstrate unquestioned loyalty and integrity. But given China’s technological advancement into uncharted areas, the new",
    "body_excerpt": "Plenary sessions of the Central Committee, the upper echelon of China’s ruling Communist Party, are major events on the country’s political calendar. In the fourth part of this series, William Zheng looks at how the next generation of the party is being formed. When China’s political elites gather behind closed doors in Beijing for the Communist Pa",
-   "url": "https://www.scmp.com/news/china/politics/article/3372013/chinas-next-generation-leaders-waiting-wings-more-senior-roles?module=top_story&pgtype=homepage",
+   "url": "https://www.scmp.com/news/china/politics/article/3372013/chinas-next-generation-leaders-waiting-wings-more-senior-roles",
    "section": "",
    "published_at": "2026-10-25 06:00:00",
    "published_at_source": "published",
@@ -580,7 +597,7 @@
    "summary_zh": "",
    "body": "US President Donald Trump cast his ballot for the midterm elections in Palm Beach on Saturday, opting to vote early in his adopted home state of Florida. At rallies ahead of Election Day on November 3, Trump has been urging Republicans to cast their ballots early, reversing course on a practice he has long decried in a bid to mobilise the party’s base in an election that threatens to end their control of Congress. Asked by reporters if he voted for the party line, he said: “Very much so.” The president has regularly questioned the security of early voting methods, claiming without evidence that mail-in ballots, drop boxes and other practices during the 2020 presidential election – which he lost – were used to rig the vote. He has also called for one-day, in-person voting on Election Day. “The US attorney found potentially hundreds of thousands of illicit votes,” Trump told reporters. Earlier this month, the US Justice Department sued California for allegedly failing to join an effort to verify the status of 20,000 suspected non-citizens to prevent any fraudulent ballots from being counted. California asked a judge to deny the request to set aside those 20,000 mail-in ballots, calli",
    "body_excerpt": "US President Donald Trump cast his ballot for the midterm elections in Palm Beach on Saturday, opting to vote early in his adopted home state of Florida. At rallies ahead of Election Day on November 3, Trump has been urging Republicans to cast their ballots early, reversing course on a practice he has long decried in a bid to mobilise the party’s b",
-   "url": "https://www.scmp.com/news/world/united-states-canada/article/3372041/trump-critic-early-voting-votes-early-florida?module=top_story&pgtype=homepage",
+   "url": "https://www.scmp.com/news/world/united-states-canada/article/3372041/trump-critic-early-voting-votes-early-florida",
    "section": "",
    "published_at": "2026-10-25 05:58:00",
    "published_at_source": "published",
@@ -1046,7 +1063,7 @@
  "http_cache": {
   "https://www.cfr.org/blogs/follow-the-money": {
    "etag": "",
-   "last_modified": "Sun, 25 Oct 2026 04:36:18 GMT"
+   "last_modified": "Sun, 25 Oct 2026 04:23:08 GMT"
   },
   "https://rhg.com/feed/": {
    "etag": "\"be6e14ee92fa19781abef3dc33bcbd2e\"",
@@ -1057,7 +1074,7 @@
    "last_modified": ""
   },
   "https://carnegieendowment.org/china-financial-markets": {
-   "etag": "\"11zt73lpjad3jux\"",
+   "etag": "\"13lxkuj5e213jux\"",
    "last_modified": ""
   },
   "https://aswathdamodaran.blogspot.com/": {
@@ -1074,7 +1091,7 @@
   },
   "https://www.scmp.com/rss/91/feed": {
    "etag": "",
-   "last_modified": "Sun, 25 Oct 2026 04:25:28 GMT"
+   "last_modified": "Sun, 25 Oct 2026 04:45:20 GMT"
   },
   "https://www.scmp.com/rss/92/feed": {
    "etag": "",
@@ -1089,7 +1106,7 @@
    "last_modified": "Sun, 25 Oct 2026 01:00:30 GMT"
   },
   "https://feeds.bloomberg.com/markets/news.rss": {
-   "etag": "W/\"4284-RBbIqw419oWACVoTLpVXjpPslOQ\"",
+   "etag": "W/\"4284-hwxrpdW6CMAz6ks7ijRxdKZXdqQ\"",
    "last_modified": ""
   },
   "https://www.scmp.com/": {

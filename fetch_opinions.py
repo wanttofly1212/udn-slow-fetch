@@ -279,7 +279,7 @@ def make_item(cfg, url, title, raw, fallback_pub=""):
         "title_zh": "",
         "summary_en": summary[:600],
         "summary_zh": "",
-        "body": body,
+        "body": body[:1200],
         "body_excerpt": (body[:350] + ("…" if len(body) > 350 else "")) if body else "",
         "evidence": evidence_of(body),
         "content_chars": len(body),
@@ -411,7 +411,7 @@ def fetch_scmp():
             "source": "SCMP", "source_tier": "A",
             "title_en": title, "title_zh": "",
             "summary_en": (summary or body[:600])[:600], "summary_zh": "",
-            "body": body[:12000], "body_excerpt": body[:350],
+            "body": body[:1200], "body_excerpt": body[:350],
             "url": url, "section": "",
             "published_at": parse_time(pub) or NOW,
             "published_at_source": "published" if parse_time(pub) else "fetched",
@@ -420,6 +420,42 @@ def fetch_scmp():
         time.sleep(10)
     report["SCMP"] = {"status": status, "found": len(links), "items": len(out)}
     print("%-28s status=%s found=%s items=%s" % ("SCMP", status, len(links), len(out)), flush=True)
+    return out, report
+
+
+REMOTE_RSS = [
+    ("Bloomberg Markets", "https://feeds.bloomberg.com/markets/news.rss"),
+    ("Reuters Business", "https://feeds.reuters.com/reuters/businessNews"),
+    ("Yahoo Finance", "https://finance.yahoo.com/news/rssindex"),
+]
+
+
+def fetch_remote_rss():
+    """公开 RSS 标题层；正文受限的源只入标题，不伪造全文。"""
+    out, report = [], {}
+    for source, url in REMOTE_RSS:
+        status, raw, _ = fetch(url, timeout=20)
+        entries = feed_entries(raw) if status == 200 else []
+        picked = 0
+        for e in entries:
+            if picked >= 2:
+                break
+            title = clean_text(e.get("title"))
+            link = (e.get("link") or "").strip()
+            if len(title) < 16 or not link:
+                continue
+            out.append({
+                "source": source, "source_tier": "B",
+                "title_en": title, "title_zh": "",
+                "summary_en": clean_text(e.get("summary"))[:600], "summary_zh": "",
+                "url": link, "section": "",
+                "published_at": parse_time(e.get("pub") or "") or NOW,
+                "published_at_source": "published" if parse_time(e.get("pub") or "") else "fetched",
+                "headline_only": True, "content_type": "news", "opinion": False,
+            })
+            picked += 1
+        report[source] = {"status": status, "found": len(entries), "items": picked}
+        print("%-28s status=%s found=%s items=%s" % (source, status, len(entries), picked), flush=True)
     return out, report
 
 
@@ -444,6 +480,9 @@ def main():
     scmp_items, scmp_report = fetch_scmp()
     news_items.extend(scmp_items)
     report.update(scmp_report)
+    rss_items, rss_report = fetch_remote_rss()
+    news_items.extend(rss_items)
+    report.update(rss_report)
     if OUT.exists():
         try:
             old = json.loads(OUT.read_text(encoding="utf-8"))

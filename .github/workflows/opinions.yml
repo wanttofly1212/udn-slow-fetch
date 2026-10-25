@@ -10,7 +10,7 @@ permissions:
 
 concurrency:
   group: opinion-slow-fetch
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   fetch:
@@ -37,5 +37,9 @@ jobs:
             echo "no changes"
           else
             git commit -m "Update opinion data"
-            git push
+            for i in 1 2 3; do
+              git push && break
+              sleep 5
+              git pull --rebase origin main || true
+            done
           fi

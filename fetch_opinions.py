@@ -512,7 +512,10 @@ def main():
     seen = set()
     try:
         old0 = json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else {}
-        HTTP_CACHE = old0.get("http_cache") or {}
+        HTTP_CACHE = {
+            k: {"etag": v.get("etag") or "", "last_modified": v.get("last_modified") or ""}
+            for k, v in (old0.get("http_cache") or {}).items() if isinstance(v, dict)
+        }
     except Exception:
         HTTP_CACHE = {}
     for cfg in SOURCES:

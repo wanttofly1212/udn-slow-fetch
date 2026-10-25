@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25 12:57:36",
+ "generated_at": "2026-10-25 13:08:02",
  "sources": {
   "Brad Setser / CFR": {
    "status": 200,
@@ -22,9 +22,9 @@
    "items": 2
   },
   "Aswath Damodaran": {
-   "status": 304,
-   "found": 0,
-   "items": 0
+   "status": 200,
+   "found": 2,
+   "items": 2
   },
   "Project Syndicate": {
    "status": 200,
@@ -61,65 +61,10 @@
    "found": 0,
    "items": 0
   },
-  "Google cnbc": {
-   "status": 200,
-   "found": 100,
-   "items": 20
-  },
-  "Google scmp": {
-   "status": 200,
-   "found": 100,
-   "items": 20
-  },
-  "Google reuters": {
-   "status": 200,
-   "found": 100,
-   "items": 20
-  },
-  "Google bloomberg": {
-   "status": 200,
-   "found": 100,
-   "items": 20
-  },
-  "Google ft": {
-   "status": 200,
-   "found": 100,
-   "items": 20
-  },
-  "Google nikkei": {
-   "status": 200,
-   "found": 100,
-   "items": 20
-  },
-  "Google older-cnbc.com": {
-   "status": 200,
-   "found": 100,
-   "items": 20
-  },
-  "Google older-scmp.com": {
-   "status": 200,
-   "found": 100,
-   "items": 20
-  },
-  "Google older-reuters.com": {
-   "status": 200,
-   "found": 100,
-   "items": 20
-  },
-  "Google older-bloomberg.com": {
-   "status": 200,
-   "found": 100,
-   "items": 20
-  },
-  "Google older-ft.com": {
-   "status": 200,
-   "found": 100,
-   "items": 20
-  },
-  "Google older-asia.nikkei.com": {
-   "status": 200,
-   "found": 100,
-   "items": 20
+  "Google News": {
+   "status": "paused",
+   "found": 0,
+   "items": 0
   }
  },
  "items": [
@@ -145,7 +90,7 @@
    "full_text_available": true,
    "headline_only": false,
    "url": "https://research.gavekal.com/teaser/china-and-st-augustine/",
-   "published_at": "2026-10-25 12:57:36",
+   "published_at": "2026-10-25 13:08:02",
    "published_at_source": "fetched",
    "tags": []
   },
@@ -371,6 +316,32 @@
    "tags": []
   },
   {
+   "id": "op_475a94b2883725e4",
+   "source": "Aswath Damodaran",
+   "author": "Aswath Damodaran",
+   "platform": "Blog",
+   "content_type": "opinion",
+   "opinion": true,
+   "title_en": "Musings on Markets: From Eyeballs to Annual Run Rates (ARR): Buzzy Pricing Metrics and the Anthropic Trade!",
+   "title_zh": "",
+   "summary_en": "A blog about markets, finance and all things money related.",
+   "summary_zh": "",
+   "body": "Musings on Markets: From Eyeballs to Annual Run Rates (ARR): Buzzy Pricing Metrics and the Anthropic Trade! Thursday, October 22, 2026 From Eyeballs to Annual Run Rates (ARR): Buzzy Pricing Metrics and the Anthropic Trade! I was in San Francisco last week to talk to NYU Stern Alumni on October 15, and it was the day that Anthropic had a pre-IPO meeting with prospective investors. While I was not at the meeting, the focus of teh gathering was laying a foundation for its upcoming IPO, with the company reporting third-quarter revenue of $16.8 billion, which news reports described as surging 45% over the previous quarter's revenues, and positive profits, albeit on an adjusted basis. During the m",
+   "body_excerpt": "Musings on Markets: From Eyeballs to Annual Run Rates (ARR): Buzzy Pricing Metrics and the Anthropic Trade! Thursday, October 22, 2026 From Eyeballs to Annual Run Rates (ARR): Buzzy Pricing Metrics and the Anthropic Trade! I was in San Francisco last week to talk to NYU Stern Alumni on October 15, and it was the day that Anthropic had a pre-IPO mee…",
+   "evidence": [
+    "How do Anthropic and OpenAI measure up in the life cycle?",
+    "If you don't believe in efficient markets, you can take one of two paths.",
+    "I will not be taking sides here, but not because I am copping out."
+   ],
+   "content_chars": 31643,
+   "full_text_available": true,
+   "headline_only": false,
+   "url": "https://aswathdamodaran.blogspot.com/2026/10/from-eyeballs-to-annual-run-rates-arr.html",
+   "published_at": "2026-10-22 00:00:00",
+   "published_at_source": "published",
+   "tags": []
+  },
+  {
    "id": "op_15f2649968c390c0",
    "source": "Brad Setser / CFR",
    "author": "Brad Setser",
@@ -521,6 +492,32 @@
    "headline_only": false,
    "url": "https://rhg.com/news/rhodium-group-joins-launch-of-new-energy-industrial-strategy-center/",
    "published_at": "2025-10-16 00:00:00",
+   "published_at_source": "published",
+   "tags": []
+  },
+  {
+   "id": "op_7a8e26d75ad7a2e1",
+   "source": "Aswath Damodaran",
+   "author": "Aswath Damodaran",
+   "platform": "Blog",
+   "content_type": "opinion",
+   "opinion": true,
+   "title_en": "Musings on Markets: Aging in Dog Years? The Short, Glorious Life of a Successful Tech Company!",
+   "title_zh": "",
+   "summary_en": "A blog about markets, finance and all things money related.",
+   "summary_zh": "",
+   "body": "Musings on Markets: Aging in Dog Years? The Short, Glorious Life of a Successful Tech Company! Wednesday, December 9, 2015 Aging in Dog Years? The Short, Glorious Life of a Successful Tech Company! The corporate aging theme is one that I have returned to repeatedly in my posts, and I have looked at how the aging process creates dysfunctional responses on the parts of managers, who want to find ways to reverse it, and investors, who make bets on such reversals. It was the under pinning for my last post on Yahoo , and in that post, I argued that technology companies have compressed life cycles, i.e., age in dog years, relative to non-tech companies. In this post, I would like to provide a rati",
+   "body_excerpt": "Musings on Markets: Aging in Dog Years? The Short, Glorious Life of a Successful Tech Company! Wednesday, December 9, 2015 Aging in Dog Years? The Short, Glorious Life of a Successful Tech Company! The corporate aging theme is one that I have returned to repeatedly in my posts, and I have looked at how the aging process creates dysfunctional respon…",
+   "evidence": [
+    "Musings on Markets: Aging in Dog Years?",
+    "The Short, Glorious Life of a Successful Tech Company!",
+    "Wednesday, December 9, 2015 Aging in Dog Years?"
+   ],
+   "content_chars": 15397,
+   "full_text_available": true,
+   "headline_only": false,
+   "url": "https://aswathdamodaran.blogspot.com/2015/12/aging-in-dog-years-short-glorious-life.html",
+   "published_at": "2015-12-09 00:00:00",
    "published_at_source": "published",
    "tags": []
   }
@@ -6774,7 +6771,7 @@
  "http_cache": {
   "https://www.cfr.org/blogs/follow-the-money": {
    "etag": "",
-   "last_modified": "Sun, 25 Oct 2026 12:57:36 GMT"
+   "last_modified": "Sun, 25 Oct 2026 13:08:03 GMT"
   },
   "https://rhg.com/feed/": {
    "etag": "\"be6e14ee92fa19781abef3dc33bcbd2e\"",
@@ -6785,7 +6782,7 @@
    "last_modified": ""
   },
   "https://carnegieendowment.org/china-financial-markets": {
-   "etag": "\"p4ewpk53yb3jux\"",
+   "etag": "\"x5wg7u404q3jux\"",
    "last_modified": ""
   },
   "https://aswathdamodaran.blogspot.com/": {
@@ -6817,7 +6814,7 @@
    "last_modified": "Sun, 25 Oct 2026 09:40:29 GMT"
   },
   "https://feeds.bloomberg.com/markets/news.rss": {
-   "etag": "W/\"3de4-37g85fkGzP13iU12KhNAlcsaDGM\"",
+   "etag": "W/\"3de4-pbS/hSN/IAyx4Tp+ahsB8PmVrpw\"",
    "last_modified": ""
   },
   "https://www.scmp.com/": {
@@ -6881,7 +6878,7 @@
    "last_modified": ""
   },
   "https://asia.nikkei.com/": {
-   "etag": "\"15n9jdwlegadrug\"",
+   "etag": "\"yjfgvdba7wdrug\"",
    "last_modified": ""
   }
  },

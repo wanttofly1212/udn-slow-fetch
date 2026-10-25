@@ -73,6 +73,31 @@ SOURCES = [
 ]
 
 
+def decode_body(data, header_charset=""):
+    """按 header / XML / meta charset 解码；UDN 不少页面是 Big5，不能一律 utf-8。"""
+    if not data:
+        return ""
+    probe = data[:4096]
+    m = re.search(br'charset=["\']?([A-Za-z0-9_.:-]+)', probe, re.I)
+    charset = (header_charset or (m.group(1).decode("ascii", "ignore") if m else "")).strip().lower()
+    candidates = []
+    if charset:
+        candidates.append(charset)
+    candidates += ["utf-8", "big5", "cp950", "gb18030"]
+    seen = set()
+    for enc in candidates:
+        if not enc or enc in seen:
+            continue
+        seen.add(enc)
+        try:
+            text = data.decode(enc)
+            if "\ufffd" not in text:
+                return text
+        except Exception:
+            continue
+    return data.decode("utf-8", "replace")
+
+
 def fetch(url, timeout=20, limit=1024 * 1024, cache=False):
     headers = {
         "User-Agent": UA,
@@ -88,7 +113,7 @@ def fetch(url, timeout=20, limit=1024 * 1024, cache=False):
     try:
         req = Request(url, headers=headers)
         with urlopen(req, timeout=timeout) as r:
-            body = r.read(limit).decode("utf-8", "ignore")
+            body = decode_body(r.read(limit), r.headers.get_content_charset() or "")
             if cache:
                 HTTP_CACHE[url] = {
                     "etag": r.headers.get("ETag") or "",
@@ -297,7 +322,7 @@ def make_item(cfg, url, title, raw, fallback_pub=""):
         "title_zh": "",
         "summary_en": summary[:600],
         "summary_zh": "",
-        "body": body[:1200],
+        "body": body[:6000],
         "body_excerpt": (body[:350] + ("…" if len(body) > 350 else "")) if body else "",
         "evidence": evidence_of(body),
         "content_chars": len(body),
@@ -455,7 +480,7 @@ def fetch_scmp():
             "source": "SCMP", "source_tier": "A",
             "title_en": title, "title_zh": "",
             "summary_en": (summary or body[:600])[:600], "summary_zh": "",
-            "body": body[:1200], "body_excerpt": body[:350],
+            "body": body[:4000], "body_excerpt": body[:350],
             "url": url, "section": "",
             "published_at": parse_time(pub) or NOW,
             "published_at_source": "published" if parse_time(pub) else "fetched",

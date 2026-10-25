@@ -2,8 +2,8 @@ name: Opinion slow fetch
 
 on:
   schedule:
-    - cron: "10 16 * * *"   # 00:10 北京时间\n    - cron: "10 5 * * *"    # 13:10 北京时间\n    - cron: "10 15 * * *"   # 23:10 北京时间
-  workflow_dispatch:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:\n    inputs:\n      startup:\n        description: "1=app startup, force SCMP/UDN"\n        required: false\n        default: "0"
 
 permissions:
   contents: write

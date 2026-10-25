@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25 12:15:57",
+ "generated_at": "2026-10-25 12:57:36",
  "sources": {
   "Brad Setser / CFR": {
    "status": 200,
@@ -22,29 +22,24 @@
    "items": 2
   },
   "Aswath Damodaran": {
-   "status": 200,
-   "found": 2,
-   "items": 2
+   "status": 304,
+   "found": 0,
+   "items": 0
   },
   "Project Syndicate": {
    "status": 200,
    "found": 8,
    "items": 8
   },
-  "UDN 经济日报": {
-   "status": 200,
-   "found": 20,
-   "items": 18
-  },
-  "UDN 联合新闻": {
-   "status": 200,
+  "UDN": {
+   "status": "skipped",
    "found": 0,
    "items": 0
   },
   "SCMP": {
-   "status": 200,
-   "found": 50,
-   "items": 20
+   "status": "skipped",
+   "found": 0,
+   "items": 0
   },
   "Nikkei Asia": {
    "status": 200,
@@ -66,10 +61,65 @@
    "found": 0,
    "items": 0
   },
-  "Google News": {
-   "status": "paused",
-   "found": 0,
-   "items": 0
+  "Google cnbc": {
+   "status": 200,
+   "found": 100,
+   "items": 20
+  },
+  "Google scmp": {
+   "status": 200,
+   "found": 100,
+   "items": 20
+  },
+  "Google reuters": {
+   "status": 200,
+   "found": 100,
+   "items": 20
+  },
+  "Google bloomberg": {
+   "status": 200,
+   "found": 100,
+   "items": 20
+  },
+  "Google ft": {
+   "status": 200,
+   "found": 100,
+   "items": 20
+  },
+  "Google nikkei": {
+   "status": 200,
+   "found": 100,
+   "items": 20
+  },
+  "Google older-cnbc.com": {
+   "status": 200,
+   "found": 100,
+   "items": 20
+  },
+  "Google older-scmp.com": {
+   "status": 200,
+   "found": 100,
+   "items": 20
+  },
+  "Google older-reuters.com": {
+   "status": 200,
+   "found": 100,
+   "items": 20
+  },
+  "Google older-bloomberg.com": {
+   "status": 200,
+   "found": 100,
+   "items": 20
+  },
+  "Google older-ft.com": {
+   "status": 200,
+   "found": 100,
+   "items": 20
+  },
+  "Google older-asia.nikkei.com": {
+   "status": 200,
+   "found": 100,
+   "items": 20
   }
  },
  "items": [
@@ -95,7 +145,7 @@
    "full_text_available": true,
    "headline_only": false,
    "url": "https://research.gavekal.com/teaser/china-and-st-augustine/",
-   "published_at": "2026-10-25 12:15:57",
+   "published_at": "2026-10-25 12:57:36",
    "published_at_source": "fetched",
    "tags": []
   },
@@ -321,32 +371,6 @@
    "tags": []
   },
   {
-   "id": "op_475a94b2883725e4",
-   "source": "Aswath Damodaran",
-   "author": "Aswath Damodaran",
-   "platform": "Blog",
-   "content_type": "opinion",
-   "opinion": true,
-   "title_en": "Musings on Markets: From Eyeballs to Annual Run Rates (ARR): Buzzy Pricing Metrics and the Anthropic Trade!",
-   "title_zh": "",
-   "summary_en": "A blog about markets, finance and all things money related.",
-   "summary_zh": "",
-   "body": "Musings on Markets: From Eyeballs to Annual Run Rates (ARR): Buzzy Pricing Metrics and the Anthropic Trade! Thursday, October 22, 2026 From Eyeballs to Annual Run Rates (ARR): Buzzy Pricing Metrics and the Anthropic Trade! I was in San Francisco last week to talk to NYU Stern Alumni on October 15, and it was the day that Anthropic had a pre-IPO meeting with prospective investors. While I was not at the meeting, the focus of teh gathering was laying a foundation for its upcoming IPO, with the company reporting third-quarter revenue of $16.8 billion, which news reports described as surging 45% over the previous quarter's revenues, and positive profits, albeit on an adjusted basis. During the m",
-   "body_excerpt": "Musings on Markets: From Eyeballs to Annual Run Rates (ARR): Buzzy Pricing Metrics and the Anthropic Trade! Thursday, October 22, 2026 From Eyeballs to Annual Run Rates (ARR): Buzzy Pricing Metrics and the Anthropic Trade! I was in San Francisco last week to talk to NYU Stern Alumni on October 15, and it was the day that Anthropic had a pre-IPO mee…",
-   "evidence": [
-    "How do Anthropic and OpenAI measure up in the life cycle?",
-    "If you don't believe in efficient markets, you can take one of two paths.",
-    "I will not be taking sides here, but not because I am copping out."
-   ],
-   "content_chars": 31643,
-   "full_text_available": true,
-   "headline_only": false,
-   "url": "https://aswathdamodaran.blogspot.com/2026/10/from-eyeballs-to-annual-run-rates-arr.html",
-   "published_at": "2026-10-22 00:00:00",
-   "published_at_source": "published",
-   "tags": []
-  },
-  {
    "id": "op_15f2649968c390c0",
    "source": "Brad Setser / CFR",
    "author": "Brad Setser",
@@ -497,32 +521,6 @@
    "headline_only": false,
    "url": "https://rhg.com/news/rhodium-group-joins-launch-of-new-energy-industrial-strategy-center/",
    "published_at": "2025-10-16 00:00:00",
-   "published_at_source": "published",
-   "tags": []
-  },
-  {
-   "id": "op_7a8e26d75ad7a2e1",
-   "source": "Aswath Damodaran",
-   "author": "Aswath Damodaran",
-   "platform": "Blog",
-   "content_type": "opinion",
-   "opinion": true,
-   "title_en": "Musings on Markets: Aging in Dog Years? The Short, Glorious Life of a Successful Tech Company!",
-   "title_zh": "",
-   "summary_en": "A blog about markets, finance and all things money related.",
-   "summary_zh": "",
-   "body": "Musings on Markets: Aging in Dog Years? The Short, Glorious Life of a Successful Tech Company! Wednesday, December 9, 2015 Aging in Dog Years? The Short, Glorious Life of a Successful Tech Company! The corporate aging theme is one that I have returned to repeatedly in my posts, and I have looked at how the aging process creates dysfunctional responses on the parts of managers, who want to find ways to reverse it, and investors, who make bets on such reversals. It was the under pinning for my last post on Yahoo , and in that post, I argued that technology companies have compressed life cycles, i.e., age in dog years, relative to non-tech companies. In this post, I would like to provide a rati",
-   "body_excerpt": "Musings on Markets: Aging in Dog Years? The Short, Glorious Life of a Successful Tech Company! Wednesday, December 9, 2015 Aging in Dog Years? The Short, Glorious Life of a Successful Tech Company! The corporate aging theme is one that I have returned to repeatedly in my posts, and I have looked at how the aging process creates dysfunctional respon…",
-   "evidence": [
-    "Musings on Markets: Aging in Dog Years?",
-    "The Short, Glorious Life of a Successful Tech Company!",
-    "Wednesday, December 9, 2015 Aging in Dog Years?"
-   ],
-   "content_chars": 15397,
-   "full_text_available": true,
-   "headline_only": false,
-   "url": "https://aswathdamodaran.blogspot.com/2015/12/aging-in-dog-years-short-glorious-life.html",
-   "published_at": "2015-12-09 00:00:00",
    "published_at_source": "published",
    "tags": []
   }
@@ -916,6 +914,36 @@
    "published_at": "2026-10-25 12:44:00",
    "published_at_source": "published",
    "headline_only": false,
+   "content_type": "news",
+   "opinion": false
+  },
+  {
+   "source": "Bloomberg Markets",
+   "source_tier": "B",
+   "title_en": "What’s Happening in EM: Bond Investors Turn to Developing World",
+   "title_zh": "",
+   "summary_en": "This week, Mpho Hlakudi and Selcuk Gokoluk discuss how some of the world’s biggest asset managers increase their exposure to emerging markets despite the surge in US Treasury yields, weakening a traditional correlation in financial markets.",
+   "summary_zh": "",
+   "url": "https://www.bloomberg.com/news/audio/2026-10-25/what-s-happening-in-em-bond-investors-turn-to-developing-world",
+   "section": "",
+   "published_at": "2026-10-25 12:30:00",
+   "published_at_source": "published",
+   "headline_only": true,
+   "content_type": "news",
+   "opinion": false
+  },
+  {
+   "source": "Bloomberg Markets",
+   "source_tier": "B",
+   "title_en": "Emerging Debt Outruns Treasuries as Rich-World Fiscal Fears Grow",
+   "title_zh": "",
+   "summary_en": "Investors from JPMorgan Asset Management to Generali and Ninety One SA are loading up on emerging-market debt, defying a surge in Treasury yields that would once have sent them running for the exits.",
+   "summary_zh": "",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-25/emerging-debt-outruns-treasuries-as-rich-world-fiscal-fears-grow",
+   "section": "",
+   "published_at": "2026-10-25 12:30:00",
+   "published_at_source": "published",
+   "headline_only": true,
    "content_type": "news",
    "opinion": false
   },
@@ -2676,6 +2704,21 @@
    "opinion": false
   },
   {
+   "source": "Nikkei Asia",
+   "source_tier": "B",
+   "title_en": "US lawmaker to press Trump to expedite Taiwan arms sales - Nikkei Asia",
+   "title_zh": "",
+   "summary_en": "US lawmaker to press Trump to expedite Taiwan arms sales Nikkei Asia",
+   "summary_zh": "",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPa2t3Y0wyc3NCUE5rWExBOExUTTkyMFY1V2x4X0hfT0VEMWQ2cGQwYXF3VFRmQmNiZjhpd2VEWHBxb2x3VThSdU1UcmU5bFJwR1YyaUt2LXZ1QS1hb0xpZ1FEUnZScF9oblB3cUFqREhJNzVBUmM5dndMbkRmQ0hxUllIODJhYmNLcjU2T1dvY0JTa2hyMXZRRG9lSkpYWUE?oc=5",
+   "section": "nikkei",
+   "published_at": "2026-10-24 08:39:00",
+   "published_at_source": "published",
+   "headline_only": true,
+   "content_type": "news",
+   "opinion": false
+  },
+  {
    "source": "Google News",
    "source_tier": "B",
    "title_en": "Opinion | The US has South Korea over a trade barrel – and the world should take notes - South China Morning Post",
@@ -4375,36 +4418,6 @@
   {
    "source": "Google News",
    "source_tier": "B",
-   "title_en": "China investigates reported brake pedal bracket fracture in Huawei-backed Maextro EV - Reuters",
-   "title_zh": "",
-   "summary_en": "China investigates reported brake pedal bracket fracture in Huawei-backed Maextro EV Reuters",
-   "summary_zh": "",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPamFKbUl4ZHQ1endraTZrRUU2VmdBZlNScDBqVjcyQlBJa2swY0RhZTBaYWZ5Rm04RjYwaHRRc3lJTDYzb21QdmFySkIwT1RCeGc3cDJVUVRWdE50eEJuUDgyYnZYS1I5bENfOHBDa3IwNDFYb3BnS1o4ZWtiS3ZYMnFXOThZNlBfUEx4RlhhNlVNbDVPSjg0bW5IUDVlQllFLXpnenQybWdjV2g2WTFabk1PQmhjMFNlRjNpOHBhd1Jab0d2MjVWTHA1N1VUZw?oc=5",
-   "section": "reuters",
-   "published_at": "2026-10-15 07:00:00",
-   "published_at_source": "published",
-   "headline_only": true,
-   "content_type": "news",
-   "opinion": false
-  },
-  {
-   "source": "Google News",
-   "source_tier": "B",
-   "title_en": "Taiwan tells its people to shun Chinese anniversary events for revolutionary hero - Reuters",
-   "title_zh": "",
-   "summary_en": "Taiwan tells its people to shun Chinese anniversary events for revolutionary hero Reuters",
-   "summary_zh": "",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOOWJmMGZvT3RIdVNaNi00RkxXUmxSOU1kOG9PamhXa2JuWG9ScW9IZFNBZVprTTF4SndBanA0UEpoS2ItelRQOEZIamZBOTd0cC03XzNEd0x4SWdQOGhRUTQzZEtDVnlXOTlVSU1ldXg4ejlULXlYYkVmVVNvTWgxM2lYZHhxVUMzYk45bjBnalFzOS0wVlY3SVdwYnpGa0paUFRkbHA1OF9TZlF0Rk0wNTkwQmVFNVh0UzVPd3B2SQ?oc=5",
-   "section": "reuters",
-   "published_at": "2026-10-15 07:00:00",
-   "published_at_source": "published",
-   "headline_only": true,
-   "content_type": "news",
-   "opinion": false
-  },
-  {
-   "source": "Google News",
-   "source_tier": "B",
    "title_en": "Democrat Talarico says he raised record $64 million over summer in Texas Senate race - CNBC",
    "title_zh": "",
    "summary_en": "Democrat Talarico says he raised record $64 million over summer in Texas Senate race CNBC",
@@ -4591,6 +4604,36 @@
    "summary_zh": "",
    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNRHdPSDl3YzNNWkNrdjd1ZXBaaktIa2pvaDNWcko4MWxLVjRXOHpPVmU3bE41dHBZa1hvcGVFM0pzRW9RUXdHU3dITXNPRjJrWDRWcmlndHZ2WHpiSkQ0T3JmTTdtTlNWQks1eEh0TVpUREdNajBRU2E4T2VXVlBpRUVPN1FIZ19RM2R2VE5oSi1GTndCOWxxYnhmbzg1WUNtQmpkNWxOd0FHN2N0THVPelNRTVMyZC1ndHFYNDlnX1BjdXN4NVc5bDVST2FmMGJDd29N0gHTAUFVX3lxTE8tS21EYlN2N2NWM0lZQ3RNVWd4djRjZG9jMUlzM2dkRWJyV3o3eGtlVjhuZ3RERW5yQXZkYW9IMDJvdWpoc25ueGg4NGlRQ2NKUmdlVGh2Y3VtMFRVRzZ2cEczdTBzMkVOREhVWURvbDZlNWNnMXJVRlFzQkV3SVhvTGNOdU5mLTk4X2tPdEpLaUdIb1ppcnVFZkwxY0NnODVxOWt1dU5GcDV1a0ZIT1JrQ3JTTlpjTmgzMVpRdUo2bHZOLU1lM0RKU1hvaTFBTnk5Sjg?oc=5",
    "section": "older-scmp.com",
+   "published_at": "2026-10-15 07:00:00",
+   "published_at_source": "published",
+   "headline_only": true,
+   "content_type": "news",
+   "opinion": false
+  },
+  {
+   "source": "Google News",
+   "source_tier": "B",
+   "title_en": "Taiwan tells its people to shun Chinese anniversary events for revolutionary hero - Reuters",
+   "title_zh": "",
+   "summary_en": "Taiwan tells its people to shun Chinese anniversary events for revolutionary hero Reuters",
+   "summary_zh": "",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOOWJmMGZvT3RIdVNaNi00RkxXUmxSOU1kOG9PamhXa2JuWG9ScW9IZFNBZVprTTF4SndBanA0UEpoS2ItelRQOEZIamZBOTd0cC03XzNEd0x4SWdQOGhRUTQzZEtDVnlXOTlVSU1ldXg4ejlULXlYYkVmVVNvTWgxM2lYZHhxVUMzYk45bjBnalFzOS0wVlY3SVdwYnpGa0paUFRkbHA1OF9TZlF0Rk0wNTkwQmVFNVh0UzVPd3B2SQ?oc=5",
+   "section": "older-reuters.com",
+   "published_at": "2026-10-15 07:00:00",
+   "published_at_source": "published",
+   "headline_only": true,
+   "content_type": "news",
+   "opinion": false
+  },
+  {
+   "source": "Google News",
+   "source_tier": "B",
+   "title_en": "China investigates reported brake pedal bracket fracture in Huawei-backed Maextro EV - Reuters",
+   "title_zh": "",
+   "summary_en": "China investigates reported brake pedal bracket fracture in Huawei-backed Maextro EV Reuters",
+   "summary_zh": "",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPamFKbUl4ZHQ1endraTZrRUU2VmdBZlNScDBqVjcyQlBJa2swY0RhZTBaYWZ5Rm04RjYwaHRRc3lJTDYzb21QdmFySkIwT1RCeGc3cDJVUVRWdE50eEJuUDgyYnZYS1I5bENfOHBDa3IwNDFYb3BnS1o4ZWtiS3ZYMnFXOThZNlBfUEx4RlhhNlVNbDVPSjg0bW5IUDVlQllFLXpnenQybWdjV2g2WTFabk1PQmhjMFNlRjNpOHBhd1Jab0d2MjVWTHA1N1VUZw?oc=5",
+   "section": "older-reuters.com",
    "published_at": "2026-10-15 07:00:00",
    "published_at_source": "published",
    "headline_only": true,
@@ -5035,6 +5078,21 @@
   {
    "source": "Google News",
    "source_tier": "B",
+   "title_en": "The espresso pot test of Italian capitalism - Financial Times",
+   "title_zh": "",
+   "summary_en": "The espresso pot test of Italian capitalism Financial Times",
+   "summary_zh": "",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNE8yWlJJMUVOZWRrTzBYZHZnOHd1R2g3dEhOZ1JLZjBZb0JrdDVsLS0zYkxWdEpiSjcycHhIV0ZRYzJ6Uk93NDNoeWVhcl9kRHlwU3ZIOVdaeHc3cHY2dXhDdFpFaFpFTk5sYmdma2w2RzdKQ0ppSzZyaVp4aEJhWHhCSzg?oc=5",
+   "section": "older-ft.com",
+   "published_at": "2026-10-15 07:00:00",
+   "published_at_source": "published",
+   "headline_only": true,
+   "content_type": "news",
+   "opinion": false
+  },
+  {
+   "source": "Google News",
+   "source_tier": "B",
    "title_en": "Canada, Singapore reaffirm China trade ties amid global push for self-reliance - South China Morning Post",
    "title_zh": "",
    "summary_en": "Canada, Singapore reaffirm China trade ties amid global push for self-reliance South China Morning Post",
@@ -5071,21 +5129,6 @@
    "summary_zh": "",
    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOX3ptN3dpaGo5TUI1LUdfNVBHdlYxdHliT1FrQ0VrTFcwRXIzMVZFWHFScXR4ZU5jbFFfUTcxUWx0UWVyd1NHYktvaFljM0FjQUxqQUxZUkRQUGdxd3FpWVZNRTRIRWFXV2E2OGM1MTRwTjVKRTFKNXB0ejA2Q0tfMDgtQXBkbFNhck8xOWlzcFh5N1NnMWJMQm9JWklCY29zYmlTdjJUVTFLdEZabHVOWm5DN3N4elNhU0FQRU5NSDJKVE1oU0xmSkxxOGRQRXPSAc8BQVVfeXFMTUVCcnl4UUkwYVNoYktBdEdLeWZyZkhGalJiYmE0R3M3MjRyT3c4a01KWTBydVFlSDYtcjk1TG04MUFRLWEyV1NDR2Q2RFpOVDRSUWFxOVc0MklkNU9XdmxSUktWWS1vT2xRZ18yNXp1akJJSEFZUzF5ck9paUxBUkx6LWU4WHZJYXVoeGE1eHdKdFZLYW9ZdEJUWGQtSERGMW01YWd6bVFtVTRvLXBQMzBBNmJOSk81aWc4cXFJcE1jSF96WTUtU0U1SWl0MlBV?oc=5",
    "section": "older-scmp.com",
-   "published_at": "2026-10-15 07:00:00",
-   "published_at_source": "published",
-   "headline_only": true,
-   "content_type": "news",
-   "opinion": false
-  },
-  {
-   "source": "Google News",
-   "source_tier": "B",
-   "title_en": "The espresso pot test of Italian capitalism - Financial Times",
-   "title_zh": "",
-   "summary_en": "The espresso pot test of Italian capitalism Financial Times",
-   "summary_zh": "",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNE8yWlJJMUVOZWRrTzBYZHZnOHd1R2g3dEhOZ1JLZjBZb0JrdDVsLS0zYkxWdEpiSjcycHhIV0ZRYzJ6Uk93NDNoeWVhcl9kRHlwU3ZIOVdaeHc3cHY2dXhDdFpFaFpFTk5sYmdma2w2RzdKQ0ppSzZyaVp4aEJhWHhCSzg?oc=5",
-   "section": "older-ft.com",
    "published_at": "2026-10-15 07:00:00",
    "published_at_source": "published",
    "headline_only": true,
@@ -5500,21 +5543,6 @@
   {
    "source": "Google News",
    "source_tier": "B",
-   "title_en": "How to buy a vintage watch - Financial Times",
-   "title_zh": "",
-   "summary_en": "How to buy a vintage watch Financial Times",
-   "summary_zh": "",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9nQ1JfS3VnUW9mcUNkOVNqMGNUc2NMNHVLVmJabXNUeTlLQXRSdTNOSWlqemZDN05velBQcHlRR1NRWS1idEpBRk0xUFl4R1pOSHFoRktkS3BaLWY1X09XQ0dIaUc3OW9tMmYwSWNhRHU?oc=5",
-   "section": "older-ft.com",
-   "published_at": "2026-10-14 07:00:00",
-   "published_at_source": "published",
-   "headline_only": true,
-   "content_type": "news",
-   "opinion": false
-  },
-  {
-   "source": "Google News",
-   "source_tier": "B",
    "title_en": "Netflix to cut 1,000 jobs as growth concerns mount - Financial Times",
    "title_zh": "",
    "summary_en": "Netflix to cut 1,000 jobs as growth concerns mount Financial Times",
@@ -5566,6 +5594,21 @@
    "summary_zh": "",
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNU1J0UkFWSlZMckhqYktfZTR5bGJYNWdMNmhZWnNiVFM2aHdWTVBNdHlyai0tWlp0UzJleXloNnBHLV9hOFc4MXM5S05IcklCY1BsNTE2Q2JFWmtoLS1sT1RFYmJ0Z3dTcVE3QUxVQ1o3ckhkME9vM1pIeWFDOGxPb2kwb3ZsVWxqZzZBOThlYjUtR0pQQkpaTl9DYm1mOHJRRnQ1aWpCU1BBaXM?oc=5",
    "section": "older-asia.nikkei.com",
+   "published_at": "2026-10-14 07:00:00",
+   "published_at_source": "published",
+   "headline_only": true,
+   "content_type": "news",
+   "opinion": false
+  },
+  {
+   "source": "Google News",
+   "source_tier": "B",
+   "title_en": "How to buy a vintage watch - Financial Times",
+   "title_zh": "",
+   "summary_en": "How to buy a vintage watch Financial Times",
+   "summary_zh": "",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9nQ1JfS3VnUW9mcUNkOVNqMGNUc2NMNHVLVmJabXNUeTlLQXRSdTNOSWlqemZDN05velBQcHlRR1NRWS1idEpBRk0xUFl4R1pOSHFoRktkS3BaLWY1X09XQ0dIaUc3OW9tMmYwSWNhRHU?oc=5",
+   "section": "older-ft.com",
    "published_at": "2026-10-14 07:00:00",
    "published_at_source": "published",
    "headline_only": true,
@@ -5950,21 +5993,6 @@
   {
    "source": "Google News",
    "source_tier": "B",
-   "title_en": "UK’s Burnham says Russia interfered in 2016 Brexit vote - South China Morning Post",
-   "title_zh": "",
-   "summary_en": "UK’s Burnham says Russia interfered in 2016 Brexit vote South China Morning Post",
-   "summary_zh": "",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdTJIRzlHb0RaT1Z4a2IwaGNab0FQRVNDTTF1VEVNbzRzM3VhMVBNSXQ1M1E4ZmdWVWJ4aVA3VW5ncFYtTWdUWFNyNjZPcHhMYWVfMGJqV2tPZEVvQ2hibnNza0k5VEo5T2x6NXdXZ2ViQ0NPdGt3N1ZDWXhNVkVZUS1sanNFazRReDFhNUt2SU5iMUR1TVJ0T3g2X1N4ckktbVhjN1p3X2U0cHFJMVNqcE5FVThOTTRocXfSAboBQVVfeXFMT1pjYnNwcUl5WHI5eDM4WThTSlQtNERHaFZaYlpFV196YUNGbDhtUUxhcHpoNmZYYVV6dHVDdjlza25FVXFJMldWRmk1dWItNjBjdEZMcEJVWTNabzlkNXhJaGxKZVNkNjByd19WR3VoM09yMmU3UmNPTGVQSG9FR00ta29JZXFUMVRlTkNIdzhORFMzd0NsM2FISTZUeENsUndic2FER0VYNWlsSUU0bENlSTh1UW5kUjhB?oc=5",
-   "section": "older-scmp.com",
-   "published_at": "2026-10-12 07:00:00",
-   "published_at_source": "published",
-   "headline_only": true,
-   "content_type": "news",
-   "opinion": false
-  },
-  {
-   "source": "Google News",
-   "source_tier": "B",
    "title_en": "Hall, Woodford win Nobel prize for work on how to stabilise economies - Reuters",
    "title_zh": "",
    "summary_en": "Hall, Woodford win Nobel prize for work on how to stabilise economies Reuters",
@@ -6061,6 +6089,21 @@
    "summary_zh": "",
    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOX1ZJVWdVYUVETmtfQ0g1VjZwbHpoR1dXRU1YQ3llVFB4TXVSSnc2WEtTNUhmck5fTnBQSkpDWlFuSGpWODVhdEp1bS1RRXc1R0t0MnpnWjdhRjhHYllyT3Y4NWo2TUVlMjg0QkgzZy1ZQjhIVEYzbC1fV1hEd0ZCdWRucF9ndUtuWVhVajFKQ3UwVnY5MGpRUzNoNFd2UGVVSEpGM3BHVnV1LWdZc1pEYlJzb1hsOC1RT2F4T3lGZw?oc=5",
    "section": "older-asia.nikkei.com",
+   "published_at": "2026-10-12 07:00:00",
+   "published_at_source": "published",
+   "headline_only": true,
+   "content_type": "news",
+   "opinion": false
+  },
+  {
+   "source": "Google News",
+   "source_tier": "B",
+   "title_en": "UK’s Burnham says Russia interfered in 2016 Brexit vote - South China Morning Post",
+   "title_zh": "",
+   "summary_en": "UK’s Burnham says Russia interfered in 2016 Brexit vote South China Morning Post",
+   "summary_zh": "",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdTJIRzlHb0RaT1Z4a2IwaGNab0FQRVNDTTF1VEVNbzRzM3VhMVBNSXQ1M1E4ZmdWVWJ4aVA3VW5ncFYtTWdUWFNyNjZPcHhMYWVfMGJqV2tPZEVvQ2hibnNza0k5VEo5T2x6NXdXZ2ViQ0NPdGt3N1ZDWXhNVkVZUS1sanNFazRReDFhNUt2SU5iMUR1TVJ0T3g2X1N4ckktbVhjN1p3X2U0cHFJMVNqcE5FVThOTTRocXfSAboBQVVfeXFMT1pjYnNwcUl5WHI5eDM4WThTSlQtNERHaFZaYlpFV196YUNGbDhtUUxhcHpoNmZYYVV6dHVDdjlza25FVXFJMldWRmk1dWItNjBjdEZMcEJVWTNabzlkNXhJaGxKZVNkNjByd19WR3VoM09yMmU3UmNPTGVQSG9FR00ta29JZXFUMVRlTkNIdzhORFMzd0NsM2FISTZUeENsUndic2FER0VYNWlsSUU0bENlSTh1UW5kUjhB?oc=5",
+   "section": "older-scmp.com",
    "published_at": "2026-10-12 07:00:00",
    "published_at_source": "published",
    "headline_only": true,
@@ -6670,6 +6713,21 @@
   {
    "source": "Google News",
    "source_tier": "B",
+   "title_en": "Exclusive | Beijing wanted more from Xi’s state visit to Washington - South China Morning Post",
+   "title_zh": "",
+   "summary_en": "Exclusive | Beijing wanted more from Xi’s state visit to Washington South China Morning Post",
+   "summary_zh": "",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNlJiTUhzWFZDWmVYUHFudVVtYkQ4MTJyX0ZpbHdjb2dsQzNCLXdFa2FvMzJtb2xxR2NPS05Namlyclpwd0VUVHo1TjNmZlpSUG50NkFWekVrTkNvdWFKWlpvc1F0VVpMbnd3cGRFSm5aSnplOFVNSkN1cE5JekNzZ3p3bWtqZ1ZERllXV21IM1VDRDdyYWdwcXUybWhpNkp5eUZJUjE2SdIBpwFBVV95cUxNSDJRQWxFcHBpMF9fR2dJRXpsNEYxRElob2Q4LTZDVW5RQlV1eDQ2NnlFeUtvMmZVRGJ2YTRLVmpONGs3OXlWdl83dElRTTFsR2plbVZYTnZteVphMklvNkQzeFloQk5GaXBIU1dMcWszRV93XzRQTFZ6QXh5VEZVSVZPM2VOdU1TY0VtWWJoUVN1Qjc0c1ZIR3ZqaG5VMFZnUGN3YTJOSQ?oc=5",
+   "section": "older-scmp.com",
+   "published_at": "2026-10-06 07:00:00",
+   "published_at_source": "published",
+   "headline_only": true,
+   "content_type": "news",
+   "opinion": false
+  },
+  {
+   "source": "Google News",
+   "source_tier": "B",
    "title_en": "France: between the bond market and the barricades - Financial Times",
    "title_zh": "",
    "summary_en": "France: between the bond market and the barricades Financial Times",
@@ -6711,27 +6769,12 @@
    "headline_only": true,
    "content_type": "news",
    "opinion": false
-  },
-  {
-   "source": "Google News",
-   "source_tier": "B",
-   "title_en": "Exclusive | Beijing wanted more from Xi’s state visit to Washington - South China Morning Post",
-   "title_zh": "",
-   "summary_en": "Exclusive | Beijing wanted more from Xi’s state visit to Washington South China Morning Post",
-   "summary_zh": "",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNlJiTUhzWFZDWmVYUHFudVVtYkQ4MTJyX0ZpbHdjb2dsQzNCLXdFa2FvMzJtb2xxR2NPS05Namlyclpwd0VUVHo1TjNmZlpSUG50NkFWekVrTkNvdWFKWlpvc1F0VVpMbnd3cGRFSm5aSnplOFVNSkN1cE5JekNzZ3p3bWtqZ1ZERllXV21IM1VDRDdyYWdwcXUybWhpNkp5eUZJUjE2SdIBpwFBVV95cUxNSDJRQWxFcHBpMF9fR2dJRXpsNEYxRElob2Q4LTZDVW5RQlV1eDQ2NnlFeUtvMmZVRGJ2YTRLVmpONGs3OXlWdl83dElRTTFsR2plbVZYTnZteVphMklvNkQzeFloQk5GaXBIU1dMcWszRV93XzRQTFZ6QXh5VEZVSVZPM2VOdU1TY0VtWWJoUVN1Qjc0c1ZIR3ZqaG5VMFZnUGN3YTJOSQ?oc=5",
-   "section": "older-scmp.com",
-   "published_at": "2026-10-06 07:00:00",
-   "published_at_source": "published",
-   "headline_only": true,
-   "content_type": "news",
-   "opinion": false
   }
  ],
  "http_cache": {
   "https://www.cfr.org/blogs/follow-the-money": {
    "etag": "",
-   "last_modified": "Sun, 25 Oct 2026 12:00:54 GMT"
+   "last_modified": "Sun, 25 Oct 2026 12:57:36 GMT"
   },
   "https://rhg.com/feed/": {
    "etag": "\"be6e14ee92fa19781abef3dc33bcbd2e\"",
@@ -6742,7 +6785,7 @@
    "last_modified": ""
   },
   "https://carnegieendowment.org/china-financial-markets": {
-   "etag": "\"17v9aw3iqlo3jux\"",
+   "etag": "\"p4ewpk53yb3jux\"",
    "last_modified": ""
   },
   "https://aswathdamodaran.blogspot.com/": {
@@ -6774,7 +6817,7 @@
    "last_modified": "Sun, 25 Oct 2026 09:40:29 GMT"
   },
   "https://feeds.bloomberg.com/markets/news.rss": {
-   "etag": "W/\"3f3b-sFiZHj50ZNVKyk6S4tA8Pkidcx0\"",
+   "etag": "W/\"3de4-37g85fkGzP13iU12KhNAlcsaDGM\"",
    "last_modified": ""
   },
   "https://www.scmp.com/": {
@@ -6838,7 +6881,7 @@
    "last_modified": ""
   },
   "https://asia.nikkei.com/": {
-   "etag": "\"14trx9manr2ds14\"",
+   "etag": "\"15n9jdwlegadrug\"",
    "last_modified": ""
   }
  },
@@ -6851,8 +6894,8 @@
  "google_state": {
   "misses": 0,
   "full": true,
-  "pause_until": 1792932029.4232712,
-  "last_new": 7,
-  "updated_at": "2026-10-25 12:05:56"
+  "pause_until": 1792934914.1167254,
+  "last_new": 1,
+  "updated_at": "2026-10-25 12:57:36"
  }
 }

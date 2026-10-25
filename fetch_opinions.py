@@ -25,6 +25,9 @@ NOW = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
 CUTOFF = (datetime.now(timezone.utc).date() - timedelta(days=19)).strftime("%Y-%m-%d")
 HTTP_CACHE = {}
 OLD_NEWS = []
+SOURCE_SLOTS = {}
+GOOGLE_STATE = {}
+STARTUP = os.environ.get("STARTUP") == "1"
 NS = "{http://www.w3.org/2005/Atom}"
 
 SOURCES = [
@@ -647,8 +650,24 @@ def merge_news(old, new):
     return out
 
 
+def daily_slot(old):
+    """北京时间：开机首抓、13-14、23-23:59；SCMP/UDN 每天最多 3 次。"""
+    now = datetime.now(timezone(timedelta(hours=8)))
+    day = now.date().isoformat()
+    st = old.get("source_slots") or {}
+    if st.get("date") != day:
+        st = {"date": day, "slots": []}
+    slots = st.setdefault("slots", [])
+    slot = "afternoon" if 13 <= now.hour < 14 else ("evening" if now.hour == 23 else "")
+    key = slot or "startup"
+    allow = STARTUP or (slot and slot not in slots)
+    if allow and len(slots) < 3 and key not in slots:
+        slots.append(key)
+    return bool(allow and key in slots), st
+
+
 def main():
-    global HTTP_CACHE, OLD_NEWS
+    global HTTP_CACHE, OLD_NEWS, SOURCE_SLOTS, GOOGLE_STATE
     items = []
     report = {}
     seen = set()
@@ -659,8 +678,11 @@ def main():
             for k, v in (old0.get("http_cache") or {}).items() if isinstance(v, dict)
         }
         OLD_NEWS = old0.get("news_items") or []
+        GOOGLE_STATE = old0.get("google_state") or {}
+        allow_daily, SOURCE_SLOTS = daily_slot(old0)
     except Exception:
         HTTP_CACHE = {}
+        allow_daily, SOURCE_SLOTS = daily_slot({})
     for cfg in SOURCES:
         got, status, found = source_items(cfg)
         items.extend(got)
@@ -673,33 +695,55 @@ def main():
             else:
                 seen.add(key)
     items.sort(key=lambda x: x.get("published_at") or "", reverse=True)
-    news_items, news_report = fetch_udn()
-    report.update(news_report)
-    scmp_items, scmp_report = fetch_scmp()
-    news_items.extend(scmp_items)
-    report.update(scmp_report)
+    if allow_daily:
+        news_items, news_report = fetch_udn()
+        report.update(news_report)
+        scmp_items, scmp_report = fetch_scmp()
+        news_items.extend(scmp_items)
+        report.update(scmp_report)
+    else:
+        news_items = []
+        report["UDN"] = {"status": "skipped", "found": 0, "items": 0}
+        report["SCMP"] = {"status": "skipped", "found": 0, "items": 0}
     nikkei_items, nikkei_report = fetch_nikkei()
     news_items.extend(nikkei_items)
     report.update(nikkei_report)
     rss_items, rss_report = fetch_remote_rss()
     news_items.extend(rss_items)
     report.update(rss_report)
-    google_items, google_report = fetch_google_news()
-    news_items.extend(google_items)
-    report.update(google_report)
+    if time.time() >= float(GOOGLE_STATE.get("pause_until") or 0):
+        google_items, google_report = fetch_google_news()
+        old_urls = {x.get("url", "").split("?")[0] for x in OLD_NEWS}
+        new_google = sum(1 for x in google_items
+                         if x.get("url", "").split("?")[0] not in old_urls)
+        misses = int(GOOGLE_STATE.get("misses") or 0)
+        if new_google:
+            misses = 0
+        else:
+            misses += 1
+        pause = 1800 if misses >= 2 else 0
+        GOOGLE_STATE = {"misses": misses, "pause_until": time.time() + pause if pause else 0,
+                        "last_new": new_google, "updated_at": NOW}
+        news_items.extend(google_items)
+        report.update(google_report)
+    else:
+        report["Google News"] = {"status": "paused", "found": 0, "items": 0}
     news_items = merge_news(OLD_NEWS, news_items)
     if OUT.exists():
         try:
             old = json.loads(OUT.read_text(encoding="utf-8"))
             if (old.get("items") == items and old.get("news_items") == news_items
-                    and old.get("http_cache") == HTTP_CACHE):
+                    and old.get("http_cache") == HTTP_CACHE
+                    and old.get("source_slots") == SOURCE_SLOTS
+                    and old.get("google_state") == GOOGLE_STATE):
                 print("UNCHANGED %s items=%d news=%d" % (OUT, len(items), len(news_items)), flush=True)
                 return
         except Exception:
             pass
     OUT.parent.mkdir(parents=True, exist_ok=True)
     payload = {"generated_at": NOW, "sources": report, "items": items,
-               "news_items": news_items, "http_cache": HTTP_CACHE}
+               "news_items": news_items, "http_cache": HTTP_CACHE,
+               "source_slots": SOURCE_SLOTS, "google_state": GOOGLE_STATE}
     tmp = OUT.with_name(OUT.name + ".tmp")
     tmp.write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
     os.replace(tmp, OUT)

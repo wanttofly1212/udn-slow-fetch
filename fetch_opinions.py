@@ -721,8 +721,10 @@ def main():
             misses = 0
         else:
             misses += 1
-        pause = 1800 if misses >= 2 else 0
-        GOOGLE_STATE = {"misses": misses, "pause_until": time.time() + pause if pause else 0,
+        full = any((x.get("published_at") or "")[:10] <= CUTOFF for x in google_items)
+        pause = 1800 if (misses >= 2 or full) else 0
+        GOOGLE_STATE = {"misses": misses, "full": full,
+                        "pause_until": time.time() + pause if pause else 0,
                         "last_new": new_google, "updated_at": NOW}
         news_items.extend(google_items)
         report.update(google_report)

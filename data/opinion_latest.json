@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25 11:47:48",
+ "generated_at": "2026-10-25 12:03:14",
  "sources": {
   "Brad Setser / CFR": {
    "status": 200,
@@ -31,20 +31,15 @@
    "found": 8,
    "items": 8
   },
-  "UDN 经济日报": {
-   "status": 200,
-   "found": 20,
-   "items": 17
-  },
-  "UDN 联合新闻": {
-   "status": 200,
+  "UDN": {
+   "status": "skipped",
    "found": 0,
    "items": 0
   },
   "SCMP": {
-   "status": 200,
-   "found": 50,
-   "items": 20
+   "status": "skipped",
+   "found": 0,
+   "items": 0
   },
   "Nikkei Asia": {
    "status": 200,
@@ -67,64 +62,64 @@
    "items": 0
   },
   "Google cnbc": {
-   "status": 200,
-   "found": 100,
-   "items": 20
+   "status": 503,
+   "found": 0,
+   "items": 0
   },
   "Google scmp": {
-   "status": 200,
-   "found": 100,
-   "items": 20
+   "status": 503,
+   "found": 0,
+   "items": 0
   },
   "Google reuters": {
-   "status": 200,
-   "found": 100,
-   "items": 20
+   "status": 503,
+   "found": 0,
+   "items": 0
   },
   "Google bloomberg": {
-   "status": 200,
-   "found": 100,
-   "items": 20
+   "status": 503,
+   "found": 0,
+   "items": 0
   },
   "Google ft": {
-   "status": 200,
-   "found": 100,
-   "items": 20
+   "status": 503,
+   "found": 0,
+   "items": 0
   },
   "Google nikkei": {
-   "status": 200,
-   "found": 100,
-   "items": 20
+   "status": 503,
+   "found": 0,
+   "items": 0
   },
   "Google older-cnbc.com": {
-   "status": 200,
-   "found": 100,
-   "items": 20
+   "status": 503,
+   "found": 0,
+   "items": 0
   },
   "Google older-scmp.com": {
-   "status": 200,
-   "found": 100,
-   "items": 20
+   "status": 503,
+   "found": 0,
+   "items": 0
   },
   "Google older-reuters.com": {
-   "status": 200,
-   "found": 100,
-   "items": 20
+   "status": 503,
+   "found": 0,
+   "items": 0
   },
   "Google older-bloomberg.com": {
-   "status": 200,
-   "found": 100,
-   "items": 20
+   "status": 503,
+   "found": 0,
+   "items": 0
   },
   "Google older-ft.com": {
-   "status": 200,
-   "found": 100,
-   "items": 20
+   "status": 503,
+   "found": 0,
+   "items": 0
   },
   "Google older-asia.nikkei.com": {
-   "status": 200,
-   "found": 100,
-   "items": 20
+   "status": 503,
+   "found": 0,
+   "items": 0
   }
  },
  "items": [
@@ -150,7 +145,7 @@
    "full_text_available": true,
    "headline_only": false,
    "url": "https://research.gavekal.com/teaser/china-and-st-augustine/",
-   "published_at": "2026-10-25 11:47:48",
+   "published_at": "2026-10-25 12:03:14",
    "published_at_source": "fetched",
    "tags": []
   },
@@ -6580,7 +6575,7 @@
  "http_cache": {
   "https://www.cfr.org/blogs/follow-the-money": {
    "etag": "",
-   "last_modified": "Sun, 25 Oct 2026 11:30:45 GMT"
+   "last_modified": "Sun, 25 Oct 2026 12:03:01 GMT"
   },
   "https://rhg.com/feed/": {
    "etag": "\"be6e14ee92fa19781abef3dc33bcbd2e\"",
@@ -6591,7 +6586,7 @@
    "last_modified": ""
   },
   "https://carnegieendowment.org/china-financial-markets": {
-   "etag": "\"inpajddzsa3jux\"",
+   "etag": "\"iexnav6omv3jux\"",
    "last_modified": ""
   },
   "https://aswathdamodaran.blogspot.com/": {
@@ -6623,7 +6618,7 @@
    "last_modified": "Sun, 25 Oct 2026 09:40:29 GMT"
   },
   "https://feeds.bloomberg.com/markets/news.rss": {
-   "etag": "W/\"3f3f-hi4APmSq3+emGDBzcWBJLoMFEmg\"",
+   "etag": "W/\"3f3f-Txy4EHpwgeS2IS8w3dZEM7AC4Gk\"",
    "last_modified": ""
   },
   "https://www.scmp.com/": {
@@ -6687,7 +6682,7 @@
    "last_modified": ""
   },
   "https://asia.nikkei.com/": {
-   "etag": "\"e0t2oyfuh8ds14\"",
+   "etag": "\"xu15o67heods14\"",
    "last_modified": ""
   }
  },
@@ -6698,9 +6693,10 @@
   ]
  },
  "google_state": {
-  "misses": 0,
+  "misses": 1,
+  "full": false,
   "pause_until": 0,
-  "last_new": 10,
-  "updated_at": "2026-10-25 11:47:48"
+  "last_new": 0,
+  "updated_at": "2026-10-25 12:03:14"
  }
 }

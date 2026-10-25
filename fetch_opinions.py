@@ -70,6 +70,24 @@ SOURCES = [
         "link_re": r"aswathdamodaran\.blogspot\.com/20\d{2}/\d{2}/[^\"'?#]+",
         "max_items": 2,
     },
+    {
+        "name": "Project Syndicate",
+        "author": "Project Syndicate",
+        "platform": "Commentary",
+        "list_url": "https://www.project-syndicate.org/commentaries",
+        "link_re": r"project-syndicate\.org/commentary/[^\"'?#]+",
+        "require_re": r"china|chinese|renminbi|yuan|trade|tariff|export|econom|market|fed|rate|inflation",
+        "max_items": 3,
+    },
+    {
+        "name": "PIIE",
+        "author": "Peterson Institute for International Economics",
+        "platform": "Research",
+        "list_url": "https://www.piie.com/research/publications",
+        "link_re": r"piie\.com/(?:publications|research)/[^\"'?#]+",
+        "require_re": r"china|chinese|renminbi|yuan|trade|tariff|export|econom|market|fed|rate|inflation",
+        "max_items": 3,
+    },
 ]
 
 

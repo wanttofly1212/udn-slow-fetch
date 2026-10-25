@@ -92,12 +92,11 @@ def fetch(url, timeout=20, limit=1024 * 1024, cache=False):
                 HTTP_CACHE[url] = {
                     "etag": r.headers.get("ETag") or "",
                     "last_modified": r.headers.get("Last-Modified") or "",
-                    "body": body,
                 }
             return int(r.status), body, r.geturl()
     except HTTPError as e:
-        if e.code == 304 and isinstance(c, dict) and c.get("body"):
-            return 200, c.get("body") or "", url
+        if e.code == 304:
+            return 304, "", url
         try:
             e.read(100 * 1024)
         except Exception:

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25 04:47:00",
+ "generated_at": "2026-10-25 05:01:13",
  "sources": {
   "Brad Setser / CFR": {
    "status": 200,
@@ -22,14 +22,14 @@
    "items": 2
   },
   "Aswath Damodaran": {
-   "status": 200,
-   "found": 2,
-   "items": 2
+   "status": 304,
+   "found": 0,
+   "items": 0
   },
   "UDN 经济日报": {
    "status": 200,
    "found": 20,
-   "items": 16
+   "items": 17
   },
   "UDN 联合新闻": {
    "status": 200,
@@ -80,7 +80,7 @@
    "full_text_available": true,
    "headline_only": false,
    "url": "https://research.gavekal.com/teaser/china-and-st-augustine/",
-   "published_at": "2026-10-25 04:47:00",
+   "published_at": "2026-10-25 05:01:13",
    "published_at_source": "fetched",
    "tags": []
   },
@@ -104,32 +104,6 @@
    "full_text_available": true,
    "headline_only": true,
    "url": "https://research.gavekal.com/teaser/video-indonesias-identity-crisis/",
-   "published_at": "2026-10-22 00:00:00",
-   "published_at_source": "published",
-   "tags": []
-  },
-  {
-   "id": "op_475a94b2883725e4",
-   "source": "Aswath Damodaran",
-   "author": "Aswath Damodaran",
-   "platform": "Blog",
-   "content_type": "opinion",
-   "opinion": true,
-   "title_en": "Musings on Markets: From Eyeballs to Annual Run Rates (ARR): Buzzy Pricing Metrics and the Anthropic Trade!",
-   "title_zh": "",
-   "summary_en": "A blog about markets, finance and all things money related.",
-   "summary_zh": "",
-   "body": "Musings on Markets: From Eyeballs to Annual Run Rates (ARR): Buzzy Pricing Metrics and the Anthropic Trade! Thursday, October 22, 2026 From Eyeballs to Annual Run Rates (ARR): Buzzy Pricing Metrics and the Anthropic Trade! I was in San Francisco last week to talk to NYU Stern Alumni on October 15, and it was the day that Anthropic had a pre-IPO meeting with prospective investors. While I was not at the meeting, the focus of teh gathering was laying a foundation for its upcoming IPO, with the company reporting third-quarter revenue of $16.8 billion, which news reports described as surging 45% over the previous quarter's revenues, and positive profits, albeit on an adjusted basis. During the meeting, Anthropic also reported an annual revenue run rate (ARR) of $67 billion, a metric that those in the AI space have adopted with gusto, with an estimate that the ARR would exceed $100 billion by the end of the year. The nature of ARR, where choices on how revenue is calculated (gross versus net) and on annualization periods (daily, weekly or monthly) can make a significant difference, has led investors to be skeptical about comparing these numbers across time and companies. While I share s",
-   "body_excerpt": "Musings on Markets: From Eyeballs to Annual Run Rates (ARR): Buzzy Pricing Metrics and the Anthropic Trade! Thursday, October 22, 2026 From Eyeballs to Annual Run Rates (ARR): Buzzy Pricing Metrics and the Anthropic Trade! I was in San Francisco last week to talk to NYU Stern Alumni on October 15, and it was the day that Anthropic had a pre-IPO mee…",
-   "evidence": [
-    "How do Anthropic and OpenAI measure up in the life cycle?",
-    "If you don't believe in efficient markets, you can take one of two paths.",
-    "I will not be taking sides here, but not because I am copping out."
-   ],
-   "content_chars": 31643,
-   "full_text_available": true,
-   "headline_only": false,
-   "url": "https://aswathdamodaran.blogspot.com/2026/10/from-eyeballs-to-annual-run-rates-arr.html",
    "published_at": "2026-10-22 00:00:00",
    "published_at_source": "published",
    "tags": []
@@ -161,32 +135,6 @@
    "tags": []
   },
   {
-   "id": "op_c6ecb6df7a4a6c46",
-   "source": "Carnegie / Michael Pettis",
-   "author": "Michael Pettis",
-   "platform": "Carnegie",
-   "content_type": "opinion",
-   "opinion": true,
-   "title_en": "The Plaza Accord and Its Relevance for China | Carnegie Endowment for International Peace",
-   "title_zh": "",
-   "summary_en": "The Plaza Accord was not an externally imposed punishment of Japan but part of a broader restructuring that Japanese economists and policymakers themselves recognized was necessary. Its effects were undermined, however, when Tokyo responded to the resulting slowdown with policies that exacerbated investment, credit expansion, and the very imbalances the adjustment was intended to resolve.",
-   "summary_zh": "",
-   "body": "{ \"authors\": [ \"Michael Pettis\" ], \"type\": \"commentary\", \"blog\": \"China Financial Markets\", \"centerAffiliationAll\": \"\", \"centers\": [ \"Carnegie Endowment for International Peace\", \"Carnegie China\" ], \"englishNewsletterAll\": \"\", \"nonEnglishNewsletterAll\": \"\", \"primaryCenter\": \"Carnegie Endowment for International Peace\", \"programAffiliation\": \"\", \"regions\": [ \"Japan\", \"China\", \"Asia\" ], \"topics\": [ \"Economy\" ] } Source : Getty Commentary China Financial Markets The Plaza Accord and Its Relevance for China The Plaza Accord was not an externally imposed punishment of Japan but part of a broader restructuring that Japanese economists and policymakers themselves recognized was necessary. Its effects were undermined, however, when Tokyo responded to the resulting slowdown with policies that exacerbated investment, credit expansion, and the very imbalances the adjustment was intended to resolve. Link Copied By Michael Pettis Published on Sep 25, 2026 In recent weeks and months there has been a resurgence in discussions in Europe and the United States about whether or not China should appreciate its currency in response to its enormous trade surpluses. As part of this discussion, analysts o",
-   "body_excerpt": "{ \"authors\": [ \"Michael Pettis\" ], \"type\": \"commentary\", \"blog\": \"China Financial Markets\", \"centerAffiliationAll\": \"\", \"centers\": [ \"Carnegie Endowment for International Peace\", \"Carnegie China\" ], \"englishNewsletterAll\": \"\", \"nonEnglishNewsletterAll\": \"\", \"primaryCenter\": \"Carnegie Endowment for International Peace\", \"programAffiliation\": \"\", \"re…",
-   "evidence": [
-    "There are two problems with this interpretation.",
-    "The fact that Japanese intervention in the value of the U.S.",
-    "dollar was not generally considered in Japan to be a violation of U.S."
-   ],
-   "content_chars": 22015,
-   "full_text_available": true,
-   "headline_only": false,
-   "url": "https://carnegieendowment.org/china-financial-markets/2026/09/the-plaza-accord-and-its-relevance-for-china",
-   "published_at": "2026-09-25 00:00:00",
-   "published_at_source": "published",
-   "tags": []
-  },
-  {
    "id": "op_780bdb1863edef79",
    "source": "Brad Setser / CFR",
    "author": "Brad Setser",
@@ -209,32 +157,6 @@
    "headline_only": false,
    "url": "https://www.cfr.org/articles/de-reservification-not-de-dollarization",
    "published_at": "2026-09-15 08:37:00",
-   "published_at_source": "published",
-   "tags": []
-  },
-  {
-   "id": "op_2c3d702743095541",
-   "source": "Carnegie / Michael Pettis",
-   "author": "Michael Pettis",
-   "platform": "Carnegie",
-   "content_type": "opinion",
-   "opinion": true,
-   "title_en": "Who Paid for China’s Last Debt Cleanup, and Who Will Pay for the Next? | Carnegie Endowment for International Peace",
-   "title_zh": "",
-   "summary_en": "China’s banking crisis in the 2000s was resolved by transferring the costs to households through financial repression—a decision that recapitalized the banks while exacerbating the structural imbalances that continue to shape the Chinese economy today.",
-   "summary_zh": "",
-   "body": "{ \"authors\": [ \"Michael Pettis\" ], \"type\": \"commentary\", \"blog\": \"China Financial Markets\", \"centerAffiliationAll\": \"\", \"centers\": [ \"Carnegie Endowment for International Peace\", \"Carnegie China\" ], \"englishNewsletterAll\": \"\", \"nonEnglishNewsletterAll\": \"\", \"primaryCenter\": \"Carnegie Endowment for International Peace\", \"programAffiliation\": \"\", \"regions\": [ \"China\", \"Asia\" ], \"topics\": [ \"Economy\" ] } Source : Getty Commentary China Financial Markets Who Paid for China’s Last Debt Cleanup, and Who Will Pay for the Next? China’s banking crisis in the 2000s was resolved by transferring the costs to households through financial repression—a decision that recapitalized the banks while exacerbating the structural imbalances that continue to shape the Chinese economy today. Link Copied By Michael Pettis Published on Aug 25, 2026 Chinese debt has risen over the past ten to fifteen years at perhaps the fastest pace in history, leaving China with one of the highest debt-to-GDP ratios in the world—second only to Japan among the major economies. What is more, surging debt has always been the warning for investment-driven “miracle” economies that their growth model has become unsustainable. Th",
-   "body_excerpt": "{ \"authors\": [ \"Michael Pettis\" ], \"type\": \"commentary\", \"blog\": \"China Financial Markets\", \"centerAffiliationAll\": \"\", \"centers\": [ \"Carnegie Endowment for International Peace\", \"Carnegie China\" ], \"englishNewsletterAll\": \"\", \"nonEnglishNewsletterAll\": \"\", \"primaryCenter\": \"Carnegie Endowment for International Peace\", \"programAffiliation\": \"\", \"re…",
-   "evidence": [
-    "As a result, the largest source of bad debt was lending to SOEs.",
-    "2 At the time, many economists assumed the cleanup would be largely technical.",
-    "That is broadly what happened."
-   ],
-   "content_chars": 22072,
-   "full_text_available": true,
-   "headline_only": false,
-   "url": "https://carnegieendowment.org/china-financial-markets/2026/08/who-paid-for-chinas-last-debt-cleanup-and-who-will-pay-for-the-next",
-   "published_at": "2026-08-25 00:00:00",
    "published_at_source": "published",
    "tags": []
   },
@@ -289,33 +211,93 @@
    "tags": []
   },
   {
-   "id": "op_7a8e26d75ad7a2e1",
-   "source": "Aswath Damodaran",
-   "author": "Aswath Damodaran",
-   "platform": "Blog",
+   "id": "op_79fc2180d325a614",
+   "source": "Carnegie / Michael Pettis",
+   "author": "Michael Pettis",
+   "platform": "Carnegie",
    "content_type": "opinion",
    "opinion": true,
-   "title_en": "Musings on Markets: Aging in Dog Years? The Short, Glorious Life of a Successful Tech Company!",
+   "title_en": "Beijing’s Three Options: Unemployment, Debt, or Wealth Transfers | Carnegie Endowment for International Peace",
    "title_zh": "",
-   "summary_en": "A blog about markets, finance and all things money related.",
+   "summary_en": "China’s debt problems have emerged so much more rapidly and severely this year than in the past that a growing number of analysts believe that this may be the year that China’s economy breaks. There is no question that China will have a difficult adjustment, but it is likely to take the form of a long process rather than a sudden crisis.",
    "summary_zh": "",
-   "body": "Musings on Markets: Aging in Dog Years? The Short, Glorious Life of a Successful Tech Company! Wednesday, December 9, 2015 Aging in Dog Years? The Short, Glorious Life of a Successful Tech Company! The corporate aging theme is one that I have returned to repeatedly in my posts, and I have looked at how the aging process creates dysfunctional responses on the parts of managers, who want to find ways to reverse it, and investors, who make bets on such reversals. It was the under pinning for my last post on Yahoo , and in that post, I argued that technology companies have compressed life cycles, i.e., age in dog years, relative to non-tech companies. In this post, I would like to provide a rationale for why this may be the case and set the stage for my next post on what the implications are for managers and investors. The Corporate Life Cycle The corporate life cycle follows a familiar pattern. It begins with an idea, that develops into a product, which evolves into an operating business, that matures, and eventually dies. I have also highlighted the transitions that determine whether a company moves to the next stage and the mortality rate especially early in the life cycle is high. ",
-   "body_excerpt": "Musings on Markets: Aging in Dog Years? The Short, Glorious Life of a Successful Tech Company! Wednesday, December 9, 2015 Aging in Dog Years? The Short, Glorious Life of a Successful Tech Company! The corporate aging theme is one that I have returned to repeatedly in my posts, and I have looked at how the aging process creates dysfunctional respon…",
+   "body": "{ \"authors\": [ \"Michael Pettis\" ], \"type\": \"commentary\", \"blog\": \"China Financial Markets\", \"centerAffiliationAll\": \"dc\", \"centers\": [ \"Carnegie Endowment for International Peace\", \"Carnegie China\" ], \"collections\": [], \"englishNewsletterAll\": \"asia\", \"nonEnglishNewsletterAll\": \"\", \"primaryCenter\": \"Carnegie China\", \"programAffiliation\": \"AP\", \"programs\": [ \"Asia\" ], \"projects\": [], \"regions\": [ \"North America\", \"United States\", \"East Asia\", \"China\" ], \"topics\": [ \"Economy\", \"Trade\", \"Foreign Policy\" ] } REQUIRED IMAGE Commentary China Financial Markets Beijing’s Three Options: Unemployment, Debt, or Wealth Transfers China’s debt problems have emerged so much more rapidly and severely this year than in the past that a growing number of analysts believe that this may be the year that China’s economy breaks. There is no question that China will have a difficult adjustment, but it is likely to take the form of a long process rather than a sudden crisis. Link Copied By Michael Pettis Published on Sep 5, 2018 China’s debt problems have emerged so much more rapidly and severely this year than in the past that, combined with swirling rumors about the country’s leadership, a growing number",
+   "body_excerpt": "{ \"authors\": [ \"Michael Pettis\" ], \"type\": \"commentary\", \"blog\": \"China Financial Markets\", \"centerAffiliationAll\": \"dc\", \"centers\": [ \"Carnegie Endowment for International Peace\", \"Carnegie China\" ], \"collections\": [], \"englishNewsletterAll\": \"asia\", \"nonEnglishNewsletterAll\": \"\", \"primaryCenter\": \"Carnegie China\", \"programAffiliation\": \"AP\", \"pro…",
    "evidence": [
-    "Musings on Markets: Aging in Dog Years?",
-    "The Short, Glorious Life of a Successful Tech Company!",
-    "Wednesday, December 9, 2015 Aging in Dog Years?"
+    "As always, I am agnostic.",
+    "There are literally only four ways that either of these outcomes can happen.",
+    "Beijing can engineer an increase in public-sector investment."
    ],
-   "content_chars": 15397,
+   "content_chars": 23929,
    "full_text_available": true,
    "headline_only": false,
-   "url": "https://aswathdamodaran.blogspot.com/2015/12/aging-in-dog-years-short-glorious-life.html",
-   "published_at": "2015-12-09 00:00:00",
+   "url": "https://carnegieendowment.org/china-financial-markets/2018/07/beijings-three-options-unemployment-debt-or-wealth-transfers",
+   "published_at": "2018-09-05 00:00:00",
+   "published_at_source": "published",
+   "tags": []
+  },
+  {
+   "id": "op_824dddcd728c7170",
+   "source": "Carnegie / Michael Pettis",
+   "author": "Michael Pettis",
+   "platform": "Carnegie",
+   "content_type": "opinion",
+   "opinion": true,
+   "title_en": "The Politics of Chinese Adjustment | Carnegie Endowment for International Peace",
+   "title_zh": "",
+   "summary_en": "Political concerns will dominate Beijing's economic decision-making as Chinese leaders seek a gradual adjustment that will balance competing constituencies.",
+   "summary_zh": "",
+   "body": "{ \"authors\": [ \"Michael Pettis\" ], \"type\": \"commentary\", \"blog\": \"China Financial Markets\", \"centerAffiliationAll\": \"dc\", \"centers\": [ \"Carnegie Endowment for International Peace\", \"Carnegie China\" ], \"collections\": [], \"englishNewsletterAll\": \"asia\", \"nonEnglishNewsletterAll\": \"\", \"primaryCenter\": \"Carnegie China\", \"programAffiliation\": \"AP\", \"programs\": [ \"Asia\" ], \"projects\": [], \"regions\": [ \"East Asia\", \"China\" ], \"topics\": [ \"Political Reform\", \"Economy\", \"Domestic Politics\" ] } Source : Getty Commentary China Financial Markets The Politics of Chinese Adjustment Political concerns will dominate Beijing's economic decision-making as Chinese leaders seek a gradual adjustment that will balance competing constituencies. Link Copied By Michael Pettis Published on Sep 29, 2010 Source: China Financial Markets The Politics of Chinese Adjustment I am often asked, especially by my Peking University students, to list what I think is the sequence of steps China will take to address its economic imbalances. Remember that rebalancing, in the Chinese context, has a very specific definition. It means raising the consumption share of GDP. This is just a way of saying that consumption growth m",
+   "body_excerpt": "{ \"authors\": [ \"Michael Pettis\" ], \"type\": \"commentary\", \"blog\": \"China Financial Markets\", \"centerAffiliationAll\": \"dc\", \"centers\": [ \"Carnegie Endowment for International Peace\", \"Carnegie China\" ], \"collections\": [], \"englishNewsletterAll\": \"asia\", \"nonEnglishNewsletterAll\": \"\", \"primaryCenter\": \"Carnegie China\", \"programAffiliation\": \"AP\", \"pro…",
+   "evidence": [
+    "Remember that rebalancing, in the Chinese context, has a very specific definition.",
+    "It means raising the consumption share of GDP.",
+    "But there are many ways this can happen."
+   ],
+   "content_chars": 19081,
+   "full_text_available": true,
+   "headline_only": false,
+   "url": "https://carnegieendowment.org/china-financial-markets/2010/09/the-politics-of-chinese-adjustment",
+   "published_at": "2010-09-29 00:00:00",
    "published_at_source": "published",
    "tags": []
   }
  ],
  "news_items": [
+  {
+   "source": "SCMP",
+   "source_tier": "A",
+   "title_en": "Novel idea: Thailand, Vietnam take books on the road in reading drive | South China Morning Post",
+   "title_zh": "",
+   "summary_en": "Two independent publishers travel through regional provinces, offering discounted titles to spark curiosity and connect local communities.",
+   "summary_zh": "",
+   "body": "Tran Dai Thang spotted two young people who had picked up their drinks at a pop-up cafe beside his travelling bookstore and were about to leave, so he called them over. One of them said they did not read books, Thang recalled. But he kept the conversation going and eventually persuaded the visitor to buy a book for 10,000 dong (US$0.40) – heavily discounted from its original price of 45,000 dong. For Thang, an artist and publisher, the small sale mattered far less than the fact that someone who said they did not read had chosen to pick up a book. “Who knows, it might be the start of a new habit,” he said. Thang, 53, is spending a year travelling across Vietnam in a truck with his “Books To Every Home” project, also known as “Roaming Turtle”. In neighbouring Thailand, a similar book truck named “Somelee” (Cotton) is pursuing an equally ambitious mission: visiting all 77 provinces to take literature beyond Bangkok and the country’s other urban centres. Their goal goes beyond selling books. By taking their trucks beyond the big cities, the two projects hope to spark curiosity, build connections through storytelling and turn chance roadside encounters into lasting reading habits for pe",
+   "body_excerpt": "Tran Dai Thang spotted two young people who had picked up their drinks at a pop-up cafe beside his travelling bookstore and were about to leave, so he called them over. One of them said they did not read books, Thang recalled. But he kept the conversation going and eventually persuaded the visitor to buy a book for 10,000 dong (US$0.40) – heavily d",
+   "url": "https://www.scmp.com/week-asia/people/article/3371941/novel-idea-thailand-vietnam-take-books-road-reading-drive",
+   "section": "",
+   "published_at": "2026-10-25 13:00:00",
+   "published_at_source": "published",
+   "headline_only": false,
+   "content_type": "news",
+   "opinion": false
+  },
+  {
+   "source": "SCMP",
+   "source_tier": "A",
+   "title_en": "Law enforcement alerted to firm offering LGBTQ surrogacy services in Hong Kong | South China Morning Post",
+   "title_zh": "",
+   "summary_en": "Mainland Chinese influencer says he helped gay couples with the birth and documents of their children by bringing their surrogates to the city.",
+   "summary_zh": "",
+   "body": "Hong Kong’s regulator for in vitro fertilisation (IVF) has referred a case to law enforcement agencies after a mainland Chinese influencer was suspected of offering to bring non-local surrogate mothers of LGBTQ parents to give birth in the city. Tan Zubiao, also known as Berlin Sun, had set up a company in the city and advertised on social media commercial surrogacy services for LGBTQ couples, according to Hong Kong media. Tan and his foreign husband, who have two children through surrogacy, were deported from Taiwan’s Kaohsiung last Thursday after being fined NT$200,000 (HK$48,109) for breaching Taiwan’s Medical Care Act by offering assisted-reproductive services. In a written reply to the South China Morning Post on Sunday morning, Hong Kong’s Council on Human Reproductive Technology said commercial surrogacy arrangements and the distribution of related advertisements were prohibited under the city’s Human Reproductive Technology Ordinance. “The Department of Health has referred the case to the council. After seeking legal advice, the council has referred the case to law enforcement agencies for follow-up action,” it said. The SCMP has reached out to Hong Kong police for comment.",
+   "body_excerpt": "Hong Kong’s regulator for in vitro fertilisation (IVF) has referred a case to law enforcement agencies after a mainland Chinese influencer was suspected of offering to bring non-local surrogate mothers of LGBTQ parents to give birth in the city. Tan Zubiao, also known as Berlin Sun, had set up a company in the city and advertised on social media co",
+   "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3372052/law-enforcement-alerted-about-firm-offering-lgbtq-surrogacy-services-hong-kong",
+   "section": "",
+   "published_at": "2026-10-25 12:49:00",
+   "published_at_source": "published",
+   "headline_only": false,
+   "content_type": "news",
+   "opinion": false
+  },
   {
    "source": "SCMP",
    "source_tier": "A",
@@ -621,6 +603,38 @@
    "headline_only": false,
    "content_type": "news",
    "opinion": false
+  },
+  {
+   "source": "UDN",
+   "source_tier": "A",
+   "title_en": "金正恩快閃訪中 視察新鴨綠江大橋聚焦雙方合作",
+   "title_zh": "",
+   "summary_en": "北韓領導人金正恩昨天突然訪問中國遼寧省丹東，首次未與習近平會面便返回北韓。外界分析，這次金正恩訪中的重點是在剛通行的新鴨...",
+   "summary_zh": "",
+   "url": "https://money.udn.com/money/story/5599/9836065",
+   "section": "財經",
+   "published_at": "2026-10-25 04:55:32",
+   "published_at_source": "published",
+   "headline_only": true,
+   "content_type": "news",
+   "opinion": false,
+   "discovery": "UDN 经济日报"
+  },
+  {
+   "source": "UDN",
+   "source_tier": "A",
+   "title_en": "梅根父親舊居筆電含兒少虐待照 菲：鑑識結果一週內出爐",
+   "title_zh": "",
+   "summary_en": "英國哈利王子之妻、薩塞克斯公爵夫人梅根的父親老湯瑪斯．馬克爾昔日位於菲律賓的住所，據報發現兒少虐待影像及一台筆電。菲國內...",
+   "summary_zh": "",
+   "url": "https://money.udn.com/money/story/5599/9836059",
+   "section": "財經",
+   "published_at": "2026-10-25 04:54:31",
+   "published_at_source": "published",
+   "headline_only": true,
+   "content_type": "news",
+   "opinion": false,
+   "discovery": "UDN 经济日报"
   },
   {
    "source": "UDN",
@@ -1043,6 +1057,21 @@
    "opinion": false
   },
   {
+   "source": "Bloomberg Markets",
+   "source_tier": "B",
+   "title_en": "Indonesia Begins Trimming Pipeline Gas Exports to Singapore",
+   "title_zh": "",
+   "summary_en": "Indonesia reduced natural gas exports to neighboring Singapore from Saturday as President Prabowo Subianto seeks to shore up domestic supply and strengthen energy security for Southeast Asia’s largest economy.",
+   "summary_zh": "",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-24/indonesia-begins-trimming-pipeline-gas-exports-to-singapore",
+   "section": "",
+   "published_at": "2026-10-24 07:48:56",
+   "published_at_source": "published",
+   "headline_only": true,
+   "content_type": "news",
+   "opinion": false
+  },
+  {
    "source": "SCMP",
    "source_tier": "A",
    "title_en": "Longevity-first healthcare takes spotlight at Abu Dhabi Future Health Summit | South China Morning Post",
@@ -1063,7 +1092,7 @@
  "http_cache": {
   "https://www.cfr.org/blogs/follow-the-money": {
    "etag": "",
-   "last_modified": "Sun, 25 Oct 2026 04:23:08 GMT"
+   "last_modified": "Sun, 25 Oct 2026 05:00:33 GMT"
   },
   "https://rhg.com/feed/": {
    "etag": "\"be6e14ee92fa19781abef3dc33bcbd2e\"",
@@ -1074,7 +1103,7 @@
    "last_modified": ""
   },
   "https://carnegieendowment.org/china-financial-markets": {
-   "etag": "\"13lxkuj5e213jux\"",
+   "etag": "\"ob7e0vhgpm2v91\"",
    "last_modified": ""
   },
   "https://aswathdamodaran.blogspot.com/": {
@@ -1091,7 +1120,7 @@
   },
   "https://www.scmp.com/rss/91/feed": {
    "etag": "",
-   "last_modified": "Sun, 25 Oct 2026 04:45:20 GMT"
+   "last_modified": "Sun, 25 Oct 2026 05:00:20 GMT"
   },
   "https://www.scmp.com/rss/92/feed": {
    "etag": "",
@@ -1106,7 +1135,7 @@
    "last_modified": "Sun, 25 Oct 2026 01:00:30 GMT"
   },
   "https://feeds.bloomberg.com/markets/news.rss": {
-   "etag": "W/\"4284-hwxrpdW6CMAz6ks7ijRxdKZXdqQ\"",
+   "etag": "W/\"428e-OIg2FCH3Y3doXixPtYHPrn9gWmg\"",
    "last_modified": ""
   },
   "https://www.scmp.com/": {

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25 11:13:24",
+ "generated_at": "2026-10-25 11:47:48",
  "sources": {
   "Brad Setser / CFR": {
    "status": 200,
@@ -22,9 +22,9 @@
    "items": 2
   },
   "Aswath Damodaran": {
-   "status": 200,
-   "found": 2,
-   "items": 2
+   "status": 304,
+   "found": 0,
+   "items": 0
   },
   "Project Syndicate": {
    "status": 200,
@@ -150,7 +150,7 @@
    "full_text_available": true,
    "headline_only": false,
    "url": "https://research.gavekal.com/teaser/china-and-st-augustine/",
-   "published_at": "2026-10-25 11:13:24",
+   "published_at": "2026-10-25 11:47:48",
    "published_at_source": "fetched",
    "tags": []
   },
@@ -376,32 +376,6 @@
    "tags": []
   },
   {
-   "id": "op_475a94b2883725e4",
-   "source": "Aswath Damodaran",
-   "author": "Aswath Damodaran",
-   "platform": "Blog",
-   "content_type": "opinion",
-   "opinion": true,
-   "title_en": "Musings on Markets: From Eyeballs to Annual Run Rates (ARR): Buzzy Pricing Metrics and the Anthropic Trade!",
-   "title_zh": "",
-   "summary_en": "A blog about markets, finance and all things money related.",
-   "summary_zh": "",
-   "body": "Musings on Markets: From Eyeballs to Annual Run Rates (ARR): Buzzy Pricing Metrics and the Anthropic Trade! Thursday, October 22, 2026 From Eyeballs to Annual Run Rates (ARR): Buzzy Pricing Metrics and the Anthropic Trade! I was in San Francisco last week to talk to NYU Stern Alumni on October 15, and it was the day that Anthropic had a pre-IPO meeting with prospective investors. While I was not at the meeting, the focus of teh gathering was laying a foundation for its upcoming IPO, with the company reporting third-quarter revenue of $16.8 billion, which news reports described as surging 45% over the previous quarter's revenues, and positive profits, albeit on an adjusted basis. During the m",
-   "body_excerpt": "Musings on Markets: From Eyeballs to Annual Run Rates (ARR): Buzzy Pricing Metrics and the Anthropic Trade! Thursday, October 22, 2026 From Eyeballs to Annual Run Rates (ARR): Buzzy Pricing Metrics and the Anthropic Trade! I was in San Francisco last week to talk to NYU Stern Alumni on October 15, and it was the day that Anthropic had a pre-IPO mee…",
-   "evidence": [
-    "How do Anthropic and OpenAI measure up in the life cycle?",
-    "If you don't believe in efficient markets, you can take one of two paths.",
-    "I will not be taking sides here, but not because I am copping out."
-   ],
-   "content_chars": 31643,
-   "full_text_available": true,
-   "headline_only": false,
-   "url": "https://aswathdamodaran.blogspot.com/2026/10/from-eyeballs-to-annual-run-rates-arr.html",
-   "published_at": "2026-10-22 00:00:00",
-   "published_at_source": "published",
-   "tags": []
-  },
-  {
    "id": "op_15f2649968c390c0",
    "source": "Brad Setser / CFR",
    "author": "Brad Setser",
@@ -554,35 +528,26 @@
    "published_at": "2025-10-16 00:00:00",
    "published_at_source": "published",
    "tags": []
-  },
-  {
-   "id": "op_7a8e26d75ad7a2e1",
-   "source": "Aswath Damodaran",
-   "author": "Aswath Damodaran",
-   "platform": "Blog",
-   "content_type": "opinion",
-   "opinion": true,
-   "title_en": "Musings on Markets: Aging in Dog Years? The Short, Glorious Life of a Successful Tech Company!",
-   "title_zh": "",
-   "summary_en": "A blog about markets, finance and all things money related.",
-   "summary_zh": "",
-   "body": "Musings on Markets: Aging in Dog Years? The Short, Glorious Life of a Successful Tech Company! Wednesday, December 9, 2015 Aging in Dog Years? The Short, Glorious Life of a Successful Tech Company! The corporate aging theme is one that I have returned to repeatedly in my posts, and I have looked at how the aging process creates dysfunctional responses on the parts of managers, who want to find ways to reverse it, and investors, who make bets on such reversals. It was the under pinning for my last post on Yahoo , and in that post, I argued that technology companies have compressed life cycles, i.e., age in dog years, relative to non-tech companies. In this post, I would like to provide a rati",
-   "body_excerpt": "Musings on Markets: Aging in Dog Years? The Short, Glorious Life of a Successful Tech Company! Wednesday, December 9, 2015 Aging in Dog Years? The Short, Glorious Life of a Successful Tech Company! The corporate aging theme is one that I have returned to repeatedly in my posts, and I have looked at how the aging process creates dysfunctional respon…",
-   "evidence": [
-    "Musings on Markets: Aging in Dog Years?",
-    "The Short, Glorious Life of a Successful Tech Company!",
-    "Wednesday, December 9, 2015 Aging in Dog Years?"
-   ],
-   "content_chars": 15397,
-   "full_text_available": true,
-   "headline_only": false,
-   "url": "https://aswathdamodaran.blogspot.com/2015/12/aging-in-dog-years-short-glorious-life.html",
-   "published_at": "2015-12-09 00:00:00",
-   "published_at_source": "published",
-   "tags": []
   }
  ],
  "news_items": [
+  {
+   "source": "SCMP",
+   "source_tier": "A",
+   "title_en": "US Marine indictment in Okinawa murder trial renews anti-base movement | South China Morning Post",
+   "title_zh": "",
+   "summary_en": "Devin Ballard, who is stationed at Futenma Air Base, is charged with robbing and killing a woman in Naha, the capital of the southern island prefecture.",
+   "summary_zh": "",
+   "body": "Prosecutors indicted a 20-year-old US Marine on Sunday on suspicion of robbing and murdering a woman in Okinawa earlier this month as the case renews anti-base sentiment among locals burdened with hosting the bulk of US military installations in Japan. Devin Ballard, who is stationed at Futenma Air Base, is charged with killing the woman by wrapping a phone cord around her neck at a hotel in Naha, the capital of the southern island prefecture, and taking her backpack containing a wallet on October 3, according to the indictment. The cause of death was suffocation, it said. The local police said they found Ballard walking alone in the city of Okinawa in the late hours of October 3 and arreste",
+   "body_excerpt": "Prosecutors indicted a 20-year-old US Marine on Sunday on suspicion of robbing and murdering a woman in Okinawa earlier this month as the case renews anti-base sentiment among locals burdened with hosting the bulk of US military installations in Japan. Devin Ballard, who is stationed at Futenma Air Base, is charged with killing the woman by wrappin",
+   "url": "https://www.scmp.com/news/asia/east-asia/article/3372075/us-marine-indictment-okinawa-murder-trial-renews-anti-base-movement",
+   "section": "",
+   "published_at": "2026-10-25 19:33:00",
+   "published_at_source": "published",
+   "headline_only": false,
+   "content_type": "news",
+   "opinion": false
+  },
   {
    "source": "SCMP",
    "source_tier": "A",
@@ -743,8 +708,8 @@
    "title_zh": "",
    "summary_en": "Mainland China’s media and military marked ‘Taiwan Restoration Day’, the 81st anniversary of the handover of the island.",
    "summary_zh": "",
-   "body": "Beijing pledged to support pro-unification forces in Taiwan on Sunday as it mounted a concerted publicity campaign on Sunday to mark the 81st anniversary of the end of Japanese colonial rule over the island. October 25 was formally established by Beijing last year as an official memorial date known as “Taiwan Restoration Day”. Speaking at an event in Fuzhou, the capital of Fujian province, on Sunday, Song Tao, the head of Beijing’s Taiwan Affairs Office, said the memorial day highlighted Beijing’s “firm confidence in defending national sovereignty and territorial integrity”. Song said the Chinese nation had an “indivisible cross-strait history” rooted in shared bloodlines. “Compatriots on bo",
-   "body_excerpt": "Beijing pledged to support pro-unification forces in Taiwan on Sunday as it mounted a concerted publicity campaign on Sunday to mark the 81st anniversary of the end of Japanese colonial rule over the island. October 25 was formally established by Beijing last year as an official memorial date known as “Taiwan Restoration Day”. Speaking at an event ",
+   "body": "Beijing pledged to support pro-unification forces in Taiwan as it mounted a concerted publicity campaign on Sunday to mark the 81st anniversary of the end of Japanese colonial rule over the island. October 25 was formally established by Beijing last year as an official memorial date known as “Taiwan Restoration Day”. Speaking at an event in Fuzhou, the capital of Fujian province, on Sunday, Song Tao, the head of Beijing’s Taiwan Affairs Office, said the memorial day highlighted Beijing’s “firm confidence in defending national sovereignty and territorial integrity”. Song said the Chinese nation had an “indivisible cross-strait history” rooted in shared bloodlines. “Compatriots on both sides o",
+   "body_excerpt": "Beijing pledged to support pro-unification forces in Taiwan as it mounted a concerted publicity campaign on Sunday to mark the 81st anniversary of the end of Japanese colonial rule over the island. October 25 was formally established by Beijing last year as an official memorial date known as “Taiwan Restoration Day”. Speaking at an event in Fuzhou,",
    "url": "https://www.scmp.com/news/china/politics/article/3372065/beijing-commemorates-end-japanese-rule-over-taiwan-call-reunification",
    "section": "",
    "published_at": "2026-10-25 16:05:00",
@@ -1024,6 +989,68 @@
    "headline_only": false,
    "content_type": "news",
    "opinion": false
+  },
+  {
+   "source": "Google News",
+   "source_tier": "B",
+   "title_en": "Beijing pledges to back Taiwan’s pro-unification ‘patriots’ on key anniversary - South China Morning Post",
+   "title_zh": "",
+   "summary_en": "Beijing pledges to back Taiwan’s pro-unification ‘patriots’ on key anniversary South China Morning Post",
+   "summary_zh": "",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPcWtuanpSZC04MzVBNXM0RlJsaVZmU1RYU3cxNVVYdFgwd1dNWmpxcjREaDhjMGdSZmdqN0FNd1lCU1E2ZENQMUM4M2lsUUd4eEtPdDl1bGhxMlJUaUxhZXZzNy1MWGtBNTl2cWhJS1QyRUh1c3lNd1FjOW9uc2FwSlNDc3dJaWZwdktGVEoySks4MkZMa0tkZ25hYjU5ZE5Ud200NXcxRTF5UlpxenNjdjdOTC1UZUVyQ1h0OVFESG1WSmJ00gHEAUFVX3lxTE56cXRyTGludmhHV2ZJc0t3ODJGOGxIc2Q1bFFadTNwR2F6UzVTbjNndG9pSTlYYnY2VlRuaWpvb1RuQUNhQXhUZ3NvemRZLWVUQWtlZWVOYVZ6amlLQzVTcWVkOGFERzJHcmQ1QXNsQXNfclRCTjc1V2EtRlgxRlpxTWlueWRzcmo2eEcwRlcxakdsWk5HdkxPUUdFbF9PU0VlRVNMR1VJTXBmTllrNUkyMGxyelhBeGl1UjNUR1lnVGFJdTU?oc=5",
+   "section": "scmp",
+   "published_at": "2026-10-25 11:37:06",
+   "published_at_source": "published",
+   "headline_only": true,
+   "content_type": "news",
+   "opinion": false
+  },
+  {
+   "source": "Bloomberg Markets",
+   "source_tier": "B",
+   "title_en": "IndiGo, Air India to Shift Some Flights to New Mumbai Airport",
+   "title_zh": "",
+   "summary_en": "IndiGo and Air India will move some of its international operations to Navi Mumbai International Airport as two of India’s biggest airlines expand their presence at the new aviation facility serving the country’s financial capital.",
+   "summary_zh": "",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-25/indigo-air-india-to-shift-some-flights-to-new-mumbai-airport",
+   "section": "",
+   "published_at": "2026-10-25 11:20:11",
+   "published_at_source": "published",
+   "headline_only": true,
+   "content_type": "news",
+   "opinion": false
+  },
+  {
+   "source": "UDN",
+   "source_tier": "A",
+   "title_en": "美眾議員貝拉：已向盧比歐確認不拿台灣當對中談判籌碼",
+   "title_zh": "",
+   "summary_en": "熟悉東亞及太平洋地區局勢的美國在野黨民主黨眾議員貝拉（AmiBera）近日接受專訪強調，已向美國國務卿盧比歐（Marco...",
+   "summary_zh": "",
+   "url": "https://money.udn.com/money/story/5599/9836508",
+   "section": "財經",
+   "published_at": "2026-10-25 11:07:44",
+   "published_at_source": "published",
+   "headline_only": true,
+   "content_type": "news",
+   "opinion": false,
+   "discovery": "UDN 经济日报"
+  },
+  {
+   "source": "UDN",
+   "source_tier": "A",
+   "title_en": "聯合國秘書長訪埃及 加薩與美伊停火為焦點",
+   "title_zh": "",
+   "summary_en": "聯合國秘書長古特瑞斯24日抵達埃及，將討論加薩、蘇丹、利比亞等區域危機。埃及為外交考量及自身經濟和安全利益，積極斡旋美伊...",
+   "summary_zh": "",
+   "url": "https://money.udn.com/money/story/5599/9836507",
+   "section": "財經",
+   "published_at": "2026-10-25 11:07:41",
+   "published_at_source": "published",
+   "headline_only": true,
+   "content_type": "news",
+   "opinion": false,
+   "discovery": "UDN 经济日报"
   },
   {
    "source": "UDN",
@@ -1425,6 +1452,21 @@
    "published_at": "2026-10-25 08:00:00",
    "published_at_source": "published",
    "headline_only": false,
+   "content_type": "news",
+   "opinion": false
+  },
+  {
+   "source": "Google News",
+   "source_tier": "B",
+   "title_en": "Goldman Cuts Kospi 12-Month Target by 25% as AI Trade Unravels - Bloomberg.com",
+   "title_zh": "",
+   "summary_en": "Goldman Cuts Kospi 12-Month Target by 25% as AI Trade Unravels Bloomberg.com",
+   "summary_zh": "",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNM1VnbnF1OVc5Y0RrZTdNWE5tdGszNVZTdTZzd1I0ZXVKc2sxalFZY3pYazRGcWxSdUFSVDBwdERyRVFISFlRWTdTdmdkakpIdU9oMW1TamxmWmIycVhVVXdNWVZrZ3FKZm9LNGNPV0I0MXRqQmJncnQ1QUtCSlYyWFAtN0doV1E2VzBiQmMzRnJiUk9BVmFpVGhrcENIUHAtb1NQT2Fhc2hVcjFfRFpXZjh3?oc=5",
+   "section": "bloomberg",
+   "published_at": "2026-10-25 07:44:43",
+   "published_at_source": "published",
+   "headline_only": true,
    "content_type": "news",
    "opinion": false
   },
@@ -2018,6 +2060,21 @@
    "discovery": "UDN 经济日报"
   },
   {
+   "source": "Google News",
+   "source_tier": "B",
+   "title_en": "Sri Lanka’s property boom gives Chinese developers hope. But old risks linger - South China Morning Post",
+   "title_zh": "",
+   "summary_en": "Sri Lanka’s property boom gives Chinese developers hope. But old risks linger South China Morning Post",
+   "summary_zh": "",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNi1OT0FEUUthWk03REp2UjB6eTFqdEdKdlFYaWRQdU5IUnFabllsdEQ3SzZIQWJTZ1pYUzUyMWFQbVZnYVZlQ195RVBPRHUwSnNkREo2cjZaeXBndnBOaWNmNVRodHhTbHVKem5Ja3VwMFlfSFg5Y3V2c2ZNTi1xRVhXekZ4QXk4cU1mUTZpMEZKdDQwbEp0V1g5aUlNYk9oY0x2NW9OSFdSZkZnQTk0a0FrYzhuMHN1Nk5jYkxwWThNSTgtc0lMNmV30gHKAUFVX3lxTE1qd3h2TjBFYW85Rjh0ck5VeVJqYVdXT1oySVJNanM0SGR0Q1pyemIyWVJxRmx0WEJ1T3d3NTF6TGJhaFpRUEZ1OGdKRWw4MUVrbFR2TEhYLUZ6azlpMDE4TUVsZ3VfT2Z6VG9pNzVmUGdHeXQtTHdrZG1femtPUURBMWpNWDZ3anA1OEk3Y0ZYeGlEcHdEcWRDWXc4TEoyczZvTEQtZ280VzFCdXdzelY5bDhTcEhYT2NvX1Z5TVhySlRSU0h1WTBzZXc?oc=5",
+   "section": "scmp",
+   "published_at": "2026-10-25 01:00:11",
+   "published_at_source": "published",
+   "headline_only": true,
+   "content_type": "news",
+   "opinion": false
+  },
+  {
    "source": "SCMP",
    "source_tier": "A",
    "title_en": "German man detained after fire wrecks Hitler’s ‘Eagle’s Nest’ mountain retreat | South China Morning Post",
@@ -2115,7 +2172,7 @@
    "opinion": false
   },
   {
-   "source": "Google News",
+   "source": "Nikkei Asia",
    "source_tier": "B",
    "title_en": "China urges US to halt proposed expansion of outbound investment curbs - Nikkei Asia",
    "title_zh": "",
@@ -2558,7 +2615,7 @@
    "opinion": false
   },
   {
-   "source": "Google News",
+   "source": "Nikkei Asia",
    "source_tier": "B",
    "title_en": "'Three red lines' needed against China, Japan defense academy chief says - Nikkei Asia",
    "title_zh": "",
@@ -2588,7 +2645,7 @@
    "opinion": false
   },
   {
-   "source": "Google News",
+   "source": "Nikkei Asia",
    "source_tier": "B",
    "title_en": "North Korea's Kim Jong Un visits China via newly opened bridge - Nikkei Asia",
    "title_zh": "",
@@ -2746,7 +2803,7 @@
    "summary_zh": "",
    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRHBuUU83a2lKZU54WWRBQUE1dy05cjBNVlB0Y0RwV0xsTFhxMG5lSklCY3JTWFEwdG11eHNTLVA3TlJaVmoxYVZNRjEyTEJDMjFpN2VPdjZwZEtvNGxQQ3N0dkJWRlZ1REQ4SjRzS21qM2lDbC1jaE1VeG5PQnc5UXgxelc?oc=5",
    "section": "ft",
-   "published_at": "2026-10-24 04:01:14",
+   "published_at": "2026-10-24 04:01:42",
    "published_at_source": "published",
    "headline_only": true,
    "content_type": "news",
@@ -2813,7 +2870,7 @@
    "opinion": false
   },
   {
-   "source": "Google News",
+   "source": "Nikkei Asia",
    "source_tier": "B",
    "title_en": "Stronger Japan alliance needed for deterrence: Senior US official - Nikkei Asia",
    "title_zh": "",
@@ -2888,7 +2945,7 @@
    "opinion": false
   },
   {
-   "source": "Google News",
+   "source": "Nikkei Asia",
    "source_tier": "B",
    "title_en": "China's automaking rise spurs German industry's turn to arms - Nikkei Asia",
    "title_zh": "",
@@ -3023,7 +3080,7 @@
    "opinion": false
   },
   {
-   "source": "Google News",
+   "source": "Nikkei Asia",
    "source_tier": "B",
    "title_en": "As Muse personal AI agent debuts in Japan, Meta exec says it won't have ads - Nikkei Asia",
    "title_zh": "",
@@ -3175,6 +3232,21 @@
   {
    "source": "Google News",
    "source_tier": "B",
+   "title_en": "Business schools are failing their students, says Cambridge professor Christopher Marquis - CNBC",
+   "title_zh": "",
+   "summary_en": "Business schools are failing their students, says Cambridge professor Christopher Marquis CNBC",
+   "summary_zh": "",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNU21OMnE5U3RLRGg5MVlVRWo4bzcyUnZxUzV2RFR0ZmdBeE01VkI1TEZyWVBQekV4R3FoWlpURzB0Wm4yaVlrdEhZS3VjSk0wd1NVVDNZRXgxMlFRdHUtZ2xyN3NCY2UweTg0N1NhZDh0Ukk4TjVDOTY1bnEzQ25KOWZ5YlF0STdJNHh2ejdoQlZHNzEzNzlQbDRRVFZKV19pZUEzRW1yY09sQjNjaUxXMlpkdlJwRFBrcGlsRUJHcVAzXzZsVTB4YUhXNA?oc=5",
+   "section": "cnbc",
+   "published_at": "2026-10-23 11:52:00",
+   "published_at_source": "published",
+   "headline_only": true,
+   "content_type": "news",
+   "opinion": false
+  },
+  {
+   "source": "Google News",
+   "source_tier": "B",
    "title_en": "Good to see you after all this time. Scientists finally put a face to Denisovans - South China Morning Post",
    "title_zh": "",
    "summary_en": "Good to see you after all this time. Scientists finally put a face to Denisovans South China Morning Post",
@@ -3227,6 +3299,21 @@
    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQ1h3TllLVUNrZm92UTlQOUh4b0NRTjlkWndJYjFOWk9IWFBQd2lpd2UtVnMweVFFOGZBcWV0MTEzRG5qeThCVk8zdE9uUlJNQ29YX2ZOTThVcVl2ZlhGSS1yaGdGREh5Z1ZVYmlhdHJxY2RSakxkeDZHSzVrZmt4YTV5OFRGWmtkOHlOVHppcGF4c3F4VXlid1BVSW5DMGxEVDJ3bkFsVC0wS25rY0psR21OSUY?oc=5",
    "section": "reuters",
    "published_at": "2026-10-23 10:38:10",
+   "published_at_source": "published",
+   "headline_only": true,
+   "content_type": "news",
+   "opinion": false
+  },
+  {
+   "source": "Google News",
+   "source_tier": "B",
+   "title_en": "China urges government agencies to mitigate AI job displacement - Reuters",
+   "title_zh": "",
+   "summary_en": "China urges government agencies to mitigate AI job displacement Reuters",
+   "summary_zh": "",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMlVIUEhSdHd1VnZ4dUN2RE1iODlDNUs4YWJyTklNajFoYnhjSzNveTQtcmo3SDNhem5vSi1VNng0Y2YtdzlEM3JhcEZQM3U5elN5RWZHTFBwdFZ4UklWdzZkTEdvdkVhM21DTW1oMUdKYzloVnNiaE1LcEs1Z21rRXVkeHI3aldFM21RbEhmMzdDU3BQRm5HSWRaUkNMNkQ0V0lDZDU4VVVYRm1SSnJLQkhiQ0FkbGJzRmdv?oc=5",
+   "section": "reuters",
+   "published_at": "2026-10-23 10:25:29",
    "published_at_source": "published",
    "headline_only": true,
    "content_type": "news",
@@ -3368,7 +3455,7 @@
    "opinion": false
   },
   {
-   "source": "Google News",
+   "source": "Nikkei Asia",
    "source_tier": "B",
    "title_en": "China's 'national team' comes to rescue as stocks flash bearish signs - Nikkei Asia",
    "title_zh": "",
@@ -3383,7 +3470,7 @@
    "opinion": false
   },
   {
-   "source": "Google News",
+   "source": "Nikkei Asia",
    "source_tier": "B",
    "title_en": "Chinese stocks fight economic gloom after slide into bear territory - Nikkei Asia",
    "title_zh": "",
@@ -3413,7 +3500,7 @@
    "opinion": false
   },
   {
-   "source": "Google News",
+   "source": "Nikkei Asia",
    "source_tier": "B",
    "title_en": "Brazil election to impact rare-earth race as West seeks China balance - Nikkei Asia",
    "title_zh": "",
@@ -3458,7 +3545,7 @@
    "opinion": false
   },
   {
-   "source": "Google News",
+   "source": "Nikkei Asia",
    "source_tier": "B",
    "title_en": "Asia's AI data center boom faces 'reality check' from public markets - Nikkei Asia",
    "title_zh": "",
@@ -3638,7 +3725,7 @@
    "opinion": false
   },
   {
-   "source": "Google News",
+   "source": "Nikkei Asia",
    "source_tier": "B",
    "title_en": "Yen on track to gain from US midterm elections and France unrest - Nikkei Asia",
    "title_zh": "",
@@ -3653,7 +3740,7 @@
    "opinion": false
   },
   {
-   "source": "Google News",
+   "source": "Nikkei Asia",
    "source_tier": "B",
    "title_en": "China heats up race to develop solar thermal energy - Nikkei Asia",
    "title_zh": "",
@@ -3743,7 +3830,7 @@
    "opinion": false
   },
   {
-   "source": "Google News",
+   "source": "Nikkei Asia",
    "source_tier": "B",
    "title_en": "Evergrande liquidators plan first payout with under 1% of claims recovered - Nikkei Asia",
    "title_zh": "",
@@ -3908,7 +3995,7 @@
    "opinion": false
   },
   {
-   "source": "Google News",
+   "source": "Nikkei Asia",
    "source_tier": "B",
    "title_en": "Japan growth strategy to focus on chips in short term, AI in medium term - Nikkei Asia",
    "title_zh": "",
@@ -3923,7 +4010,7 @@
    "opinion": false
   },
   {
-   "source": "Google News",
+   "source": "Nikkei Asia",
    "source_tier": "B",
    "title_en": "Analysis: China defies Mao's support for Japan in Russia islands row - Nikkei Asia",
    "title_zh": "",
@@ -3968,7 +4055,7 @@
    "opinion": false
   },
   {
-   "source": "Google News",
+   "source": "Nikkei Asia",
    "source_tier": "B",
    "title_en": "'De-CATLization' tests China's battery king as share price falls 10% - Nikkei Asia",
    "title_zh": "",
@@ -3998,7 +4085,7 @@
    "opinion": false
   },
   {
-   "source": "Google News",
+   "source": "Nikkei Asia",
    "source_tier": "B",
    "title_en": "Pakistan warms to Russia with Sharif-Putin summit possible - Nikkei Asia",
    "title_zh": "",
@@ -4103,7 +4190,7 @@
    "opinion": false
   },
   {
-   "source": "Google News",
+   "source": "Nikkei Asia",
    "source_tier": "B",
    "title_en": "Shanghai tops world in empty offices as overseas investment pulls away - Nikkei Asia",
    "title_zh": "",
@@ -4118,7 +4205,7 @@
    "opinion": false
   },
   {
-   "source": "Google News",
+   "source": "Nikkei Asia",
    "source_tier": "B",
    "title_en": "China announces export controls for tunnel boring machines - Nikkei Asia",
    "title_zh": "",
@@ -4133,7 +4220,7 @@
    "opinion": false
   },
   {
-   "source": "Google News",
+   "source": "Nikkei Asia",
    "source_tier": "B",
    "title_en": "Japan's Kioxia sheds two-thirds of peak market value as China chip rivals emerge - Nikkei Asia",
    "title_zh": "",
@@ -4347,21 +4434,6 @@
   {
    "source": "Google News",
    "source_tier": "B",
-   "title_en": "‘Forgive us’: Indonesians urge Singapore, Malaysia to sue Jakarta over haze - South China Morning Post",
-   "title_zh": "",
-   "summary_en": "‘Forgive us’: Indonesians urge Singapore, Malaysia to sue Jakarta over haze South China Morning Post",
-   "summary_zh": "",
-   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOX3ptN3dpaGo5TUI1LUdfNVBHdlYxdHliT1FrQ0VrTFcwRXIzMVZFWHFScXR4ZU5jbFFfUTcxUWx0UWVyd1NHYktvaFljM0FjQUxqQUxZUkRQUGdxd3FpWVZNRTRIRWFXV2E2OGM1MTRwTjVKRTFKNXB0ejA2Q0tfMDgtQXBkbFNhck8xOWlzcFh5N1NnMWJMQm9JWklCY29zYmlTdjJUVTFLdEZabHVOWm5DN3N4elNhU0FQRU5NSDJKVE1oU0xmSkxxOGRQRXPSAc8BQVVfeXFMTUVCcnl4UUkwYVNoYktBdEdLeWZyZkhGalJiYmE0R3M3MjRyT3c4a01KWTBydVFlSDYtcjk1TG04MUFRLWEyV1NDR2Q2RFpOVDRSUWFxOVc0MklkNU9XdmxSUktWWS1vT2xRZ18yNXp1akJJSEFZUzF5ck9paUxBUkx6LWU4WHZJYXVoeGE1eHdKdFZLYW9ZdEJUWGQtSERGMW01YWd6bVFtVTRvLXBQMzBBNmJOSk81aWc4cXFJcE1jSF96WTUtU0U1SWl0MlBV?oc=5",
-   "section": "older-scmp.com",
-   "published_at": "2026-10-15 07:00:00",
-   "published_at_source": "published",
-   "headline_only": true,
-   "content_type": "news",
-   "opinion": false
-  },
-  {
-   "source": "Google News",
-   "source_tier": "B",
    "title_en": "Chinese scientists say they spotted possible Israeli electronic warfare units - South China Morning Post",
    "title_zh": "",
    "summary_en": "Chinese scientists say they spotted possible Israeli electronic warfare units South China Morning Post",
@@ -4377,11 +4449,26 @@
   {
    "source": "Google News",
    "source_tier": "B",
-   "title_en": "Notable demographer calls for 18-fold increase to China’s childcare subsidies - South China Morning Post",
+   "title_en": "Canada, Singapore reaffirm China trade ties amid global push for self-reliance - South China Morning Post",
    "title_zh": "",
-   "summary_en": "Notable demographer calls for 18-fold increase to China’s childcare subsidies South China Morning Post",
+   "summary_en": "Canada, Singapore reaffirm China trade ties amid global push for self-reliance South China Morning Post",
    "summary_zh": "",
-   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNRHdPSDl3YzNNWkNrdjd1ZXBaaktIa2pvaDNWcko4MWxLVjRXOHpPVmU3bE41dHBZa1hvcGVFM0pzRW9RUXdHU3dITXNPRjJrWDRWcmlndHZ2WHpiSkQ0T3JmTTdtTlNWQks1eEh0TVpUREdNajBRU2E4T2VXVlBpRUVPN1FIZ19RM2R2VE5oSi1GTndCOWxxYnhmbzg1WUNtQmpkNWxOd0FHN2N0THVPelNRTVMyZC1ndHFYNDlnX1BjdXN4NVc5bDVST2FmMGJDd29N0gHTAUFVX3lxTE8tS21EYlN2N2NWM0lZQ3RNVWd4djRjZG9jMUlzM2dkRWJyV3o3eGtlVjhuZ3RERW5yQXZkYW9IMDJvdWpoc25ueGg4NGlRQ2NKUmdlVGh2Y3VtMFRVRzZ2cEczdTBzMkVOREhVWURvbDZlNWNnMXJVRlFzQkV3SVhvTGNOdU5mLTk4X2tPdEpLaUdIb1ppcnVFZkwxY0NnODVxOWt1dU5GcDV1a0ZIT1JrQ3JTTlpjTmgzMVpRdUo2bHZOLU1lM0RKU1hvaTFBTnk5Sjg?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQYXVSV184MmJUZDlSbzN2VF84aU96TlZaZ2FORzB1STFkRGFDNElIWklNai1hRktmVHJSc0JvODlhOGpZY0ltNVRQcEdOR2JkRVRGQVA5UFBPc3JGenhYVkx2SXF3WHgtTGZ4cTZVUmI5dGZsLW1wc3Z1aXpMOHBlMjRzbnl1NER0ZGpfc2ZuWVRjRW12Z0txekZWVnBlbzVLeURsbzVXNnpyREpMLU5uSFBET0hnTmxjU1A3bno5S2c4U0lxSEcybTZjMHlkUXhQcWfSAdIBQVVfeXFMTXNpUUp1V09VQkU2WWtiVnV3dTZXTUF1VDlVaUxzMWx0X0xEekI0VmtnaThudUpjXzdhNlluT1pSY3NxWnFEbGVTZXVtbTFVTERVcGQzdkktaWp3VFpvaFA2TFFqN2RraDl6bGtEdzV2WURkTkxFOTBxWnlYaWduTnl3bzFYTDNhejQyQWNmTGlxT3NNZU54akt2TDN1RVo1VVZLYmFUUzdvZXNIeTRQVXIwZ1JOTFJ4Yng4VmxENHRuSDhUQks3ckpjZTBjSmttUWlR?oc=5",
+   "section": "older-scmp.com",
+   "published_at": "2026-10-15 07:00:00",
+   "published_at_source": "published",
+   "headline_only": true,
+   "content_type": "news",
+   "opinion": false
+  },
+  {
+   "source": "Google News",
+   "source_tier": "B",
+   "title_en": "DeepSeek suffers another major outage as company offers user refunds - South China Morning Post",
+   "title_zh": "",
+   "summary_en": "DeepSeek suffers another major outage as company offers user refunds South China Morning Post",
+   "summary_zh": "",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQei1iZTlCN1NrVzJOYmNjMmFjejVKU05obGxmdHkwbG1YWFNRclFyV1NacmJ3Q1o5RUVPMkRVNWsxTlJJQ2V0SEF4YTdDV05lUHgzSURSc0QwVF9LeE4wRmplUUFwSzZkYjJGUGhjalQ1SHZhWk5mTmlNcGxLZWtGLU5UcHI4NTJpWENQZThBS0xsQ3lsSENabmhKQlhEN1JBWlVwZnU1UWRVVExYWU1mU2xqUEVlbjDSAbcBQVVfeXFMUGRtSmxxc3hJSkFKeF80MkVyVGRFMG1ISlZlV0RjbUZfS05Ra1U1azZjeWFJX1UycUxvSjlqcnVnZFFicHhTODVpeXdiUDBMcnMyQ3IyXzRqaTFDUm11VFhTS2JndTVGdTJYQ3c1bHl4clJHaC16V3VHNldpZVNPWlJvUmxBTHJMU1Q5Y2F5R2tlYk93WlZiVTc3U1RsRVhjWnRaX3JxOVNRR3IwQ01WLXlPSF9BZS1Z?oc=5",
    "section": "older-scmp.com",
    "published_at": "2026-10-15 07:00:00",
    "published_at_source": "published",
@@ -4692,6 +4779,21 @@
   {
    "source": "Google News",
    "source_tier": "B",
+   "title_en": "China Is Too Defensive Over the Yuan - Bloomberg.com",
+   "title_zh": "",
+   "summary_en": "China Is Too Defensive Over the Yuan Bloomberg.com",
+   "summary_zh": "",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSWRsTE1YejMxZ0RuUWdqbUxvc2JhR1FQTld4cWtrOTA4QjRrRkhRM19FOWVMSVRzVHVDaWhuSnhfWXhhdFdIRmFVTFNIV3BXVVNmQUV2amhzakl5WTl4T1MzYzYyNHVGSWlFUi0wczFVQ2J0NkZOSzdpdV9LR1J5R25VNDg1a0ltMFcydlljckxOanpa?oc=5",
+   "section": "older-bloomberg.com",
+   "published_at": "2026-10-15 07:00:00",
+   "published_at_source": "published",
+   "headline_only": true,
+   "content_type": "news",
+   "opinion": false
+  },
+  {
+   "source": "Google News",
+   "source_tier": "B",
    "title_en": "Hold philanthropists accountable when their projects fail - Financial Times",
    "title_zh": "",
    "summary_en": "Hold philanthropists accountable when their projects fail Financial Times",
@@ -4742,6 +4844,36 @@
    "summary_en": "What do the Houthis want? Financial Times",
    "summary_zh": "",
    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNb29SZnJENUs3dlBNZDA2ZHYzV0JkQjQ4OVh3eEN1VVJfN0g4WmlDcktsazV5d0kwOFkyWWg2bE1vVlBnbjk5MmF6MjBfbUhoeEZVaW53c25ETFBrZ3U0YTJneGQxSzJSMWFRUlFzZlZzQTZvQ3FiR3lic3BkalFScllGZ2o?oc=5",
+   "section": "older-ft.com",
+   "published_at": "2026-10-15 07:00:00",
+   "published_at_source": "published",
+   "headline_only": true,
+   "content_type": "news",
+   "opinion": false
+  },
+  {
+   "source": "Google News",
+   "source_tier": "B",
+   "title_en": "Anglo American chief says tech giants show ‘deep interest’ in mining stakes - Financial Times",
+   "title_zh": "",
+   "summary_en": "Anglo American chief says tech giants show ‘deep interest’ in mining stakes Financial Times",
+   "summary_zh": "",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWkNlTzNzUlY3QWZwMnR5SDNjVWItamtkUFh2VS03dklmYlpsanBfY2hDd1RydVBBX2FfSnNMMWhJX1FQUUxOS1VVYm0wRGhJa090Z2c3REtSb19SUzdBN1VrWDl0MklaWmZndmx4RU83Y19YaEF2eE42ZHBvbUwtZVZSUno?oc=5",
+   "section": "older-ft.com",
+   "published_at": "2026-10-15 07:00:00",
+   "published_at_source": "published",
+   "headline_only": true,
+   "content_type": "news",
+   "opinion": false
+  },
+  {
+   "source": "Google News",
+   "source_tier": "B",
+   "title_en": "Bets on Fed rate hold in October strengthen after Warsh comments - Financial Times",
+   "title_zh": "",
+   "summary_en": "Bets on Fed rate hold in October strengthen after Warsh comments Financial Times",
+   "summary_zh": "",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSkowQ1I4RlFmbDVzQTBjVXJMdzlqamF3bnhidDJOTlc4VnBVT1F3VDE3cExoQzRJWWdsU1Uxc2F6Q3dmWlRBR01DNXhRV05KdGMwT1RacVVGNXFoMHlOVTJGbmVweHp5dzZGRUFEV1pDcWV2MlEtY21nMEY0WEE2SzEwclg?oc=5",
    "section": "older-ft.com",
    "published_at": "2026-10-15 07:00:00",
    "published_at_source": "published",
@@ -4812,6 +4944,36 @@
   {
    "source": "Google News",
    "source_tier": "B",
+   "title_en": "‘Forgive us’: Indonesians urge Singapore, Malaysia to sue Jakarta over haze - South China Morning Post",
+   "title_zh": "",
+   "summary_en": "‘Forgive us’: Indonesians urge Singapore, Malaysia to sue Jakarta over haze South China Morning Post",
+   "summary_zh": "",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOX3ptN3dpaGo5TUI1LUdfNVBHdlYxdHliT1FrQ0VrTFcwRXIzMVZFWHFScXR4ZU5jbFFfUTcxUWx0UWVyd1NHYktvaFljM0FjQUxqQUxZUkRQUGdxd3FpWVZNRTRIRWFXV2E2OGM1MTRwTjVKRTFKNXB0ejA2Q0tfMDgtQXBkbFNhck8xOWlzcFh5N1NnMWJMQm9JWklCY29zYmlTdjJUVTFLdEZabHVOWm5DN3N4elNhU0FQRU5NSDJKVE1oU0xmSkxxOGRQRXPSAc8BQVVfeXFMTUVCcnl4UUkwYVNoYktBdEdLeWZyZkhGalJiYmE0R3M3MjRyT3c4a01KWTBydVFlSDYtcjk1TG04MUFRLWEyV1NDR2Q2RFpOVDRSUWFxOVc0MklkNU9XdmxSUktWWS1vT2xRZ18yNXp1akJJSEFZUzF5ck9paUxBUkx6LWU4WHZJYXVoeGE1eHdKdFZLYW9ZdEJUWGQtSERGMW01YWd6bVFtVTRvLXBQMzBBNmJOSk81aWc4cXFJcE1jSF96WTUtU0U1SWl0MlBV?oc=5",
+   "section": "older-scmp.com",
+   "published_at": "2026-10-15 07:00:00",
+   "published_at_source": "published",
+   "headline_only": true,
+   "content_type": "news",
+   "opinion": false
+  },
+  {
+   "source": "Google News",
+   "source_tier": "B",
+   "title_en": "Notable demographer calls for 18-fold increase to China’s childcare subsidies - South China Morning Post",
+   "title_zh": "",
+   "summary_en": "Notable demographer calls for 18-fold increase to China’s childcare subsidies South China Morning Post",
+   "summary_zh": "",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNRHdPSDl3YzNNWkNrdjd1ZXBaaktIa2pvaDNWcko4MWxLVjRXOHpPVmU3bE41dHBZa1hvcGVFM0pzRW9RUXdHU3dITXNPRjJrWDRWcmlndHZ2WHpiSkQ0T3JmTTdtTlNWQks1eEh0TVpUREdNajBRU2E4T2VXVlBpRUVPN1FIZ19RM2R2VE5oSi1GTndCOWxxYnhmbzg1WUNtQmpkNWxOd0FHN2N0THVPelNRTVMyZC1ndHFYNDlnX1BjdXN4NVc5bDVST2FmMGJDd29N0gHTAUFVX3lxTE8tS21EYlN2N2NWM0lZQ3RNVWd4djRjZG9jMUlzM2dkRWJyV3o3eGtlVjhuZ3RERW5yQXZkYW9IMDJvdWpoc25ueGg4NGlRQ2NKUmdlVGh2Y3VtMFRVRzZ2cEczdTBzMkVOREhVWURvbDZlNWNnMXJVRlFzQkV3SVhvTGNOdU5mLTk4X2tPdEpLaUdIb1ppcnVFZkwxY0NnODVxOWt1dU5GcDV1a0ZIT1JrQ3JTTlpjTmgzMVpRdUo2bHZOLU1lM0RKU1hvaTFBTnk5Sjg?oc=5",
+   "section": "older-scmp.com",
+   "published_at": "2026-10-15 07:00:00",
+   "published_at_source": "published",
+   "headline_only": true,
+   "content_type": "news",
+   "opinion": false
+  },
+  {
+   "source": "Google News",
+   "source_tier": "B",
    "title_en": "The espresso pot test of Italian capitalism - Financial Times",
    "title_zh": "",
    "summary_en": "The espresso pot test of Italian capitalism Financial Times",
@@ -4863,51 +5025,6 @@
    "summary_zh": "",
    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYVZLeEdhUlZfMThrbElyVndJLWt2Y3E1cTFaR1N6d2l2NUozSXNjMmdSamc0bmg4NnBJaGRuVzRfS1dTWFk3MDBoaGFTbzJveVFjUXhzY3hoNy1LZzFDTkp3Y3EwX0EyWHlSaG02RU1Pa2JzdXFPell1UU82UWtSVEk4aVFITXQwNVFoMmJ3S3ZsWE5iOFlOUlg4NEJYTlFYczJOSVVZcDltUC1fYnlLQm1n?oc=5",
    "section": "older-reuters.com",
-   "published_at": "2026-10-15 07:00:00",
-   "published_at_source": "published",
-   "headline_only": true,
-   "content_type": "news",
-   "opinion": false
-  },
-  {
-   "source": "Google News",
-   "source_tier": "B",
-   "title_en": "Anglo American chief says tech giants show ‘deep interest’ in mining stakes - Financial Times",
-   "title_zh": "",
-   "summary_en": "Anglo American chief says tech giants show ‘deep interest’ in mining stakes Financial Times",
-   "summary_zh": "",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWkNlTzNzUlY3QWZwMnR5SDNjVWItamtkUFh2VS03dklmYlpsanBfY2hDd1RydVBBX2FfSnNMMWhJX1FQUUxOS1VVYm0wRGhJa090Z2c3REtSb19SUzdBN1VrWDl0MklaWmZndmx4RU83Y19YaEF2eE42ZHBvbUwtZVZSUno?oc=5",
-   "section": "older-ft.com",
-   "published_at": "2026-10-15 07:00:00",
-   "published_at_source": "published",
-   "headline_only": true,
-   "content_type": "news",
-   "opinion": false
-  },
-  {
-   "source": "Google News",
-   "source_tier": "B",
-   "title_en": "Bets on Fed rate hold in October strengthen after Warsh comments - Financial Times",
-   "title_zh": "",
-   "summary_en": "Bets on Fed rate hold in October strengthen after Warsh comments Financial Times",
-   "summary_zh": "",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSkowQ1I4RlFmbDVzQTBjVXJMdzlqamF3bnhidDJOTlc4VnBVT1F3VDE3cExoQzRJWWdsU1Uxc2F6Q3dmWlRBR01DNXhRV05KdGMwT1RacVVGNXFoMHlOVTJGbmVweHp5dzZGRUFEV1pDcWV2MlEtY21nMEY0WEE2SzEwclg?oc=5",
-   "section": "older-ft.com",
-   "published_at": "2026-10-15 07:00:00",
-   "published_at_source": "published",
-   "headline_only": true,
-   "content_type": "news",
-   "opinion": false
-  },
-  {
-   "source": "Google News",
-   "source_tier": "B",
-   "title_en": "China Is Too Defensive Over the Yuan - Bloomberg.com",
-   "title_zh": "",
-   "summary_en": "China Is Too Defensive Over the Yuan Bloomberg.com",
-   "summary_zh": "",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSWRsTE1YejMxZ0RuUWdqbUxvc2JhR1FQTld4cWtrOTA4QjRrRkhRM19FOWVMSVRzVHVDaWhuSnhfWXhhdFdIRmFVTFNIV3BXVVNmQUV2amhzakl5WTl4T1MzYzYyNHVGSWlFUi0wczFVQ2J0NkZOSzdpdV9LR1J5R25VNDg1a0ltMFcydlljckxOanpa?oc=5",
-   "section": "older-bloomberg.com",
    "published_at": "2026-10-15 07:00:00",
    "published_at_source": "published",
    "headline_only": true,
@@ -5022,41 +5139,11 @@
   {
    "source": "Google News",
    "source_tier": "B",
-   "title_en": "Canada, Singapore reaffirm China trade ties amid global push for self-reliance - South China Morning Post",
-   "title_zh": "",
-   "summary_en": "Canada, Singapore reaffirm China trade ties amid global push for self-reliance South China Morning Post",
-   "summary_zh": "",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQYXVSV184MmJUZDlSbzN2VF84aU96TlZaZ2FORzB1STFkRGFDNElIWklNai1hRktmVHJSc0JvODlhOGpZY0ltNVRQcEdOR2JkRVRGQVA5UFBPc3JGenhYVkx2SXF3WHgtTGZ4cTZVUmI5dGZsLW1wc3Z1aXpMOHBlMjRzbnl1NER0ZGpfc2ZuWVRjRW12Z0txekZWVnBlbzVLeURsbzVXNnpyREpMLU5uSFBET0hnTmxjU1A3bno5S2c4U0lxSEcybTZjMHlkUXhQcWfSAdIBQVVfeXFMTXNpUUp1V09VQkU2WWtiVnV3dTZXTUF1VDlVaUxzMWx0X0xEekI0VmtnaThudUpjXzdhNlluT1pSY3NxWnFEbGVTZXVtbTFVTERVcGQzdkktaWp3VFpvaFA2TFFqN2RraDl6bGtEdzV2WURkTkxFOTBxWnlYaWduTnl3bzFYTDNhejQyQWNmTGlxT3NNZU54akt2TDN1RVo1VVZLYmFUUzdvZXNIeTRQVXIwZ1JOTFJ4Yng4VmxENHRuSDhUQks3ckpjZTBjSmttUWlR?oc=5",
-   "section": "older-scmp.com",
-   "published_at": "2026-10-15 07:00:00",
-   "published_at_source": "published",
-   "headline_only": true,
-   "content_type": "news",
-   "opinion": false
-  },
-  {
-   "source": "Google News",
-   "source_tier": "B",
    "title_en": "Opinion | How could a superintelligence take over the world? Let me count the ways - South China Morning Post",
    "title_zh": "",
    "summary_en": "Opinion | How could a superintelligence take over the world? Let me count the ways South China Morning Post",
    "summary_zh": "",
    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZW02N0tWM2tSTlBZckx4NWVQQ3ZzejhuWmRMbkliTmswZTNteU5seE1xUEpWVk9XVWREWFRHS0Rubjh0RGZFbkRLQi1lM2lteXVnNmF1aDdERmVNUmEtUlZqVHhPejlnNFdTQmROYzJNMm9feHA3eUhMOXU2enVFNmZSbFJVZUc0a01kVVdlY1FOODY1TkJjcGtYOEhLclkxY1VLaDRnLWdUVjlmaW84cGlPSUM0UGdheWZEZtIBvAFBVV95cUxPMnFGdVNELVQwOU5IemhRUE56dnZvSVpOT0NGQ0ZmckF4Sm5jVkU0WDRsQVNDLUhOWndSTkZwNWZCU2JLV3FSeG1vWTN1cGh2NHlHclczWHA1UXhSOTR5SUlLWVV4bnNMVHlTazdtSHVQekNhU0hyMThTbkNnOVpuMjBhQy04X1BVcjZROFdHTUVCSWdMWjBwdmNBSjgxM1FhWHVUYWY5RzVfam1DLWppcmhscHlJMEVTd0dfZg?oc=5",
-   "section": "older-scmp.com",
-   "published_at": "2026-10-15 07:00:00",
-   "published_at_source": "published",
-   "headline_only": true,
-   "content_type": "news",
-   "opinion": false
-  },
-  {
-   "source": "Google News",
-   "source_tier": "B",
-   "title_en": "DeepSeek suffers another major outage as company offers user refunds - South China Morning Post",
-   "title_zh": "",
-   "summary_en": "DeepSeek suffers another major outage as company offers user refunds South China Morning Post",
-   "summary_zh": "",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQei1iZTlCN1NrVzJOYmNjMmFjejVKU05obGxmdHkwbG1YWFNRclFyV1NacmJ3Q1o5RUVPMkRVNWsxTlJJQ2V0SEF4YTdDV05lUHgzSURSc0QwVF9LeE4wRmplUUFwSzZkYjJGUGhjalQ1SHZhWk5mTmlNcGxLZWtGLU5UcHI4NTJpWENQZThBS0xsQ3lsSENabmhKQlhEN1JBWlVwZnU1UWRVVExYWU1mU2xqUEVlbjDSAbcBQVVfeXFMUGRtSmxxc3hJSkFKeF80MkVyVGRFMG1ISlZlV0RjbUZfS05Ra1U1azZjeWFJX1UycUxvSjlqcnVnZFFicHhTODVpeXdiUDBMcnMyQ3IyXzRqaTFDUm11VFhTS2JndTVGdTJYQ3c1bHl4clJHaC16V3VHNldpZVNPWlJvUmxBTHJMU1Q5Y2F5R2tlYk93WlZiVTc3U1RsRVhjWnRaX3JxOVNRR3IwQ01WLXlPSF9BZS1Z?oc=5",
    "section": "older-scmp.com",
    "published_at": "2026-10-15 07:00:00",
    "published_at_source": "published",
@@ -5080,7 +5167,7 @@
    "opinion": false
   },
   {
-   "source": "Google News",
+   "source": "Nikkei Asia",
    "source_tier": "B",
    "title_en": "Analysis: How long will China's top military body remain hollowed out? - Nikkei Asia",
    "title_zh": "",
@@ -5142,11 +5229,26 @@
   {
    "source": "Google News",
    "source_tier": "B",
-   "title_en": "Trump’s ‘golden age’ push hands top science honours to big tech. Will it work? - South China Morning Post",
+   "title_en": "New Trump press secretary says she passed bar exam in China, raising eyebrows - South China Morning Post",
    "title_zh": "",
-   "summary_en": "Trump’s ‘golden age’ push hands top science honours to big tech. Will it work? South China Morning Post",
+   "summary_en": "New Trump press secretary says she passed bar exam in China, raising eyebrows South China Morning Post",
    "summary_zh": "",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVVhKZjVzOEl4cEVzZVhMbF90aEJPYWRMY1RQYkpITXFGYkNjdEh4NzdYZUN3U2hxZVVMVXVGZ3ZiVDRfTG9XNjVTcWRfcVZjTWtxM0QzbGVBQk13S3dtUjU5LW5vRm1jemNrY2NQR0s2NlhNTHJxX25NSWJUdjNpR3dYdTlLcGtVOW8yQ2dIcWxlNG5BTk5ycVQtdDAwbVczZGdOQTBxTnRlYUtkdTFpcXB6LUwxX1JiTWkxb0xyVldwVFEwdE440gHHAUFVX3lxTFBtTVN0R0V5WDgxTEZEWFRmTkI0VV9EeHBQMzloOUZPSDB3RXdybUx6MEpnUllKdTJYbUhqa1hLdTVrQkNpTlpXN2xMRmhHYnBqLXYwZVg5a1diWm1obEZMWVlpMC1QYjBCZlh1OFFKRjg4YnVIRS02b1NrMk9Wcmc5bGtCNkFjXzY5cmx1eTV3YWJxSVZia2tKQTJHdlVsQ21PM2FTc2RNNU9SVTE3WGJYcDhMa0JXRmZDM3JhUjVLV2FCb2I1ZTA?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQUDBCTnZQdDM3cGhwbEJFTE1EV1lTSVhzZUYzbV85UVdNcnBxbWFjbGZGMllqTGxLMFFkRkVnVWFObnByNy10WlVTemFsRkdReEtOa3ZuQVFIQzBIWjJTWjJ0OE5OWFJnUlJ0Zm9kOTl6aFRXeDNkd2dYSlR2QjN6UDFHTWJPR2p4OFpsOXhCYWdLMV9DZ0VJU20yeWNWMndnNGVtVVRZOEloWlhmU2VrMzV3SzNtR3BkSmNBbTBjbDlDYjN1ejZjTjJad1NTMjY3Zmg3Z9IB1AFBVV95cUxNNVotMW9oeTJLMXhiM0dYYWF1dGVWSTczVkdrazdXTXVyUmYxNUN1VWJqcmMwR3l0VG0zWnozNEk3RzdkREZuQ0ljSFVDb29RS1o2YXZqcExqQW9xdEJoeFBuTkZRUnlXeFRsaHJ1ZU0zRHh1MHdEM1ZOQnRNU2VZcUhCU3RYTEFnTVFsZFpCa0l0bUQ4cUxVWndWLW82Xy1BWnAwVEhJc3lUNkxyQzE3NjZyTjN3cEFlT3FRQ1BHLTRpYTU4TTV3SHA4LWNYRjBkVFIxZw?oc=5",
+   "section": "older-scmp.com",
+   "published_at": "2026-10-14 07:00:00",
+   "published_at_source": "published",
+   "headline_only": true,
+   "content_type": "news",
+   "opinion": false
+  },
+  {
+   "source": "Google News",
+   "source_tier": "B",
+   "title_en": "China’s exports surge by 36% in September, riding wave of tech demand - South China Morning Post",
+   "title_zh": "",
+   "summary_en": "China’s exports surge by 36% in September, riding wave of tech demand South China Morning Post",
+   "summary_zh": "",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOVzZhS3lYdWJOUFZlamFTNGpzeHZaUGd5OVdTU2UxOVFZaExIVE5nMHZmX0pIZGZLQkVEYUdkVHlaV0owRi1Pb1ZzYnpSY2xjRk1ybk13ZUNXNkRpVlhjSHA2a2tDWDVjZXhtQW5kWXZTNVNxNmlCX0RRdVJoZmRIa1lXS2xrU08xakVnbEVNN3VxeWVNRTMyb0lUMGx1RjQzbklycmpKQlVkODNZdThhYW12aHE3d0pReWJsY3VwZTdwTElydGFzdNIByAFBVV95cUxNN0lLaWxJNzJvY25QVjJMMDRVRjdLUEpBWWNjamR5TXZqc3VlMU1kdmtGTGtIclJCZWllMWNZNnVyXzBqUFhfN2pSY0xrdDRMb2xfNVhPOGQ3alZmUHROWk5BT2E0VWhDVW1NRGttNnRUWkZlbE15TF9xWnFZa2M0WU9wV0wyVUJ1eURhZE1VWWZMaTBiZ2JpeDRyZnVsb3VST3VNZlBSdzVVUzhKV19jUWhwVzkzZU5BQ05nQUdaVDdpeHI0VC1FWA?oc=5",
    "section": "older-scmp.com",
    "published_at": "2026-10-14 07:00:00",
    "published_at_source": "published",
@@ -5193,21 +5295,6 @@
    "summary_zh": "",
    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQTEY0UDJsbGo1MXFVX1FoY1RIdkFLeW96R3hMOEkwQTNRTFpLby1wZEFGRy10SThxSkhSaXZKQ1psYmdiQVZQd19uaDFtZFBZa1pJZzZCT0dsd0lSdmV1UWV0dExiRmU2Y2lVUS1SaWs1UzNkZ25lUnRJaklfWnlOeEFVQTg2dDVQTWF4UWp1aTcyR2JsUWN5d0JzSWRqMlp1ZDY3OXpncUZDN2FuVk9tN0VuaGtIMVpXM1F4RU5QX00xek9q?oc=5",
    "section": "older-reuters.com",
-   "published_at": "2026-10-14 07:00:00",
-   "published_at_source": "published",
-   "headline_only": true,
-   "content_type": "news",
-   "opinion": false
-  },
-  {
-   "source": "Google News",
-   "source_tier": "B",
-   "title_en": "China’s Backdoor Bond-Buying Talk Swirls on $600 Billion Buildup - Bloomberg.com",
-   "title_zh": "",
-   "summary_en": "China’s Backdoor Bond-Buying Talk Swirls on $600 Billion Buildup Bloomberg.com",
-   "summary_zh": "",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQV0YyV1hpZldlbnVlWU9YR2RFLU9pSW9xcUpsR2JlUExTby04SzRnM3gxVlg5QWV1aFBWdHgzeWlVYXRIQWhCZjYwZElpdkExNVJpb3Y4eTF6TnFOQVQ2MHlYN2M3em5palpXcmVLQjZ1RWgxa2ZTMmtHazJfT2VSMFZILU90VVcyckV4M3YzTHpPVTFMRHQ0NHNuaWJDUlJVeEpNR3pWclFpeXR2SENsZmltWjM?oc=5",
-   "section": "older-bloomberg.com",
    "published_at": "2026-10-14 07:00:00",
    "published_at_source": "published",
    "headline_only": true,
@@ -5350,6 +5437,66 @@
    "opinion": false
   },
   {
+   "source": "Nikkei Asia",
+   "source_tier": "B",
+   "title_en": "Memory breakthrough by China's CXMT puts chip rivals on back foot - Nikkei Asia",
+   "title_zh": "",
+   "summary_en": "Memory breakthrough by China's CXMT puts chip rivals on back foot Nikkei Asia",
+   "summary_zh": "",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeHJCVXEwelRSZUpZZG91VG5BbHo3VUJKOUQyNDV3bkp6R2J4ZTZPS3ZkUVV0b3lKMTQ3OU4xWjBRSmFTMXM3WW9ZNk8wdzVPaDdld0l0OGZGTG9fdFB5TW1KWVRSLWs1elBEU3J2Ri1mQjRuWEMtellMUXNnQXJ2WDNGeDhRTFExbXVJTjZnd3NuQktWTHQ0bXpXd0FKcm4tQ1VTYklLM1RqenJnMk9XY3c3WURWU0dieWc?oc=5",
+   "section": "older-asia.nikkei.com",
+   "published_at": "2026-10-14 07:00:00",
+   "published_at_source": "published",
+   "headline_only": true,
+   "content_type": "news",
+   "opinion": false
+  },
+  {
+   "source": "Nikkei Asia",
+   "source_tier": "B",
+   "title_en": "China's export engine hits fastest pace since February with 36% growth - Nikkei Asia",
+   "title_zh": "",
+   "summary_en": "China's export engine hits fastest pace since February with 36% growth Nikkei Asia",
+   "summary_zh": "",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNU1J0UkFWSlZMckhqYktfZTR5bGJYNWdMNmhZWnNiVFM2aHdWTVBNdHlyai0tWlp0UzJleXloNnBHLV9hOFc4MXM5S05IcklCY1BsNTE2Q2JFWmtoLS1sT1RFYmJ0Z3dTcVE3QUxVQ1o3ckhkME9vM1pIeWFDOGxPb2kwb3ZsVWxqZzZBOThlYjUtR0pQQkpaTl9DYm1mOHJRRnQ1aWpCU1BBaXM?oc=5",
+   "section": "older-asia.nikkei.com",
+   "published_at": "2026-10-14 07:00:00",
+   "published_at_source": "published",
+   "headline_only": true,
+   "content_type": "news",
+   "opinion": false
+  },
+  {
+   "source": "Google News",
+   "source_tier": "B",
+   "title_en": "Trump’s ‘golden age’ push hands top science honours to big tech. Will it work? - South China Morning Post",
+   "title_zh": "",
+   "summary_en": "Trump’s ‘golden age’ push hands top science honours to big tech. Will it work? South China Morning Post",
+   "summary_zh": "",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVVhKZjVzOEl4cEVzZVhMbF90aEJPYWRMY1RQYkpITXFGYkNjdEh4NzdYZUN3U2hxZVVMVXVGZ3ZiVDRfTG9XNjVTcWRfcVZjTWtxM0QzbGVBQk13S3dtUjU5LW5vRm1jemNrY2NQR0s2NlhNTHJxX25NSWJUdjNpR3dYdTlLcGtVOW8yQ2dIcWxlNG5BTk5ycVQtdDAwbVczZGdOQTBxTnRlYUtkdTFpcXB6LUwxX1JiTWkxb0xyVldwVFEwdE440gHHAUFVX3lxTFBtTVN0R0V5WDgxTEZEWFRmTkI0VV9EeHBQMzloOUZPSDB3RXdybUx6MEpnUllKdTJYbUhqa1hLdTVrQkNpTlpXN2xMRmhHYnBqLXYwZVg5a1diWm1obEZMWVlpMC1QYjBCZlh1OFFKRjg4YnVIRS02b1NrMk9Wcmc5bGtCNkFjXzY5cmx1eTV3YWJxSVZia2tKQTJHdlVsQ21PM2FTc2RNNU9SVTE3WGJYcDhMa0JXRmZDM3JhUjVLV2FCb2I1ZTA?oc=5",
+   "section": "older-scmp.com",
+   "published_at": "2026-10-14 07:00:00",
+   "published_at_source": "published",
+   "headline_only": true,
+   "content_type": "news",
+   "opinion": false
+  },
+  {
+   "source": "Google News",
+   "source_tier": "B",
+   "title_en": "China’s Backdoor Bond-Buying Talk Swirls on $600 Billion Buildup - Bloomberg.com",
+   "title_zh": "",
+   "summary_en": "China’s Backdoor Bond-Buying Talk Swirls on $600 Billion Buildup Bloomberg.com",
+   "summary_zh": "",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQV0YyV1hpZldlbnVlWU9YR2RFLU9pSW9xcUpsR2JlUExTby04SzRnM3gxVlg5QWV1aFBWdHgzeWlVYXRIQWhCZjYwZElpdkExNVJpb3Y4eTF6TnFOQVQ2MHlYN2M3em5palpXcmVLQjZ1RWgxa2ZTMmtHazJfT2VSMFZILU90VVcyckV4M3YzTHpPVTFMRHQ0NHNuaWJDUlJVeEpNR3pWclFpeXR2SENsZmltWjM?oc=5",
+   "section": "older-bloomberg.com",
+   "published_at": "2026-10-14 07:00:00",
+   "published_at_source": "published",
+   "headline_only": true,
+   "content_type": "news",
+   "opinion": false
+  },
+  {
    "source": "Google News",
    "source_tier": "B",
    "title_en": "Ukraine blindsided by Starlink restrictions and intelligence gaps - Financial Times",
@@ -5373,36 +5520,6 @@
    "summary_zh": "",
    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQU0ROYTF5UWkxR2dzd1MwNkdQNFZBc0VWOVhhYThmZ2p4N0ZCRmh6MjdBblZkMXdnOUc3cnQ0N09oTEpKNlhDLURkSDZkM0ZQRnF0bUIxdlgtZ2ZWMXNza3p0Z3RnUDNyUS0yX0FuT0VtU25tRV9pU0lrU3h4N0JmbzhJOTI?oc=5",
    "section": "older-ft.com",
-   "published_at": "2026-10-14 07:00:00",
-   "published_at_source": "published",
-   "headline_only": true,
-   "content_type": "news",
-   "opinion": false
-  },
-  {
-   "source": "Google News",
-   "source_tier": "B",
-   "title_en": "Memory breakthrough by China's CXMT puts chip rivals on back foot - Nikkei Asia",
-   "title_zh": "",
-   "summary_en": "Memory breakthrough by China's CXMT puts chip rivals on back foot Nikkei Asia",
-   "summary_zh": "",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeHJCVXEwelRSZUpZZG91VG5BbHo3VUJKOUQyNDV3bkp6R2J4ZTZPS3ZkUVV0b3lKMTQ3OU4xWjBRSmFTMXM3WW9ZNk8wdzVPaDdld0l0OGZGTG9fdFB5TW1KWVRSLWs1elBEU3J2Ri1mQjRuWEMtellMUXNnQXJ2WDNGeDhRTFExbXVJTjZnd3NuQktWTHQ0bXpXd0FKcm4tQ1VTYklLM1RqenJnMk9XY3c3WURWU0dieWc?oc=5",
-   "section": "older-asia.nikkei.com",
-   "published_at": "2026-10-14 07:00:00",
-   "published_at_source": "published",
-   "headline_only": true,
-   "content_type": "news",
-   "opinion": false
-  },
-  {
-   "source": "Google News",
-   "source_tier": "B",
-   "title_en": "China's export engine hits fastest pace since February with 36% growth - Nikkei Asia",
-   "title_zh": "",
-   "summary_en": "China's export engine hits fastest pace since February with 36% growth Nikkei Asia",
-   "summary_zh": "",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNU1J0UkFWSlZMckhqYktfZTR5bGJYNWdMNmhZWnNiVFM2aHdWTVBNdHlyai0tWlp0UzJleXloNnBHLV9hOFc4MXM5S05IcklCY1BsNTE2Q2JFWmtoLS1sT1RFYmJ0Z3dTcVE3QUxVQ1o3ckhkME9vM1pIeWFDOGxPb2kwb3ZsVWxqZzZBOThlYjUtR0pQQkpaTl9DYm1mOHJRRnQ1aWpCU1BBaXM?oc=5",
-   "section": "older-asia.nikkei.com",
    "published_at": "2026-10-14 07:00:00",
    "published_at_source": "published",
    "headline_only": true,
@@ -5457,36 +5574,6 @@
   {
    "source": "Google News",
    "source_tier": "B",
-   "title_en": "New Trump press secretary says she passed bar exam in China, raising eyebrows - South China Morning Post",
-   "title_zh": "",
-   "summary_en": "New Trump press secretary says she passed bar exam in China, raising eyebrows South China Morning Post",
-   "summary_zh": "",
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQUDBCTnZQdDM3cGhwbEJFTE1EV1lTSVhzZUYzbV85UVdNcnBxbWFjbGZGMllqTGxLMFFkRkVnVWFObnByNy10WlVTemFsRkdReEtOa3ZuQVFIQzBIWjJTWjJ0OE5OWFJnUlJ0Zm9kOTl6aFRXeDNkd2dYSlR2QjN6UDFHTWJPR2p4OFpsOXhCYWdLMV9DZ0VJU20yeWNWMndnNGVtVVRZOEloWlhmU2VrMzV3SzNtR3BkSmNBbTBjbDlDYjN1ejZjTjJad1NTMjY3Zmg3Z9IB1AFBVV95cUxNNVotMW9oeTJLMXhiM0dYYWF1dGVWSTczVkdrazdXTXVyUmYxNUN1VWJqcmMwR3l0VG0zWnozNEk3RzdkREZuQ0ljSFVDb29RS1o2YXZqcExqQW9xdEJoeFBuTkZRUnlXeFRsaHJ1ZU0zRHh1MHdEM1ZOQnRNU2VZcUhCU3RYTEFnTVFsZFpCa0l0bUQ4cUxVWndWLW82Xy1BWnAwVEhJc3lUNkxyQzE3NjZyTjN3cEFlT3FRQ1BHLTRpYTU4TTV3SHA4LWNYRjBkVFIxZw?oc=5",
-   "section": "older-scmp.com",
-   "published_at": "2026-10-14 07:00:00",
-   "published_at_source": "published",
-   "headline_only": true,
-   "content_type": "news",
-   "opinion": false
-  },
-  {
-   "source": "Google News",
-   "source_tier": "B",
-   "title_en": "China’s exports surge by 36% in September, riding wave of tech demand - South China Morning Post",
-   "title_zh": "",
-   "summary_en": "China’s exports surge by 36% in September, riding wave of tech demand South China Morning Post",
-   "summary_zh": "",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOVzZhS3lYdWJOUFZlamFTNGpzeHZaUGd5OVdTU2UxOVFZaExIVE5nMHZmX0pIZGZLQkVEYUdkVHlaV0owRi1Pb1ZzYnpSY2xjRk1ybk13ZUNXNkRpVlhjSHA2a2tDWDVjZXhtQW5kWXZTNVNxNmlCX0RRdVJoZmRIa1lXS2xrU08xakVnbEVNN3VxeWVNRTMyb0lUMGx1RjQzbklycmpKQlVkODNZdThhYW12aHE3d0pReWJsY3VwZTdwTElydGFzdNIByAFBVV95cUxNN0lLaWxJNzJvY25QVjJMMDRVRjdLUEpBWWNjamR5TXZqc3VlMU1kdmtGTGtIclJCZWllMWNZNnVyXzBqUFhfN2pSY0xrdDRMb2xfNVhPOGQ3alZmUHROWk5BT2E0VWhDVW1NRGttNnRUWkZlbE15TF9xWnFZa2M0WU9wV0wyVUJ1eURhZE1VWWZMaTBiZ2JpeDRyZnVsb3VST3VNZlBSdzVVUzhKV19jUWhwVzkzZU5BQ05nQUdaVDdpeHI0VC1FWA?oc=5",
-   "section": "older-scmp.com",
-   "published_at": "2026-10-14 07:00:00",
-   "published_at_source": "published",
-   "headline_only": true,
-   "content_type": "news",
-   "opinion": false
-  },
-  {
-   "source": "Google News",
-   "source_tier": "B",
    "title_en": "What is going on with SpaceX's Starlink and Starshield in Ukraine? - Reuters",
    "title_zh": "",
    "summary_en": "What is going on with SpaceX's Starlink and Starshield in Ukraine? Reuters",
@@ -5500,7 +5587,7 @@
    "opinion": false
   },
   {
-   "source": "Google News",
+   "source": "Nikkei Asia",
    "source_tier": "B",
    "title_en": "Southeast Asia should build free and competitive markets for gig workers - Nikkei Asia",
    "title_zh": "",
@@ -5547,11 +5634,11 @@
   {
    "source": "Google News",
    "source_tier": "B",
-   "title_en": "Investigators probe cockpit control movement in fatal cargo plane runway crash - South China Morning Post",
+   "title_en": "China to curb futures quant trading to contain risks amid stock slump - South China Morning Post",
    "title_zh": "",
-   "summary_en": "Investigators probe cockpit control movement in fatal cargo plane runway crash South China Morning Post",
+   "summary_en": "China to curb futures quant trading to contain risks amid stock slump South China Morning Post",
    "summary_zh": "",
-   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNamxCUEJOdG1KS09zakF5NnFiTWlfcUxtSWVHbGxXT1VYUG4wUEZPV2pGa2J1V3VwTl9weTFaSEtydlZwUXpMLVBHQmhjWkdlWFpmTTRhY1dRRE5RdmJTeHoxNTJjVEczUXViRHRfZnY0cWI3NzdIaGh5aEpic3ZkMTNXNUJKTGZoUVplV25rakhfc0VienZnS0VZcFhBcU0wbXUzcUVDNzNkcC1HaDcweU90SjV1UEJkeXZhTFVHSU1IV3RBVW5Jc3pIM0l5Q053RlZJ0gHTAUFVX3lxTE5OUzNSeFZJR0s1ejg3WXhUb3JKNHF3QzFxOEZZUEdMOXJPM1pTbGhmRmpTUnFvWmgxcE5ldGEwMXRwa2xmQTdja1ZlZmFyY0k3ZmhXUWtrbVpkTzB0SEZfUFltb01aSVRHRDJTMG9mTUJTT1p6dW9yTi1odjNRbnlfS19kVU9IbnFVQkpRdGVlZG5VZDM2MmZvWWRCMm1PXzhTU0h6b1llaWdaRENERkZDRm40Vi00SUtkbDJfRlQtcjNlQ1VnVU40U1ZPR3p2VDA5ZWs?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZ3FEclhaZVZwOXZCdlVtd20yRHZMRHB0VHlGblVNZExXZUQ3RzlBYVl1c2J3ZHJ0ZEVtdlhNcC00NVY1NnFPYmpQZXNHYU5RX2daQU9QdlJTQmJ0WWRuVHJ1LU9fYk4yaVZDRWs1OExhLXVUdlQweE5JQ053Z3M2NGVubmtJTWc5TWlJb2Q2N1Q5Z1pnUlJ1RGpqRzI3MnY5TmNBX2xuTHZpSjh5WVpXRFBNNzlMN0x1OEhwa1EtZDhtSFRCY0VHUGNNY08zQdIBzgFBVV95cUxQdk9lWXBIcjFpZTNSY3RSbFE1S3FZeVpJOGFrSDA4OGdGX2FyQWZSc2E4cXF6NEpOSTFTTmc5d3VaTGhsdTdPMkZJSkVGT1pPUm1nc3JlVlB6WHVIT001THpuZklHeWxYTFdoQm02dUVaZ3ZPc1ptTmVKenVqZEpxcENKaVNGemNQekNJZ3RJWm5WWEwzX1BCLW5GRFlPbnZDdkJTcXp6aDJ5Mnpkbi1UbWhlSzAwdmk4azB5dHgzVDhKRVh6YlNIX0M5eUx1QQ?oc=5",
    "section": "older-scmp.com",
    "published_at": "2026-10-13 07:00:00",
    "published_at_source": "published",
@@ -5562,26 +5649,11 @@
   {
    "source": "Google News",
    "source_tier": "B",
-   "title_en": "Carney makes case for Canadian unity as Alberta referendum nears - South China Morning Post",
+   "title_en": "China Mobile triples capacity at mega Inner Mongolia computing hub amid AI push - South China Morning Post",
    "title_zh": "",
-   "summary_en": "Carney makes case for Canadian unity as Alberta referendum nears South China Morning Post",
+   "summary_en": "China Mobile triples capacity at mega Inner Mongolia computing hub amid AI push South China Morning Post",
    "summary_zh": "",
-   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPVUdqNllla0lvOFFsOWlfNlJIQWZyRklkMnJyRnBJYlBIOFpBOVp3WkVUX1hvQjhvWDlnaERjMFljZnA1ay1iRl9jZFNERzFpWWlIdk00anM4M0tXdDl4Z3pZZUlWUTVDM2ZJVm9Qdlo4b3pHaVVlVmZNZVZHelJ0RGptdjlaZGltajdzTUtTTmdYSVVFa2xxZkhzZG1Cak81UFFYbUd0Y3BDSVdNN0dpQkl3THcwaU5GRlhrLTJjUkRZYkg3dF9XS2FvcVhDT3U4NUJF0gHTAUFVX3lxTE16cjNnT1pHM2RCRnNsY2I3TW54Vk1wdlJLcHZqSGtRR1NlUWR5YTdMbzRtRmhINmUxVHFkaHVId3laVUV1SkEzZ0l6WlpiRUhDSXBaM3YwaGR0SnE4TEt0OEhSY0ZhblkxUmwxc1d1V3RwZWdSWFJNVUZUejZUM2lnUjE2YzN5TE9TODJTOTV3V2lWcDhUTW9BcEtKTXgybHpRQV9kdW5adU82YW5PeEVhVDk3QmRjQkFmQ2JrMmJ4WVFMeHB4bGJqUmZjeHFXazVlZzg?oc=5",
-   "section": "older-scmp.com",
-   "published_at": "2026-10-13 07:00:00",
-   "published_at_source": "published",
-   "headline_only": true,
-   "content_type": "news",
-   "opinion": false
-  },
-  {
-   "source": "Google News",
-   "source_tier": "B",
-   "title_en": "China’s Zhuhai air show to feature first dedicated naval equipment display - South China Morning Post",
-   "title_zh": "",
-   "summary_en": "China’s Zhuhai air show to feature first dedicated naval equipment display South China Morning Post",
-   "summary_zh": "",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNWjZaOThvMXZNWDRNME1QSFhzUnI0ZGYtd3B1dkhkc1NxV1NWSHNFVmc0TzlxbDU5dWxXRjBaX3ctQlVBZzVwNDFJQ2w5OU1fNkxnRFhDQ2JxdmNXZnMweU1LQTR2dUlxSVBwdF9pbEExei1KOXJ5ekFjSlVpXzJyemxlUGVTV2NiZ1hMX2VqZTlVYTBtcTR2RTF4R1Z4c3JZTThfVlJqaC1zUDZUaW80WEtsMWNHQ3JWTS10X1BKbzNWdW5GWHdCRHpVY3PSAcwBQVVfeXFMTUs2VmwwQjhPWkcwTDJ2TGZDemRlRHcwNjRyRUdaYmZvS1JtOXRLbV9nNnozNTQtMFBJaEh5amNrSG01ZW1TcEpqSFhMSGtVVDNBeUg5QkU1ZEVBcXFwMHdFeDZoRVdkbmZCZ3lieUUtbHJVWUlEMjY1MUJQcjg4RDZveGZhNkF3VGZNTkl2cEJmMENyRU9wZy1tSmowbDVQNVBsZ3RpNG9NcFlaZ0NrbjZ2YnY2XzJMSDhWY2lJVld1QnM5UXpxbUFnMHd5?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNdnRyanVBQ083dGNna3NXZlJfcE85aW1iTUZ1UWRjdXV5ZXVzZXZtV1ZiNzZobXBMbFk1RktORDFlLV9OS1ViaEFyZUVlT2xQelpwVnpKaHJEc1F4WE8yZmY5a05xUXVBbGRKbUFUU1o1aFJMdHJ2ZTZfcGh6UGljWTdRUEpXRF9kMy1BeGtQZ21sNXZIdVJfekNMS0VVVzdZczdDYnJXOUNmMm5NVmdCNmlNTFpJU0tuVzdYSVBSam5NZ2ozT1M2MjJBeFVLOTlH0gHQAUFVX3lxTE4yZmJSZTVFOEFjLUZKYmlhbWFRWjBkWG5xclBhdEk3ZDZVYjU2eElxNkphaUlkOVR4Mmdjc0JoU00zUFlKSmY0ajBUSDVydTlyWU40UHdSRW1YSnRUd3NVZk1KeEYxR3U5V0xkS1ZGaHZNeHdxOWtuSXJCZHNiOUo2djY1YVFvd3RPeGVMVWpiT2kyVzFIQlM4M1V3OGQtaERmTk92aUxQOGNpcE5yMTNNRmVRMWt6OFFWOUM5ZGVKZS05N2E0NUt3Und0dFQyLXA?oc=5",
    "section": "older-scmp.com",
    "published_at": "2026-10-13 07:00:00",
    "published_at_source": "published",
@@ -5650,7 +5722,7 @@
    "opinion": false
   },
   {
-   "source": "Google News",
+   "source": "Nikkei Asia",
    "source_tier": "B",
    "title_en": "Palau says flood of drugs brought by Chinese risks destabilization - Nikkei Asia",
    "title_zh": "",
@@ -5667,11 +5739,11 @@
   {
    "source": "Google News",
    "source_tier": "B",
-   "title_en": "China to curb futures quant trading to contain risks amid stock slump - South China Morning Post",
+   "title_en": "Investigators probe cockpit control movement in fatal cargo plane runway crash - South China Morning Post",
    "title_zh": "",
-   "summary_en": "China to curb futures quant trading to contain risks amid stock slump South China Morning Post",
+   "summary_en": "Investigators probe cockpit control movement in fatal cargo plane runway crash South China Morning Post",
    "summary_zh": "",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZ3FEclhaZVZwOXZCdlVtd20yRHZMRHB0VHlGblVNZExXZUQ3RzlBYVl1c2J3ZHJ0ZEVtdlhNcC00NVY1NnFPYmpQZXNHYU5RX2daQU9QdlJTQmJ0WWRuVHJ1LU9fYk4yaVZDRWs1OExhLXVUdlQweE5JQ053Z3M2NGVubmtJTWc5TWlJb2Q2N1Q5Z1pnUlJ1RGpqRzI3MnY5TmNBX2xuTHZpSjh5WVpXRFBNNzlMN0x1OEhwa1EtZDhtSFRCY0VHUGNNY08zQdIBzgFBVV95cUxQdk9lWXBIcjFpZTNSY3RSbFE1S3FZeVpJOGFrSDA4OGdGX2FyQWZSc2E4cXF6NEpOSTFTTmc5d3VaTGhsdTdPMkZJSkVGT1pPUm1nc3JlVlB6WHVIT001THpuZklHeWxYTFdoQm02dUVaZ3ZPc1ptTmVKenVqZEpxcENKaVNGemNQekNJZ3RJWm5WWEwzX1BCLW5GRFlPbnZDdkJTcXp6aDJ5Mnpkbi1UbWhlSzAwdmk4azB5dHgzVDhKRVh6YlNIX0M5eUx1QQ?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNamxCUEJOdG1KS09zakF5NnFiTWlfcUxtSWVHbGxXT1VYUG4wUEZPV2pGa2J1V3VwTl9weTFaSEtydlZwUXpMLVBHQmhjWkdlWFpmTTRhY1dRRE5RdmJTeHoxNTJjVEczUXViRHRfZnY0cWI3NzdIaGh5aEpic3ZkMTNXNUJKTGZoUVplV25rakhfc0VienZnS0VZcFhBcU0wbXUzcUVDNzNkcC1HaDcweU90SjV1UEJkeXZhTFVHSU1IV3RBVW5Jc3pIM0l5Q053RlZJ0gHTAUFVX3lxTE5OUzNSeFZJR0s1ejg3WXhUb3JKNHF3QzFxOEZZUEdMOXJPM1pTbGhmRmpTUnFvWmgxcE5ldGEwMXRwa2xmQTdja1ZlZmFyY0k3ZmhXUWtrbVpkTzB0SEZfUFltb01aSVRHRDJTMG9mTUJTT1p6dW9yTi1odjNRbnlfS19kVU9IbnFVQkpRdGVlZG5VZDM2MmZvWWRCMm1PXzhTU0h6b1llaWdaRENERkZDRm40Vi00SUtkbDJfRlQtcjNlQ1VnVU40U1ZPR3p2VDA5ZWs?oc=5",
    "section": "older-scmp.com",
    "published_at": "2026-10-13 07:00:00",
    "published_at_source": "published",
@@ -5682,13 +5754,13 @@
   {
    "source": "Google News",
    "source_tier": "B",
-   "title_en": "Days after AI missile test, North Korea fires more projectiles - South China Morning Post",
+   "title_en": "Carney makes case for Canadian unity as Alberta referendum nears - South China Morning Post",
    "title_zh": "",
-   "summary_en": "Days after AI missile test, North Korea fires more projectiles South China Morning Post",
+   "summary_en": "Carney makes case for Canadian unity as Alberta referendum nears South China Morning Post",
    "summary_zh": "",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZWRfS3pKbjJvU1dRM05tNV9YbTdnaVM4ekcyaE9kdW1HNWdaaVE1M3dsbG9RbmJON0JkT2dUSElWR2dpTDFieHVJaWdqMjRETTRCNW5zWUI4eUg4OFlzSFhweUJxMm9XNTZzd1Zqa2JzLVVmUkhaV0RmQkY5aUpycVoxNUpWa0tXcmRZazlWNUZKMFhkNDRGX1NZS3hhMHM1M2E5bDhEZ2t4R0psV0ZZcW1iN3NON2k2bXJMRdIBvAFBVV95cUxOZ3d6N1FzLUxJclluYXo4Mmx0N04xREROQ0FBWWFTTG8ySE90b3RxS0l6UlZDcllGUVpIMXJnSkJZWkpHN3d1c2xIeHZQaTY0dVVFUUUwTFZvMTJJYjVYcm9qazNsVVlEOVFjaE5BUXh3STl5N2Z4MGhUSkZVM2pIWEZ6TXJZTmZnMnhTMUp2cGZvSTJrU3NJcnJqMEFfMUo1MFRSdW1KWmdyeWU3Tkk4MEZVNElIZko0aTBuVg?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPVUdqNllla0lvOFFsOWlfNlJIQWZyRklkMnJyRnBJYlBIOFpBOVp3WkVUX1hvQjhvWDlnaERjMFljZnA1ay1iRl9jZFNERzFpWWlIdk00anM4M0tXdDl4Z3pZZUlWUTVDM2ZJVm9Qdlo4b3pHaVVlVmZNZVZHelJ0RGptdjlaZGltajdzTUtTTmdYSVVFa2xxZkhzZG1Cak81UFFYbUd0Y3BDSVdNN0dpQkl3THcwaU5GRlhrLTJjUkRZYkg3dF9XS2FvcVhDT3U4NUJF0gHTAUFVX3lxTE16cjNnT1pHM2RCRnNsY2I3TW54Vk1wdlJLcHZqSGtRR1NlUWR5YTdMbzRtRmhINmUxVHFkaHVId3laVUV1SkEzZ0l6WlpiRUhDSXBaM3YwaGR0SnE4TEt0OEhSY0ZhblkxUmwxc1d1V3RwZWdSWFJNVUZUejZUM2lnUjE2YzN5TE9TODJTOTV3V2lWcDhUTW9BcEtKTXgybHpRQV9kdW5adU82YW5PeEVhVDk3QmRjQkFmQ2JrMmJ4WVFMeHB4bGJqUmZjeHFXazVlZzg?oc=5",
    "section": "older-scmp.com",
-   "published_at": "2026-10-12 07:00:00",
+   "published_at": "2026-10-13 07:00:00",
    "published_at_source": "published",
    "headline_only": true,
    "content_type": "news",
@@ -5697,28 +5769,13 @@
   {
    "source": "Google News",
    "source_tier": "B",
-   "title_en": "Pengfei Xie: Latest Articles, Analysis and Profile - South China Morning Post",
+   "title_en": "China’s Zhuhai air show to feature first dedicated naval equipment display - South China Morning Post",
    "title_zh": "",
-   "summary_en": "Pengfei Xie: Latest Articles, Analysis and Profile South China Morning Post",
+   "summary_en": "China’s Zhuhai air show to feature first dedicated naval equipment display South China Morning Post",
    "summary_zh": "",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9EQi1weWpkVHlwNXlVSEdaRGR3Q1NxeHhzby1MVlhzSUVXbWgxbUJQOW41djhqSTFZcm9QWkVJUkNLd3ZYZjJlVU5nd2J0VXRG?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNWjZaOThvMXZNWDRNME1QSFhzUnI0ZGYtd3B1dkhkc1NxV1NWSHNFVmc0TzlxbDU5dWxXRjBaX3ctQlVBZzVwNDFJQ2w5OU1fNkxnRFhDQ2JxdmNXZnMweU1LQTR2dUlxSVBwdF9pbEExei1KOXJ5ekFjSlVpXzJyemxlUGVTV2NiZ1hMX2VqZTlVYTBtcTR2RTF4R1Z4c3JZTThfVlJqaC1zUDZUaW80WEtsMWNHQ3JWTS10X1BKbzNWdW5GWHdCRHpVY3PSAcwBQVVfeXFMTUs2VmwwQjhPWkcwTDJ2TGZDemRlRHcwNjRyRUdaYmZvS1JtOXRLbV9nNnozNTQtMFBJaEh5amNrSG01ZW1TcEpqSFhMSGtVVDNBeUg5QkU1ZEVBcXFwMHdFeDZoRVdkbmZCZ3lieUUtbHJVWUlEMjY1MUJQcjg4RDZveGZhNkF3VGZNTkl2cEJmMENyRU9wZy1tSmowbDVQNVBsZ3RpNG9NcFlaZ0NrbjZ2YnY2XzJMSDhWY2lJVld1QnM5UXpxbUFnMHd5?oc=5",
    "section": "older-scmp.com",
-   "published_at": "2026-10-12 07:00:00",
-   "published_at_source": "published",
-   "headline_only": true,
-   "content_type": "news",
-   "opinion": false
-  },
-  {
-   "source": "Google News",
-   "source_tier": "B",
-   "title_en": "Financial, mental health issues pushing women footballers towards early retirement - South China Morning Post",
-   "title_zh": "",
-   "summary_en": "Financial, mental health issues pushing women footballers towards early retirement South China Morning Post",
-   "summary_zh": "",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNemliRW1PSDRDaXpfRXlvVTNXZzJlZ29xR3I1WXZsbU5qeTloTEJ1dFpVRzMtWmhRZ3NNWnE0d1VpaDViTk1uNXJMSDNPZUp3LVJGb2lZNHh4VzRLT0M0LVVUcm0xUXcyb0Y4Qi1RVEltZzVBTGxucWQ5YkRCSE9feUpHakNfTjB0Z2xPNjhfTDdLbW1leDFjZE1uYUpEN2dMcnJ6LU9HUlpMVDJVZjFvYURxTFZYQ2cwV0FrOW9EUThITHgtTkxPSzhYbVFZZ9IBzgFBVV95cUxNemZSeXItUVhaSmFNYWdMcVpDbU9jdVJyeVM3UVR5LUZBQWtrMTA4TjEyR1I2RnZIbi01d3JGaHNhamFpRW9XX1BENndZZHc1SzlhQmltT0JQLXNqZDROdkRwNnVSelA1VjlDdVN1eGVfVTdiXzNyZThnRUVGSGlZbkx3bHFxUm9Oekc1eG9YbVljcmhfWkVBYzJWbG4yY29pa2otZHpiOWlNSTB6MVpQNWRkYzc5T2xYd2hRM2VUZThXRWR3RzcxeDNxOElfQQ?oc=5",
-   "section": "older-scmp.com",
-   "published_at": "2026-10-12 07:00:00",
+   "published_at": "2026-10-13 07:00:00",
    "published_at_source": "published",
    "headline_only": true,
    "content_type": "news",
@@ -5815,7 +5872,7 @@
    "opinion": false
   },
   {
-   "source": "Google News",
+   "source": "Nikkei Asia",
    "source_tier": "B",
    "title_en": "China to crack down on EV innovations after safety concerns flare - Nikkei Asia",
    "title_zh": "",
@@ -5831,6 +5888,51 @@
   },
   {
    "source": "Google News",
+   "source_tier": "B",
+   "title_en": "Days after AI missile test, North Korea fires more projectiles - South China Morning Post",
+   "title_zh": "",
+   "summary_en": "Days after AI missile test, North Korea fires more projectiles South China Morning Post",
+   "summary_zh": "",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZWRfS3pKbjJvU1dRM05tNV9YbTdnaVM4ekcyaE9kdW1HNWdaaVE1M3dsbG9RbmJON0JkT2dUSElWR2dpTDFieHVJaWdqMjRETTRCNW5zWUI4eUg4OFlzSFhweUJxMm9XNTZzd1Zqa2JzLVVmUkhaV0RmQkY5aUpycVoxNUpWa0tXcmRZazlWNUZKMFhkNDRGX1NZS3hhMHM1M2E5bDhEZ2t4R0psV0ZZcW1iN3NON2k2bXJMRdIBvAFBVV95cUxOZ3d6N1FzLUxJclluYXo4Mmx0N04xREROQ0FBWWFTTG8ySE90b3RxS0l6UlZDcllGUVpIMXJnSkJZWkpHN3d1c2xIeHZQaTY0dVVFUUUwTFZvMTJJYjVYcm9qazNsVVlEOVFjaE5BUXh3STl5N2Z4MGhUSkZVM2pIWEZ6TXJZTmZnMnhTMUp2cGZvSTJrU3NJcnJqMEFfMUo1MFRSdW1KWmdyeWU3Tkk4MEZVNElIZko0aTBuVg?oc=5",
+   "section": "older-scmp.com",
+   "published_at": "2026-10-12 07:00:00",
+   "published_at_source": "published",
+   "headline_only": true,
+   "content_type": "news",
+   "opinion": false
+  },
+  {
+   "source": "Google News",
+   "source_tier": "B",
+   "title_en": "Pengfei Xie: Latest Articles, Analysis and Profile - South China Morning Post",
+   "title_zh": "",
+   "summary_en": "Pengfei Xie: Latest Articles, Analysis and Profile South China Morning Post",
+   "summary_zh": "",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9EQi1weWpkVHlwNXlVSEdaRGR3Q1NxeHhzby1MVlhzSUVXbWgxbUJQOW41djhqSTFZcm9QWkVJUkNLd3ZYZjJlVU5nd2J0VXRG?oc=5",
+   "section": "older-scmp.com",
+   "published_at": "2026-10-12 07:00:00",
+   "published_at_source": "published",
+   "headline_only": true,
+   "content_type": "news",
+   "opinion": false
+  },
+  {
+   "source": "Google News",
+   "source_tier": "B",
+   "title_en": "Financial, mental health issues pushing women footballers towards early retirement - South China Morning Post",
+   "title_zh": "",
+   "summary_en": "Financial, mental health issues pushing women footballers towards early retirement South China Morning Post",
+   "summary_zh": "",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNemliRW1PSDRDaXpfRXlvVTNXZzJlZ29xR3I1WXZsbU5qeTloTEJ1dFpVRzMtWmhRZ3NNWnE0d1VpaDViTk1uNXJMSDNPZUp3LVJGb2lZNHh4VzRLT0M0LVVUcm0xUXcyb0Y4Qi1RVEltZzVBTGxucWQ5YkRCSE9feUpHakNfTjB0Z2xPNjhfTDdLbW1leDFjZE1uYUpEN2dMcnJ6LU9HUlpMVDJVZjFvYURxTFZYQ2cwV0FrOW9EUThITHgtTkxPSzhYbVFZZ9IBzgFBVV95cUxNemZSeXItUVhaSmFNYWdMcVpDbU9jdVJyeVM3UVR5LUZBQWtrMTA4TjEyR1I2RnZIbi01d3JGaHNhamFpRW9XX1BENndZZHc1SzlhQmltT0JQLXNqZDROdkRwNnVSelA1VjlDdVN1eGVfVTdiXzNyZThnRUVGSGlZbkx3bHFxUm9Oekc1eG9YbVljcmhfWkVBYzJWbG4yY29pa2otZHpiOWlNSTB6MVpQNWRkYzc5T2xYd2hRM2VUZThXRWR3RzcxeDNxOElfQQ?oc=5",
+   "section": "older-scmp.com",
+   "published_at": "2026-10-12 07:00:00",
+   "published_at_source": "published",
+   "headline_only": true,
+   "content_type": "news",
+   "opinion": false
+  },
+  {
+   "source": "Nikkei Asia",
    "source_tier": "B",
    "title_en": "China sanctions Paraguay, Belize ministers over Taiwan ties - Nikkei Asia",
    "title_zh": "",
@@ -5862,11 +5964,11 @@
   {
    "source": "Google News",
    "source_tier": "B",
-   "title_en": "‘Special-forces’ travel: Chinese woman wins admiration after climbing 5 peaks in 5 days - South China Morning Post",
+   "title_en": "Apple’s Tim Cook kicks off China visit amid mixed signals on new iPhone demand - South China Morning Post",
    "title_zh": "",
-   "summary_en": "‘Special-forces’ travel: Chinese woman wins admiration after climbing 5 peaks in 5 days South China Morning Post",
+   "summary_en": "Apple’s Tim Cook kicks off China visit amid mixed signals on new iPhone demand South China Morning Post",
    "summary_zh": "",
-   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOdlptVXpmaDM5VzROeENnRG1jMzdmRWM3NW9JblhtaC1UZGFWM3FUY2FPd0FlblVfOVQzeFlPcWpvQ1dXTWF6U045OUhFcHBhNW43MHU3MXhHMmRPbk1QZHRlWXZtTmk4cnF6QkJtMXBFc3NmYkl1NU9XZ2Y4ZnBhd2l2TzMxSGN3Z2VnblVtTXZYX2lIVjZFY08zNjJMS1JnTVllZW1YeVBibk5DUnBOM2JycVNlNE43OURONHNXU1BSbU5TMWhKMGFUMVZUM1RZXzZjbVV4Wnd0NllaYUtiREIteVhwaTRqWUxUWWtR0gHuAUFVX3lxTFBlbVVIRWJQSXRuYmUzSGZPaGxQWkQ4QW9NSzRNRDJfY2FMQnJFbFJ3N1puSm1rWU50QzFVVW1hejV3RkktMzFrZzI5QkpDdzFRMFM1R21EWFNJU1RmUE9iZnZJZWhDeFBzT09TbklhVDhlMmdUZkN4dWFtQ2U1UzBuamt1TFBQZlJ5SFlJNnVRelNvaWI4QUpKeUpSaFc5X2ZZVHJXUm5QR3hldVVyaG1sQUpBZ1hkeFNsNmZSZ2x3VHRET3JMVGlUMTluYUFwZnlxT1NUZW9tTU91TEt1SGlrcFdNa0FsQzlkbXpGWmc?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMkZyOW5MakgwYnZHeUpZMllhVURtdlljZU9iVEd3UWpQbTlaLWxNV2ZMRnZ1Q1JkQVFiMHhSNUpwLTZuazhBUkZKOGxoTk9JWU81czk1bHdYc09YaTJYNE16QmpMS1BGVFNEY0lYNGJfcXdVck52MDhzbEtkcjFkdXdwY29lYzhieWQ1X2U5QlhhZXBrRjlHbjhWU0R2UjNGenJYNm1mT1RraTVSalIyYXNDMEZDYTNfZUhuY2NPdGJFd9IBwgFBVV95cUxOZjNpanJHNGVIcHRCcXAxOGYzVm1ncktIMFFBU016cW5KQzZrUjRfOWxVTXdxYzRQTmpOWnczemUzaEVweUJqYjZLem9zUnVGdVBsZDRMaXJSWmszQVNlYXVQUDNFUUhETkdZRXVZYUNaMFBMU1daZ1lWYWk4SFBTQ0NUTGtsZjEtRkRhaW1ZZC1sM1Bua1N3ZTdXNnF2RE5vOGFUWXh1SDhCYklNbnRGYUFIR0xlV0k5dnN3WExHQnpyZw?oc=5",
    "section": "older-scmp.com",
    "published_at": "2026-10-11 07:00:00",
    "published_at_source": "published",
@@ -5876,6 +5978,21 @@
   },
   {
    "source": "Google News",
+   "source_tier": "B",
+   "title_en": "Trump’s new spokeswoman is a ‘devoted fan’ who lived in Beijing and speaks Chinese - South China Morning Post",
+   "title_zh": "",
+   "summary_en": "Trump’s new spokeswoman is a ‘devoted fan’ who lived in Beijing and speaks Chinese South China Morning Post",
+   "summary_zh": "",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVktTemZjZ0NyaFdfWWF6ZlhkeFBBRG4tMTQ3cXRfSHFrNlNjMFJqRUktTFQ5TTZvV3JYcDBZdVJmenZSNm5GUXZRalZINGRFeDNHeldJNld0RWRnbHNpdTZ0eGN5bk5OU0UzVTVLbkY5NlRVVVJvTmlCQ1U3UFd4b1o4b2l6THoyTU9pVXpVZkNHSUJ2LVRvWk9MX1Z1S2RXb1liQ19wak56VlZQUUdyRS10Q1Z2Wk83WEV2cXZweEV3dl9ET2k3WNIByAFBVV95cUxQdzdzWTBWYmt2VjZjb05qZUpRVldhbnZsbnpFTnc5c1U2Wm94dmVpVGlzY1JMVElBcXhZenZoeHA5OXU2dm4xN21uNXp2enotazNqbmE0Um1LM0FsU09nYXVfcEF6YXZtcW9HRXQ1ZVVPUnMtREFwN1NCcnhmN3NfcXJfT0Q5MVlHOHZNcVotSUZIUDBhbWo1NWl0VERBdXc5RXByX1ZLV2c3VWRQaXRfRzRKSEJOd0d3UEM2NXZITVFsTGFvZ2NuYw?oc=5",
+   "section": "older-scmp.com",
+   "published_at": "2026-10-11 07:00:00",
+   "published_at_source": "published",
+   "headline_only": true,
+   "content_type": "news",
+   "opinion": false
+  },
+  {
+   "source": "Nikkei Asia",
    "source_tier": "B",
    "title_en": "Afghanistan opens potential China trade route to Persian Gulf - Nikkei Asia",
    "title_zh": "",
@@ -5892,11 +6009,11 @@
   {
    "source": "Google News",
    "source_tier": "B",
-   "title_en": "Apple’s Tim Cook kicks off China visit amid mixed signals on new iPhone demand - South China Morning Post",
+   "title_en": "‘Special-forces’ travel: Chinese woman wins admiration after climbing 5 peaks in 5 days - South China Morning Post",
    "title_zh": "",
-   "summary_en": "Apple’s Tim Cook kicks off China visit amid mixed signals on new iPhone demand South China Morning Post",
+   "summary_en": "‘Special-forces’ travel: Chinese woman wins admiration after climbing 5 peaks in 5 days South China Morning Post",
    "summary_zh": "",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMkZyOW5MakgwYnZHeUpZMllhVURtdlljZU9iVEd3UWpQbTlaLWxNV2ZMRnZ1Q1JkQVFiMHhSNUpwLTZuazhBUkZKOGxoTk9JWU81czk1bHdYc09YaTJYNE16QmpMS1BGVFNEY0lYNGJfcXdVck52MDhzbEtkcjFkdXdwY29lYzhieWQ1X2U5QlhhZXBrRjlHbjhWU0R2UjNGenJYNm1mT1RraTVSalIyYXNDMEZDYTNfZUhuY2NPdGJFd9IBwgFBVV95cUxOZjNpanJHNGVIcHRCcXAxOGYzVm1ncktIMFFBU016cW5KQzZrUjRfOWxVTXdxYzRQTmpOWnczemUzaEVweUJqYjZLem9zUnVGdVBsZDRMaXJSWmszQVNlYXVQUDNFUUhETkdZRXVZYUNaMFBMU1daZ1lWYWk4SFBTQ0NUTGtsZjEtRkRhaW1ZZC1sM1Bua1N3ZTdXNnF2RE5vOGFUWXh1SDhCYklNbnRGYUFIR0xlV0k5dnN3WExHQnpyZw?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOdlptVXpmaDM5VzROeENnRG1jMzdmRWM3NW9JblhtaC1UZGFWM3FUY2FPd0FlblVfOVQzeFlPcWpvQ1dXTWF6U045OUhFcHBhNW43MHU3MXhHMmRPbk1QZHRlWXZtTmk4cnF6QkJtMXBFc3NmYkl1NU9XZ2Y4ZnBhd2l2TzMxSGN3Z2VnblVtTXZYX2lIVjZFY08zNjJMS1JnTVllZW1YeVBibk5DUnBOM2JycVNlNE43OURONHNXU1BSbU5TMWhKMGFUMVZUM1RZXzZjbVV4Wnd0NllaYUtiREIteVhwaTRqWUxUWWtR0gHuAUFVX3lxTFBlbVVIRWJQSXRuYmUzSGZPaGxQWkQ4QW9NSzRNRDJfY2FMQnJFbFJ3N1puSm1rWU50QzFVVW1hejV3RkktMzFrZzI5QkpDdzFRMFM1R21EWFNJU1RmUE9iZnZJZWhDeFBzT09TbklhVDhlMmdUZkN4dWFtQ2U1UzBuamt1TFBQZlJ5SFlJNnVRelNvaWI4QUpKeUpSaFc5X2ZZVHJXUm5QR3hldVVyaG1sQUpBZ1hkeFNsNmZSZ2x3VHRET3JMVGlUMTluYUFwZnlxT1NUZW9tTU91TEt1SGlrcFdNa0FsQzlkbXpGWmc?oc=5",
    "section": "older-scmp.com",
    "published_at": "2026-10-11 07:00:00",
    "published_at_source": "published",
@@ -5905,7 +6022,7 @@
    "opinion": false
   },
   {
-   "source": "Google News",
+   "source": "Nikkei Asia",
    "source_tier": "B",
    "title_en": "Taiwan's KMT shows signs of power struggle tracked by US and China - Nikkei Asia",
    "title_zh": "",
@@ -5920,7 +6037,7 @@
    "opinion": false
   },
   {
-   "source": "Google News",
+   "source": "Nikkei Asia",
    "source_tier": "B",
    "title_en": "Once China's most valuable stock, liquor maker Kweichow Moutai down 43% from peak - Nikkei Asia",
    "title_zh": "",
@@ -5935,7 +6052,7 @@
    "opinion": false
   },
   {
-   "source": "Google News",
+   "source": "Nikkei Asia",
    "source_tier": "B",
    "title_en": "China Golden Week spending per trip hits 4-year low as overseas travel jumps - Nikkei Asia",
    "title_zh": "",
@@ -5950,7 +6067,7 @@
    "opinion": false
   },
   {
-   "source": "Google News",
+   "source": "Nikkei Asia",
    "source_tier": "B",
    "title_en": "Business, Politics, Economy and Tech News & Analysis - Nikkei Asia",
    "title_zh": "",
@@ -6012,11 +6129,11 @@
   {
    "source": "Google News",
    "source_tier": "B",
-   "title_en": "Exclusive | Bessent may skip Apec in Hong Kong to focus on Trump’s Shenzhen trip: sources - South China Morning Post",
+   "title_en": "Pentagon unveils US$350 million quantum computing push as China rivalry grows - South China Morning Post",
    "title_zh": "",
-   "summary_en": "Exclusive | Bessent may skip Apec in Hong Kong to focus on Trump’s Shenzhen trip: sources South China Morning Post",
+   "summary_en": "Pentagon unveils US$350 million quantum computing push as China rivalry grows South China Morning Post",
    "summary_zh": "",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMHozeHhvRGp2em5DSFYtV2thaEdHSFN3RGE2T0RTYVFIRFg3YTFWeThTZTNCUFUyQmRFa2czNng0RG8zVVF1dWRqb3dEV0dGNTQ4bDVEdExiaWltOENIWDc2QUh6STJtdldvaUg3S2xkb0tiNHdnMHAzdTJ2cmtrZVY1NjI5UDdDR0ZuVXYyRjljRnJsZGlHdlo3WGlBMGNhaF8zLTMyelZJNWZsNHBBQm9jT0xGSkhBaFBhbDlCbl93WUI5emhkQ9IByAFBVV95cUxOY2pzUWhPcVkyU1NHNlIyUUJKX3kzVUZrWTVoVDZ2dFpvZWZncGpBTVdGejhFTnF3aVZsdG94OS15d0Z4elhEaU5QM2szNFRyTHRqZ2hVUlVVd2NwbWlweXVUN2lQbmhZSHFSdmI4OWdwQ3A0VWFxYTJtYmhJd0ttbUkyWUM1dkRXRlNTUEpORVlBMmhacTI5NVE2WmR0X2dfZURwM3NFRXBMTFYzaGhtR2k5S3ZncUl3OGp3aTFXTkllb2pXQkxOeg?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQem1SWlRKbDdWLW9ZbjhXbnlrZDlZN2ZrQlhFdWVHalI4cUdTV3VyeFFMU1hGRGR6aHJIUUxGa2M4RE41d0FRTVdtX1FIdXNYVEJVY3FEQlEyRlZ0RlhEOXZxSGlYcFNRLUExUUxMVzhKVGVhdmxjbEI3LVZNdmlDcmRhRy01NzhUNEM1cGs5cWxiODBNbG9BWGpIMjEwTG54VkhWQ1AzRnJOU1N3TDd1eXdlem4zN3R3UHZMcS1CU2JEWEN2LU5jeXlfeVVTT1dFckdr0gHTAUFVX3lxTE9uRUt5endPZ0lkcU91SEtRS0hQNjM4NWxfTFFsN1hHVmcyazE2ZFVOQ1AycXNxYVNpMWhMTmEzNUo5T19kc21UWlNPY2x0S0lYRDQ0dWNWdFcyRW9INmFhNUVyVHRjTXhDdmRJVUlKaDdFX0RPSlhlTnhRcmRaQktDOUdlLWFGaGlQc081eUt2NThfVFp3aHAwVHBxSTBNMTAwQ2J4MzFkMGxOeExjMWFGZWl0ODhKWFdPekZNUlJLT01vMHZjcFhXTGE3eGdnM3RIU0k?oc=5",
    "section": "older-scmp.com",
    "published_at": "2026-10-09 07:00:00",
    "published_at_source": "published",
@@ -6055,7 +6172,7 @@
    "opinion": false
   },
   {
-   "source": "Google News",
+   "source": "Nikkei Asia",
    "source_tier": "B",
    "title_en": "China's Geely announces entry into Canadian auto market - Nikkei Asia",
    "title_zh": "",
@@ -6070,7 +6187,7 @@
    "opinion": false
   },
   {
-   "source": "Google News",
+   "source": "Nikkei Asia",
    "source_tier": "B",
    "title_en": "Trump's AI free-for-all plays into China's hands - Nikkei Asia",
    "title_zh": "",
@@ -6085,7 +6202,7 @@
    "opinion": false
   },
   {
-   "source": "Google News",
+   "source": "Nikkei Asia",
    "source_tier": "B",
    "title_en": "Synopsys looks to work with Chinese AI labs to speed up chip design - Nikkei Asia",
    "title_zh": "",
@@ -6100,7 +6217,7 @@
    "opinion": false
   },
   {
-   "source": "Google News",
+   "source": "Nikkei Asia",
    "source_tier": "B",
    "title_en": "Through the Lens: China's Golden Week holiday - Nikkei Asia",
    "title_zh": "",
@@ -6115,7 +6232,7 @@
    "opinion": false
   },
   {
-   "source": "Google News",
+   "source": "Nikkei Asia",
    "source_tier": "B",
    "title_en": "Taliban face civil war as China's Afghanistan-Pakistan mediation fails - Nikkei Asia",
    "title_zh": "",
@@ -6130,7 +6247,7 @@
    "opinion": false
   },
   {
-   "source": "Google News",
+   "source": "Nikkei Asia",
    "source_tier": "B",
    "title_en": "China-EU trade talks yield prospect of Chinese hybrid exports halving - Nikkei Asia",
    "title_zh": "",
@@ -6147,11 +6264,41 @@
   {
    "source": "Google News",
    "source_tier": "B",
-   "title_en": "Kremlin aide visits China amid speculation about potential Xi-Putin-Trump meeting - South China Morning Post",
+   "title_en": "Exclusive | Bessent may skip Apec in Hong Kong to focus on Trump’s Shenzhen trip: sources - South China Morning Post",
    "title_zh": "",
-   "summary_en": "Kremlin aide visits China amid speculation about potential Xi-Putin-Trump meeting South China Morning Post",
+   "summary_en": "Exclusive | Bessent may skip Apec in Hong Kong to focus on Trump’s Shenzhen trip: sources South China Morning Post",
    "summary_zh": "",
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPTW9zMGY2ODJIMXAzcnVCaGVTdW15R19LS3hpMG04ck9jQ2VxN0ZpZTA4ME1oRDV3WGE5akFXYkxEenR0NDllVW53VDRTbmxwRGs3NjB4YnVEUVFDWGdEUl9vTV9pMGFsQlY1S1FrYTFZeVlWSi1pOG5nZVNUU3VqaC1CTHB0QVJSZk9DQklFZ1FvN0xJdG5vVHZDa3lzcUhOVDJuT1Vxb3M2VGl0MnlPeVZpN0V6cFZyVmNnTW9MWUFMZ2lqcWhiQTA1dXpqMmZqb3VnM2hB0gHWAUFVX3lxTFBob1ktZFI2QjFVdEFscUZySEQtRWtIUUxUUEpIOGV0aHo0eXdXM1R5ZWVDZ2lYSjgxWWF6UDNscGJQWXg5a1Vnblh0aVhuT3BMZzZWQUhBRERoLURTY3NYOVhVTDljd2pTYWIwQXRfajVaelV3azZNVzRIcFFhbXNiM0JHLUxsTllDWmRYS2wtdmtubDV0TFVZMTRNQl9sUnZFcUdfbTk2cnctTXR4Y1FyQmVPQW4tcm5UMUxVZlpFVjBzd1NZZzdRcmpoS19JY21WV2Q2N0E?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMHozeHhvRGp2em5DSFYtV2thaEdHSFN3RGE2T0RTYVFIRFg3YTFWeThTZTNCUFUyQmRFa2czNng0RG8zVVF1dWRqb3dEV0dGNTQ4bDVEdExiaWltOENIWDc2QUh6STJtdldvaUg3S2xkb0tiNHdnMHAzdTJ2cmtrZVY1NjI5UDdDR0ZuVXYyRjljRnJsZGlHdlo3WGlBMGNhaF8zLTMyelZJNWZsNHBBQm9jT0xGSkhBaFBhbDlCbl93WUI5emhkQ9IByAFBVV95cUxOY2pzUWhPcVkyU1NHNlIyUUJKX3kzVUZrWTVoVDZ2dFpvZWZncGpBTVdGejhFTnF3aVZsdG94OS15d0Z4elhEaU5QM2szNFRyTHRqZ2hVUlVVd2NwbWlweXVUN2lQbmhZSHFSdmI4OWdwQ3A0VWFxYTJtYmhJd0ttbUkyWUM1dkRXRlNTUEpORVlBMmhacTI5NVE2WmR0X2dfZURwM3NFRXBMTFYzaGhtR2k5S3ZncUl3OGp3aTFXTkllb2pXQkxOeg?oc=5",
+   "section": "older-scmp.com",
+   "published_at": "2026-10-09 07:00:00",
+   "published_at_source": "published",
+   "headline_only": true,
+   "content_type": "news",
+   "opinion": false
+  },
+  {
+   "source": "Google News",
+   "source_tier": "B",
+   "title_en": "US issues first outbound investment fine over Chinese robotics AI deal - South China Morning Post",
+   "title_zh": "",
+   "summary_en": "US issues first outbound investment fine over Chinese robotics AI deal South China Morning Post",
+   "summary_zh": "",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOd01kSV85N0o3MDFlbThLT3hReUdWaUFjdkRDcEE5X1FkWEk0UHlXTnhFcElrRWpKRzJtNkZsUU5SQi1uNEZXVHhWeW9EN0czNHpQNWNFeXpld1ZrZnI3NkhUREhHMndwbWZ1THdNdHhHZ3JRcVZzZ3dyc2lxY0x4VGNVTU1rX3VuMmhJVkNQald2UkFIOENYbl8zYzJWRWlsQVlwN05RQUFkazFfeXdqVkdRYVBRODBpWjhYcGtSRlhqNUx6NGVR0gHHAUFVX3lxTFBCNGo2WVBWc2l0LWhwRDdCOHN3NXJXSnBjNEFuelJyOUJwdTNLdndjMnIwVjFZeE03dVJTd2pxOHBoWHZ5SmxEZVdvMF84QzNyb0x3NkR4N1hNWFpjSHo3X3BNYkRYSmpxdDhJMWhKVDVBRW51ZDBZdmFfZXRPaFNxMXVWZ3UwNVpTSTlYQ185dzRGYmR6b0lNZ3VuaGxRRVNlNkYwTG5NZ1NiVElGUHBGZFlGVmpRR0tGOGtvMzUzUk5YUlZ2aTQ?oc=5",
+   "section": "older-scmp.com",
+   "published_at": "2026-10-08 07:00:00",
+   "published_at_source": "published",
+   "headline_only": true,
+   "content_type": "news",
+   "opinion": false
+  },
+  {
+   "source": "Google News",
+   "source_tier": "B",
+   "title_en": "Why China’s new air force base in Laos could rattle Vietnam - South China Morning Post",
+   "title_zh": "",
+   "summary_en": "Why China’s new air force base in Laos could rattle Vietnam South China Morning Post",
+   "summary_zh": "",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMlBoQzJJUjRyTFg4akszQnFuSkdWMURDWUdtVzBsdWd1dkk5WGVWVWxBZTNTbmQ1MnRTSTBoM3gyR3FnNzFmSmEzOHM4WklraDZCYnk5RXFZRUpuOTJDbDhzRTFoRG5BeGdsclRHZXpVaWttX0l1RnZZbjdfb1EwLTIxbXh1N0dsYWwxZ2FIQmJXSERMRXBEcWpZMHhsWkhJQ0pSZWRudGFFRDRMSERXWdIBsAFBVV95cUxNZ25IczZoT25ZWlJXWXRVdXRDcFB6QVNMWUc5aUJLcEdYMFpxSUhKZFJIVVJ6cWs1ZDQ1MjZFdU84aG5qNEpoQVlaUDBBeUp1VjJoUjNraTNNWjhjZGFQdmt2ci11dExRWFNmRkpjYkZqRVFOWUx6T2Z5eU1mU3ZhaERoamhJRmZxdGloa1RlUXNQWHlkempNVm1qcmtSWG44U1FfbHdDZU1IQ0w4aktmQQ?oc=5",
    "section": "older-scmp.com",
    "published_at": "2026-10-08 07:00:00",
    "published_at_source": "published",
@@ -6192,36 +6339,6 @@
   {
    "source": "Google News",
    "source_tier": "B",
-   "title_en": "China defends yuan policy as EU ups pressure over ballooning deficit - Nikkei Asia",
-   "title_zh": "",
-   "summary_en": "China defends yuan policy as EU ups pressure over ballooning deficit Nikkei Asia",
-   "summary_zh": "",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZmYtMkJrc3d2QUozU3pUWWRCeDFhYkppMHBCemJHRE5ONG1xa2oycF9uSUVzaFZabEtXbUxPZE9XZ05lN21jY0tHODJFT1hVaDlZOWdsQ3Uxc2xWVEhVUWNEdFF1eFQxUnMzc1lLdDhFYlRtMUNPdFJBTnRjYmN6YjhKbTRMTUJmbEVWT01jalpRNGZZUFZmN3NwZDdOTU0wVkUwdDY0dUtxNjB3bHdZN09qQU4yaDhuVkJ4ZA?oc=5",
-   "section": "older-asia.nikkei.com",
-   "published_at": "2026-10-08 07:00:00",
-   "published_at_source": "published",
-   "headline_only": true,
-   "content_type": "news",
-   "opinion": false
-  },
-  {
-   "source": "Google News",
-   "source_tier": "B",
-   "title_en": "Porsche shifts back to gas engines after EV, China struggles - Nikkei Asia",
-   "title_zh": "",
-   "summary_en": "Porsche shifts back to gas engines after EV, China struggles Nikkei Asia",
-   "summary_zh": "",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxObmpnbFNUVHFBNTMwc1UzSS1qT2QydVVFMVo1TWt6cTFTLUFaTTNGUnRwc3RwZElQUWlOcDVWZENMdDc5WnpWSEtidFNVTV9HbWpia2RuVXduRGhURDNLTW5sNlUteVRyVnFtd3hTdzhuaU5aLW9oLW92bktCVk1TM3VxRllGd25kZ2hXcW1LTGtjOWpzWlJUZkJSN18wdndKRFg4dXFTbGxWNlZYWU0xVEZaRFB6anJpdlIwZ2VxOA?oc=5",
-   "section": "older-asia.nikkei.com",
-   "published_at": "2026-10-08 07:00:00",
-   "published_at_source": "published",
-   "headline_only": true,
-   "content_type": "news",
-   "opinion": false
-  },
-  {
-   "source": "Google News",
-   "source_tier": "B",
    "title_en": "Daughter of Trump’s chief of staff works at firm that lobbies for Republika Srpska - Financial Times",
    "title_zh": "",
    "summary_en": "Daughter of Trump’s chief of staff works at firm that lobbies for Republika Srpska Financial Times",
@@ -6250,14 +6367,29 @@
    "opinion": false
   },
   {
-   "source": "Google News",
+   "source": "Nikkei Asia",
    "source_tier": "B",
-   "title_en": "US issues first outbound investment fine over Chinese robotics AI deal - South China Morning Post",
+   "title_en": "China defends yuan policy as EU ups pressure over ballooning deficit - Nikkei Asia",
    "title_zh": "",
-   "summary_en": "US issues first outbound investment fine over Chinese robotics AI deal South China Morning Post",
+   "summary_en": "China defends yuan policy as EU ups pressure over ballooning deficit Nikkei Asia",
    "summary_zh": "",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOd01kSV85N0o3MDFlbThLT3hReUdWaUFjdkRDcEE5X1FkWEk0UHlXTnhFcElrRWpKRzJtNkZsUU5SQi1uNEZXVHhWeW9EN0czNHpQNWNFeXpld1ZrZnI3NkhUREhHMndwbWZ1THdNdHhHZ3JRcVZzZ3dyc2lxY0x4VGNVTU1rX3VuMmhJVkNQald2UkFIOENYbl8zYzJWRWlsQVlwN05RQUFkazFfeXdqVkdRYVBRODBpWjhYcGtSRlhqNUx6NGVR0gHHAUFVX3lxTFBCNGo2WVBWc2l0LWhwRDdCOHN3NXJXSnBjNEFuelJyOUJwdTNLdndjMnIwVjFZeE03dVJTd2pxOHBoWHZ5SmxEZVdvMF84QzNyb0x3NkR4N1hNWFpjSHo3X3BNYkRYSmpxdDhJMWhKVDVBRW51ZDBZdmFfZXRPaFNxMXVWZ3UwNVpTSTlYQ185dzRGYmR6b0lNZ3VuaGxRRVNlNkYwTG5NZ1NiVElGUHBGZFlGVmpRR0tGOGtvMzUzUk5YUlZ2aTQ?oc=5",
-   "section": "older-scmp.com",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZmYtMkJrc3d2QUozU3pUWWRCeDFhYkppMHBCemJHRE5ONG1xa2oycF9uSUVzaFZabEtXbUxPZE9XZ05lN21jY0tHODJFT1hVaDlZOWdsQ3Uxc2xWVEhVUWNEdFF1eFQxUnMzc1lLdDhFYlRtMUNPdFJBTnRjYmN6YjhKbTRMTUJmbEVWT01jalpRNGZZUFZmN3NwZDdOTU0wVkUwdDY0dUtxNjB3bHdZN09qQU4yaDhuVkJ4ZA?oc=5",
+   "section": "older-asia.nikkei.com",
+   "published_at": "2026-10-08 07:00:00",
+   "published_at_source": "published",
+   "headline_only": true,
+   "content_type": "news",
+   "opinion": false
+  },
+  {
+   "source": "Nikkei Asia",
+   "source_tier": "B",
+   "title_en": "Porsche shifts back to gas engines after EV, China struggles - Nikkei Asia",
+   "title_zh": "",
+   "summary_en": "Porsche shifts back to gas engines after EV, China struggles Nikkei Asia",
+   "summary_zh": "",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxObmpnbFNUVHFBNTMwc1UzSS1qT2QydVVFMVo1TWt6cTFTLUFaTTNGUnRwc3RwZElQUWlOcDVWZENMdDc5WnpWSEtidFNVTV9HbWpia2RuVXduRGhURDNLTW5sNlUteVRyVnFtd3hTdzhuaU5aLW9oLW92bktCVk1TM3VxRllGd25kZ2hXcW1LTGtjOWpzWlJUZkJSN18wdndKRFg4dXFTbGxWNlZYWU0xVEZaRFB6anJpdlIwZ2VxOA?oc=5",
+   "section": "older-asia.nikkei.com",
    "published_at": "2026-10-08 07:00:00",
    "published_at_source": "published",
    "headline_only": true,
@@ -6267,11 +6399,11 @@
   {
    "source": "Google News",
    "source_tier": "B",
-   "title_en": "Why China’s new air force base in Laos could rattle Vietnam - South China Morning Post",
+   "title_en": "Kremlin aide visits China amid speculation about potential Xi-Putin-Trump meeting - South China Morning Post",
    "title_zh": "",
-   "summary_en": "Why China’s new air force base in Laos could rattle Vietnam South China Morning Post",
+   "summary_en": "Kremlin aide visits China amid speculation about potential Xi-Putin-Trump meeting South China Morning Post",
    "summary_zh": "",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMlBoQzJJUjRyTFg4akszQnFuSkdWMURDWUdtVzBsdWd1dkk5WGVWVWxBZTNTbmQ1MnRTSTBoM3gyR3FnNzFmSmEzOHM4WklraDZCYnk5RXFZRUpuOTJDbDhzRTFoRG5BeGdsclRHZXpVaWttX0l1RnZZbjdfb1EwLTIxbXh1N0dsYWwxZ2FIQmJXSERMRXBEcWpZMHhsWkhJQ0pSZWRudGFFRDRMSERXWdIBsAFBVV95cUxNZ25IczZoT25ZWlJXWXRVdXRDcFB6QVNMWUc5aUJLcEdYMFpxSUhKZFJIVVJ6cWs1ZDQ1MjZFdU84aG5qNEpoQVlaUDBBeUp1VjJoUjNraTNNWjhjZGFQdmt2ci11dExRWFNmRkpjYkZqRVFOWUx6T2Z5eU1mU3ZhaERoamhJRmZxdGloa1RlUXNQWHlkempNVm1qcmtSWG44U1FfbHdDZU1IQ0w4aktmQQ?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPTW9zMGY2ODJIMXAzcnVCaGVTdW15R19LS3hpMG04ck9jQ2VxN0ZpZTA4ME1oRDV3WGE5akFXYkxEenR0NDllVW53VDRTbmxwRGs3NjB4YnVEUVFDWGdEUl9vTV9pMGFsQlY1S1FrYTFZeVlWSi1pOG5nZVNUU3VqaC1CTHB0QVJSZk9DQklFZ1FvN0xJdG5vVHZDa3lzcUhOVDJuT1Vxb3M2VGl0MnlPeVZpN0V6cFZyVmNnTW9MWUFMZ2lqcWhiQTA1dXpqMmZqb3VnM2hB0gHWAUFVX3lxTFBob1ktZFI2QjFVdEFscUZySEQtRWtIUUxUUEpIOGV0aHo0eXdXM1R5ZWVDZ2lYSjgxWWF6UDNscGJQWXg5a1Vnblh0aVhuT3BMZzZWQUhBRERoLURTY3NYOVhVTDljd2pTYWIwQXRfajVaelV3azZNVzRIcFFhbXNiM0JHLUxsTllDWmRYS2wtdmtubDV0TFVZMTRNQl9sUnZFcUdfbTk2cnctTXR4Y1FyQmVPQW4tcm5UMUxVZlpFVjBzd1NZZzdRcmpoS19JY21WV2Q2N0E?oc=5",
    "section": "older-scmp.com",
    "published_at": "2026-10-08 07:00:00",
    "published_at_source": "published",
@@ -6327,11 +6459,11 @@
   {
    "source": "Google News",
    "source_tier": "B",
-   "title_en": "France not facing a debt crisis despite rising yields, analysts say - South China Morning Post",
+   "title_en": "China’s economy to slow as global growth stays solid, US think tank report says - South China Morning Post",
    "title_zh": "",
-   "summary_en": "France not facing a debt crisis despite rising yields, analysts say South China Morning Post",
+   "summary_en": "China’s economy to slow as global growth stays solid, US think tank report says South China Morning Post",
    "summary_zh": "",
-   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOU1VoNUFYd0JKazJHMnQzdEVaQXVUUjItOEVDb2VpM0JEY0F4MFN0TTFwT2E1T2ZYbXZWTWRjcUJKN082QkV2R2Z1ZHU1Z2dpNFB1QUY5RnAtQjFlVEdKZ3BZS1ZDTU1oNUhuVXhSSU8zZ1JscHB1V2RNcjVKQ19tdFpORTFqR051Qkt1R0dCOGR2N1I2Rm9VMFFRMWJwQm0zWmJJRmh6R1ZZRFZMekR4eFhvUjFjbFh5eE5RQUFTZDVzbFVCNGpZVTlDdzhfWnNXOEJsaVpxbDI3YjDSAdsBQVVfeXFMTlp3XzhxYlh6dU9zdHFjZ3BTUE1uVEZaclFiY0RZZW5nU3BDX2EwemZ3LTJZa1FRTHM5Y2JvOHZuVUI4azhFc1Bja3h0ZTNyZEJTNlhBMnZvbng2Q2ZCZlc4b1g0bEVFT2w3QXVrb0V3OHNJMm1nTWVBTXkxQ3d2azB3WVh0VUF1V0tSNEUwQ2U1cDlnLVlQalVzU1ZPdVctMDhuZVgxTFVLbUc5d3g3QVJNTEhacjQ5SHd6TTFvTDBwT1RRSGJvVXhQY05nS0xoOC1DY0V1UmNkcHVr?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQlRUanV1Zm85cUFuS2U5WmRHZHZNcnZwNy00UTFWYnNLSmZZUzZIcUduOXh2Q0ZKV2xuc0VUS2t3MnU3bjZoY2NLODVpR2JQbGhsZGhoRTN2SWM0Q0s1Mlhia1pTNXFDY0d3aUctUzcxOEZwb1h6eFVKQ1BRbU5ITk9iODV6eVlXVU53TFJPSFhOb2lOWHVhNmFJWXVycUV4LVJpSnJnS214MGdObG94TkFMbjJwbnA0eEtQd3ZIUC0tZlppOWlMRNIByAFBVV95cUxNZnlXM0VYaWtNVC1CcjJULWZzYnRFcTlGMjNCcVFEQVNqa2pfeTdIVUMydjlkaXU4TWFuU2VwUHluWThTSDI2T0FhUVg4ZmFjT0MtZW9JSi0yS3R6Ujc2ZXk3MUJoazktX3hyOGNZY294dERfYVNBVXUySDNiNWQ1YjdWM1BWQnB6QWxHNmZLb0oybGVmZllVcWdJU01jeWF6bFNfel8yS1BaU2VwV1E1QTRjVXdPSk1vVjBfZzZaU2ZNNzI3anVUdQ?oc=5",
    "section": "older-scmp.com",
    "published_at": "2026-10-07 07:00:00",
    "published_at_source": "published",
@@ -6342,11 +6474,26 @@
   {
    "source": "Google News",
    "source_tier": "B",
-   "title_en": "China’s economy to slow as global growth stays solid, US think tank report says - South China Morning Post",
+   "title_en": "Why China’s export engine may hit a ceiling as trading partners face limits - South China Morning Post",
    "title_zh": "",
-   "summary_en": "China’s economy to slow as global growth stays solid, US think tank report says South China Morning Post",
+   "summary_en": "Why China’s export engine may hit a ceiling as trading partners face limits South China Morning Post",
    "summary_zh": "",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQlRUanV1Zm85cUFuS2U5WmRHZHZNcnZwNy00UTFWYnNLSmZZUzZIcUduOXh2Q0ZKV2xuc0VUS2t3MnU3bjZoY2NLODVpR2JQbGhsZGhoRTN2SWM0Q0s1Mlhia1pTNXFDY0d3aUctUzcxOEZwb1h6eFVKQ1BRbU5ITk9iODV6eVlXVU53TFJPSFhOb2lOWHVhNmFJWXVycUV4LVJpSnJnS214MGdObG94TkFMbjJwbnA0eEtQd3ZIUC0tZlppOWlMRNIByAFBVV95cUxNZnlXM0VYaWtNVC1CcjJULWZzYnRFcTlGMjNCcVFEQVNqa2pfeTdIVUMydjlkaXU4TWFuU2VwUHluWThTSDI2T0FhUVg4ZmFjT0MtZW9JSi0yS3R6Ujc2ZXk3MUJoazktX3hyOGNZY294dERfYVNBVXUySDNiNWQ1YjdWM1BWQnB6QWxHNmZLb0oybGVmZllVcWdJU01jeWF6bFNfel8yS1BaU2VwV1E1QTRjVXdPSk1vVjBfZzZaU2ZNNzI3anVUdQ?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMkNTckxIeUFVVG1KMEF0NG9Edzk4ZTVWVnB0WktNcEpFZVVydVY2X2JZQkhTMm91R29xd3Zxa1R5M3NSU2pDdWszeVgtVXBKWmo3REdyN3JXRW9CZ3lvcnhyckRQU1k4ZEFEbzJXOWtVQkI2dnp6YUlKTTV3SEc4TUtvM0t1dnpVU3RXVEUtNzlKVmtERl9SN1haU0ZHWnNxZXdwUllQS1Nxb0s0XzRSc1RpTU45V0pIdVBBMWlUZEZlVE1oTXlQWdIByAFBVV95cUxNdktLY2dLRF9UaDl1RVdPWWIzcW5EaEVhUXpsRHNIWGJKZGlLdDd2MVZtbXB1RkVXTmRRQkN0Mlhpb0RkNkY3V0x4Q3dGTmpqZ2FBUzNsQkRKazFBZGZJZGQ0RU9XcjVJUno0NjJUTS1WcUhrUm9JSFpUMHJJSTdjeEkxUy1iWGx3UE5zbERsUW8xTXhBNVhUVTJFN1dVMmdPYmZlbUVUOEpJUDdOQ1FQODBsaXp6bjc4Sm9CaWZtS3ZWRVM4ZmpzMg?oc=5",
+   "section": "older-scmp.com",
+   "published_at": "2026-10-07 07:00:00",
+   "published_at_source": "published",
+   "headline_only": true,
+   "content_type": "news",
+   "opinion": false
+  },
+  {
+   "source": "Google News",
+   "source_tier": "B",
+   "title_en": "France not facing a debt crisis despite rising yields, analysts say - South China Morning Post",
+   "title_zh": "",
+   "summary_en": "France not facing a debt crisis despite rising yields, analysts say South China Morning Post",
+   "summary_zh": "",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOU1VoNUFYd0JKazJHMnQzdEVaQXVUUjItOEVDb2VpM0JEY0F4MFN0TTFwT2E1T2ZYbXZWTWRjcUJKN082QkV2R2Z1ZHU1Z2dpNFB1QUY5RnAtQjFlVEdKZ3BZS1ZDTU1oNUhuVXhSSU8zZ1JscHB1V2RNcjVKQ19tdFpORTFqR051Qkt1R0dCOGR2N1I2Rm9VMFFRMWJwQm0zWmJJRmh6R1ZZRFZMekR4eFhvUjFjbFh5eE5RQUFTZDVzbFVCNGpZVTlDdzhfWnNXOEJsaVpxbDI3YjDSAdsBQVVfeXFMTlp3XzhxYlh6dU9zdHFjZ3BTUE1uVEZaclFiY0RZZW5nU3BDX2EwemZ3LTJZa1FRTHM5Y2JvOHZuVUI4azhFc1Bja3h0ZTNyZEJTNlhBMnZvbng2Q2ZCZlc4b1g0bEVFT2w3QXVrb0V3OHNJMm1nTWVBTXkxQ3d2azB3WVh0VUF1V0tSNEUwQ2U1cDlnLVlQalVzU1ZPdVctMDhuZVgxTFVLbUc5d3g3QVJNTEhacjQ5SHd6TTFvTDBwT1RRSGJvVXhQY05nS0xoOC1DY0V1UmNkcHVr?oc=5",
    "section": "older-scmp.com",
    "published_at": "2026-10-07 07:00:00",
    "published_at_source": "published",
@@ -6363,6 +6510,36 @@
    "summary_zh": "",
    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB5RmNIZTNkRXNJZHd6NjhIWldLTUpwdHU1VmtLV3Y4dmZMUE9qV3hRYUFoLTVBM0FSbG9ybEY2aHNLYzRrb2hZaWk2cE1NakZhM3dueEhzMnF3WXlaRmpFSlFfdS1YenZCYjB0MDQ4eFJHQdIBd0FVX3lxTE9SSG9wVFhVUjJuNUstdTNuSVkyU1BHNVc4eXBjY0F2Q1h0R1p0anNaVkx4V1VnaXBPS1ZmSGgyTlBHalRJN3ZqLUM5ejlKM1RlcVRESi1DTDFsQkx5aVVvOUFpVWdHWEx3cnJLN05pbjRHb1dINklN?oc=5",
    "section": "older-cnbc.com",
+   "published_at": "2026-10-06 07:00:00",
+   "published_at_source": "published",
+   "headline_only": true,
+   "content_type": "news",
+   "opinion": false
+  },
+  {
+   "source": "Google News",
+   "source_tier": "B",
+   "title_en": "AI overload? Why China’s developers cannot stop launching model upgrades - South China Morning Post",
+   "title_zh": "",
+   "summary_en": "AI overload? Why China’s developers cannot stop launching model upgrades South China Morning Post",
+   "summary_zh": "",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUWFENkVzeXl2MHdtOXRvYXdKdUpuR1I4VDQwTlpuVThnUFZTc21ZZnZYbDZaMFFDZ1JUbXFQQVc5X3hId0oyakg3aF94RmtZVzUyYm9IQWRDZVJaMEg3R2hLdzAwT091MS1rdmhuWE1ZOG92SDFndEFpbFNLOVZHRnpYZG1QUTVIVDZodmtndEdvbzExU2JVZGhSVG5TanVhWmJrYVZ0WlQ3Tkp1U3ZaUHc1YkrSAbQBQVVfeXFMUFllMmROc0dwdFBNRlhwWTNjS0xkMjlnbzVDV3k5U2R0ZmtjV2hXLTFQUmstVmVUTHlOMHQ4bWNTYkdlX0JrYkNaY3VUSmZoSi1XUWZ6b0dLNWwwaENwWE5xUzhaN2hRVmtzb0RqS1NjSXI5OXc0ZFV6WE9uelN3aFpiLVZZREd4RGRZbVdCQXBNSXYwVUZCa3BSWHl0ZWl2TDNRakpwTWpSeFZZSXF3YWxERno3?oc=5",
+   "section": "older-scmp.com",
+   "published_at": "2026-10-06 07:00:00",
+   "published_at_source": "published",
+   "headline_only": true,
+   "content_type": "news",
+   "opinion": false
+  },
+  {
+   "source": "Google News",
+   "source_tier": "B",
+   "title_en": "France: between the bond market and the barricades - Financial Times",
+   "title_zh": "",
+   "summary_en": "France: between the bond market and the barricades Financial Times",
+   "summary_zh": "",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTGd2SHllWWVRNllScGw2RVRNdlgwZ2pxeW1ycGFzeUkzU0JIRkNlaThRZE5UcV85c1otM1l4ejlGcElFanZGYkhrc09ERDdzWEhFRDF4THlXODZ3RVB0Vm9lNVV5TF9RNTRqdVRpSDNEQmNXOGFMMmFuV2Zvc3pGLUQ4QzY?oc=5",
+   "section": "older-ft.com",
    "published_at": "2026-10-06 07:00:00",
    "published_at_source": "published",
    "headline_only": true,
@@ -6398,27 +6575,12 @@
    "headline_only": true,
    "content_type": "news",
    "opinion": false
-  },
-  {
-   "source": "Google News",
-   "source_tier": "B",
-   "title_en": "France: between the bond market and the barricades - Financial Times",
-   "title_zh": "",
-   "summary_en": "France: between the bond market and the barricades Financial Times",
-   "summary_zh": "",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTGd2SHllWWVRNllScGw2RVRNdlgwZ2pxeW1ycGFzeUkzU0JIRkNlaThRZE5UcV85c1otM1l4ejlGcElFanZGYkhrc09ERDdzWEhFRDF4THlXODZ3RVB0Vm9lNVV5TF9RNTRqdVRpSDNEQmNXOGFMMmFuV2Zvc3pGLUQ4QzY?oc=5",
-   "section": "older-ft.com",
-   "published_at": "2026-10-06 07:00:00",
-   "published_at_source": "published",
-   "headline_only": true,
-   "content_type": "news",
-   "opinion": false
   }
  ],
  "http_cache": {
   "https://www.cfr.org/blogs/follow-the-money": {
    "etag": "",
-   "last_modified": "Sun, 25 Oct 2026 11:13:24 GMT"
+   "last_modified": "Sun, 25 Oct 2026 11:30:45 GMT"
   },
   "https://rhg.com/feed/": {
    "etag": "\"be6e14ee92fa19781abef3dc33bcbd2e\"",
@@ -6429,7 +6591,7 @@
    "last_modified": ""
   },
   "https://carnegieendowment.org/china-financial-markets": {
-   "etag": "\"kx3plwhrzi3jux\"",
+   "etag": "\"inpajddzsa3jux\"",
    "last_modified": ""
   },
   "https://aswathdamodaran.blogspot.com/": {
@@ -6446,7 +6608,7 @@
   },
   "https://www.scmp.com/rss/91/feed": {
    "etag": "",
-   "last_modified": "Sun, 25 Oct 2026 11:13:16 GMT"
+   "last_modified": "Sun, 25 Oct 2026 11:44:31 GMT"
   },
   "https://www.scmp.com/rss/92/feed": {
    "etag": "",
@@ -6461,7 +6623,7 @@
    "last_modified": "Sun, 25 Oct 2026 09:40:29 GMT"
   },
   "https://feeds.bloomberg.com/markets/news.rss": {
-   "etag": "W/\"3edb-tPy+toQgA7OjNZ1o08hSBPboYUg\"",
+   "etag": "W/\"3f3f-hi4APmSq3+emGDBzcWBJLoMFEmg\"",
    "last_modified": ""
   },
   "https://www.scmp.com/": {
@@ -6525,8 +6687,20 @@
    "last_modified": ""
   },
   "https://asia.nikkei.com/": {
-   "etag": "\"ivnln5vseqds11\"",
+   "etag": "\"e0t2oyfuh8ds14\"",
    "last_modified": ""
   }
+ },
+ "source_slots": {
+  "date": "2026-10-25",
+  "slots": [
+   "startup"
+  ]
+ },
+ "google_state": {
+  "misses": 0,
+  "pause_until": 0,
+  "last_new": 10,
+  "updated_at": "2026-10-25 11:47:48"
  }
 }
